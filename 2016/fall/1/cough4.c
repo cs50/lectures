@@ -9,7 +9,6 @@ int main(void)
 {
     cough(3);
     sneeze(3);
-
 }
 
 void cough(int n)
