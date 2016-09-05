@@ -83,3 +83,59 @@ vi capitalize0.c
 vi capitalize1.c
 vi capitalize2.c
 ls
+man qsort
+man 1 sort
+man qsort
+man 3 sort
+man 2 sort
+man sort
+man qsort
+man alphasort
+man qsort
+man -k sort
+vi ages.c 
+rm ages.c 
+ls
+cd todo/
+ls
+cd
+rm -rf todo/
+ls
+vi argv0.c 
+vi argv1.c 
+vi argv2.c 
+vi ascii0.c 
+vi ascii1.c 
+vi capitalize0.c 
+vi capitalize1.c 
+ls
+vi capitalize2.c 
+ls
+vi str0
+vi string0.c 
+vi string1.c 
+vi string2.c 
+vi string0.c 
+vi string1.c 
+vi string0.c 
+vi string1.c 
+diff string0.c string1.c 
+ls
+vi exit.c
+cp
+fg
+mv exit.c usage.c
+vi usage.c 
+cp
+fg
+fg
+vi usage.c 
+mv usage.c exit.c
+vi exit.c 
+ls
+vi strlen.c 
+ls
+grep * *
+grep '*' *
+grep '\*' *
+more *
