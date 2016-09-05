@@ -15,7 +15,7 @@
 int main(void)
 {
     // get line of text
-    string s = GetString();
+    string s = get_string();
 
     // capitalize text
     for (int i = 0, n = strlen(s); i < n; i++)
