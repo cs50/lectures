@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int c = get_char();
+    char c = get_char();
     switch (c)
     {
         case 'Y':
