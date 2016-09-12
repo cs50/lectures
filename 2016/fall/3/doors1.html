@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script>
+
+            $(function() {
+                $('.door').click(function() {
+                    $(this).removeClass('closed');
+                });
+            });
+
+        </script>
+        <style>
+
+            body {
+                background-color: #000;
+            }
+
+            .closed {
+                background-color: #fff;
+            }
+
+            .door {
+                color: #fff;
+                font-family: sans-serif;
+                font-size: 60px;
+                font-weight: bold;
+                height: 150px;
+                padding-top: 50px;
+                margin: 20px;
+                text-align: center;
+                width : 100px;
+            }
+
+        </style>
+        <title>doors-1</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><div class="closed door">4</div></td>
+                <td><div class="closed door">8</div></td>
+                <td><div class="closed door">15</div></td>
+                <td><div class="closed door">16</div></td>
+                <td><div class="closed door">23</div></td>
+                <td><div class="closed door">42</div></td>
+                <td><div class="closed door">50</div></td>
+            </tr>
+        </table>
+    </body>
+</html>
