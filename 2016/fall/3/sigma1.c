@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int sigma(int);
+int sigma(int m);
 
 int main(void)
 {
@@ -9,7 +9,7 @@ int main(void)
     do
     {
         printf("Positive integer please: ");
-        n = GetInt();
+        n = get_int();
     }
     while (n < 1);
 
