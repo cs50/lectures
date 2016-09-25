@@ -1,14 +1,3 @@
-/**
- * pointers.c
- *
- * David J. Malan
- * malan@harvard.edu
- *
- * Prints a given string one character per line.
- *
- * Demonstrates pointer arithmetic.
- */
-       
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -16,7 +5,7 @@
 int main(void)
 {
     // get line of text
-    char* s = GetString();
+    char *s = get_string();
     if (s == NULL)
     {
         return 1;
