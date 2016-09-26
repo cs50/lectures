@@ -6,7 +6,7 @@ typedef struct
 {
     int id;
     char *name;
-    char *house;
+    char *dorm;
 }
 student;
 
