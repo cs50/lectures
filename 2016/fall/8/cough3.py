@@ -1,4 +1,3 @@
-
 def main():
     cough(3)
 
