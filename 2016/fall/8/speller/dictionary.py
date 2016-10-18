@@ -1,7 +1,7 @@
 class Dictionary:
 
     def __init__(self):
-        self.words = {}
+        self.words = set()
 
     def check(self, word):
         return word.lower() in self.words
@@ -9,7 +9,7 @@ class Dictionary:
     def load(self, dictionary):
         file = open(dictionary, "r")
         for line in file:
-            self.words[line.rstrip("\n")] = True
+            self.words.add(line.rstrip("\n"))
         file.close()
         return True
 
@@ -17,4 +17,4 @@ class Dictionary:
         return len(self.words)
 
     def unload(self):
-        return True;
+        return True

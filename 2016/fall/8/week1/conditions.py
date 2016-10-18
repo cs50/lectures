@@ -6,4 +6,4 @@ if i < 0:
 elif i > 0:
     print("positive")
 else:
-    print("equal")
+    print("zero")

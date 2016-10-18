@@ -14,6 +14,6 @@ int main(void)
     }
     else
     {
-        printf("equal\n");
+        printf("zero\n");
     }
 }
