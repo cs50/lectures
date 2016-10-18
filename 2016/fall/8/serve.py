@@ -9,7 +9,7 @@ class HTTPServer_RequestHandler(BaseHTTPRequestHandler):
         self.send_response(200)
 
         # send headers
-        self.send_header('Content-type','text/html')
+        self.send_header("Content-type","text/html")
         self.end_headers()
 
         # determine message to send to client
@@ -24,15 +24,15 @@ class HTTPServer_RequestHandler(BaseHTTPRequestHandler):
         return
 
 def run():
-  print('starting server...')
+  print("starting server...")
 
   # set up server
   port = 8080
-  server_address = ('127.0.0.1', port)
+  server_address = ("127.0.0.1", port)
   httpd = HTTPServer(server_address, HTTPServer_RequestHandler)
 
   # run server
-  print('running server on port {}...'.format(port))
+  print("running server on port {}...".format(port))
   httpd.serve_forever()
 
 
