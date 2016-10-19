@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+
 {% block body %}
-hello, world
+<img alt="Grumpy Cat" src="{{ url_for('static', filename='cat.jpg') }}"/>
 {% endblock %}
