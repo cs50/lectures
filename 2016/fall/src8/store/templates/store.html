@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Store
+{% endblock %}
+
+{% block body %}
+<h1>Store</h1>
+<form action="/store" method="post">
+    <input name="cat" type="number" value="0"/> Cat
+    <br/>
+    <input name="hamster" type="number" value="0"/> Hamster
+    <br/>
+    <input name="jellyfish" type="number" value="0"/> Jellyfish
+    <br/>
+    <input type="submit" value="Purchase"/>
+</form>
+{% endblock %}
