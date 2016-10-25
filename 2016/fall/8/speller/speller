@@ -65,7 +65,7 @@ while True:
         index += 1
 
         # ignore alphabetical strings too long to be words
-        if index >= LENGTH:
+        if index > LENGTH:
 
             # consume remainder of alphabetical string
             while True:
