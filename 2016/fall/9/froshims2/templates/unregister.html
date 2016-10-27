@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    registrants
+{% endblock %}
+
+{% block body %}
+<form action="{{ url_for('unregister') }}" method="post">
+<ul>
+    {% for registrant in registrants %}
+        <li><input name="id" type="radio" value="{{ registrant.id }}"/> {{ registrant.name }} from {{ registrant.dorm }}</li>
+    {% endfor %}
+</ul>
+<input type="submit" value="Unregister"/>
+</form>
+{% endblock %}
