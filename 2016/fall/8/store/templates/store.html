@@ -1,18 +1,21 @@
 {% extends "layout.html" %}
 
 {% block title %}
-Store
+store
 {% endblock %}
 
 {% block body %}
 <h1>Store</h1>
-<form action="/store" method="post">
-    <input name="cat" type="number" value="0"/> Cat
+<form action="{{ url_for('store') }}" method="post">
+    <input name="foo" type="number" value="0"/> Foo
     <br/>
-    <input name="hamster" type="number" value="0"/> Hamster
+    <input name="bar" type="number" value="0"/> Bar
     <br/>
-    <input name="jellyfish" type="number" value="0"/> Jellyfish
+    <input name="baz" type="number" value="0"/> Baz
     <br/>
     <input type="submit" value="Purchase"/>
 </form>
+<p>
+    View your <a href="{{ url_for('cart') }}">shopping cart</a>.
+</p>
 {% endblock %}
