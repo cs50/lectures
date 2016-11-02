@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+
+            $(document).ready(function() {
+                $('#demo').submit(function(event) {
+                    alert('hello, ' + $('#name').val() + '!');
+                    event.preventDefault();
+                });
+            });
+
+        </script>
+        <title>dom2</title>
+    </head>
+    <body>
+        <form id="demo">
+            <input id="name" placeholder="Name" type="text"/>
+            <input type="submit"/>
+        </form>
+  </body>
+</html>
