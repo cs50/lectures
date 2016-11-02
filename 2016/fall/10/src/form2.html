@@ -5,7 +5,7 @@
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
         <script>
 
-            $(function() {
+            $(document).ready(function() {
 
                 $('#registration').submit(function() {
 
@@ -39,7 +39,7 @@
         <title>form2</title>
     </head>
     <body>
-        <form action="register.php" id="registration" method="get">
+        <form action="/register" id="registration" method="get">
             <input name="email" placeholder="Email" type="text"/>
             <input name="password" placeholder="Password" type="password"/>
             <input name="confirmation" placeholder="Password (again)" type="password"/>
