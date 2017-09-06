@@ -1,3 +1,5 @@
+// Demonstrates abstraction.
+
 #include <stdio.h>
 
 void cough(void);

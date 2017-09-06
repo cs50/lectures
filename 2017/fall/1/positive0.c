@@ -1,12 +1,14 @@
+// Demonstrates function without parameter.
+
 #include <cs50.h>
 #include <stdio.h>
 
-int get_positive_int();
+int get_positive_int(void);
 
 int main(void)
 {
     int i = get_positive_int();
-    printf("%i is a positive integer\n", i);
+    printf("%i\n", i);
 }
 
 int get_positive_int(void)
@@ -14,8 +16,7 @@ int get_positive_int(void)
     int n;
     do
     {
-        printf("n is ");
-        n = get_int();
+        n = get_int("positive integer: ");
     }
     while (n < 1);
     return n;

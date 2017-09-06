@@ -1,3 +1,5 @@
+// Demonstrates better design.
+
 #include <stdio.h>
 
 int main(void)

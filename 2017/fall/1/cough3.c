@@ -1,3 +1,5 @@
+// Demonstrates abstraction with parameterization.
+
 #include <stdio.h>
 
 void cough(int n);

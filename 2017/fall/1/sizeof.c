@@ -1,3 +1,5 @@
+// Demonstrates sizes of types.
+
 #include <cs50.h>
 #include <stdio.h>
 
