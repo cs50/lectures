@@ -5,6 +5,7 @@
 
 int main(void)
 {
+    // iteratively double i
     for (int i = 1; ; i *= 2)
     {
         printf("%i\n", i);

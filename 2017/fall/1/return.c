@@ -12,6 +12,7 @@ int main(void)
     printf("%i\n", square(x));
 }
 
+// Return square of n.
 int square(int n)
 {
     return n * n;

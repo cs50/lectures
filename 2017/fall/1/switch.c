@@ -5,7 +5,10 @@
 
 int main(void)
 {
-    char c = get_char();
+    // prompt user for answer
+    char c = get_char("answer: ");
+
+    // check answer
     switch (c)
     {
         case 'Y':
@@ -15,9 +18,6 @@ int main(void)
         case 'N':
         case 'n':
             printf("no\n");
-            break;
-        default:
-            printf("error\n");
             break;
     }
 }

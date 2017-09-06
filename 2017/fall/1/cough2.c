@@ -12,6 +12,7 @@ int main(void)
     }
 }
 
+// Cough once.
 void cough(void)
 {
     printf("cough\n");

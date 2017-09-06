@@ -5,6 +5,7 @@
 
 int main(void)
 {
+    // print sizes as unsigned longs
     printf("bool is %lu\n", sizeof(bool));
     printf("char is %lu\n", sizeof(char));
     printf("double is %lu\n", sizeof(double));

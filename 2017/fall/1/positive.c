@@ -1,4 +1,4 @@
-// Demonstrates abstraction.
+// Demonstrates abstraction and scope.
 
 #include <cs50.h>
 #include <stdio.h>
@@ -11,6 +11,7 @@ int main(void)
     printf("%i\n", i);
 }
 
+// Prompt user for positive integer.
 int get_positive_int(string prompt)
 {
     int n;
