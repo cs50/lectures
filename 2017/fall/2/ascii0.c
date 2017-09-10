@@ -1,11 +1,12 @@
-// Casting ints to chars
+// Explicitly casts chars to ints
 
 #include <stdio.h>
 
 int main(void)
 {
-    for (int i = 65; i < 65 + 26; i++)
+    string s = get_string("Name: ");
+    for (int i = 0; i < strlen(s); i++)
     {
-        printf("%c is %i\n", (char) i, i);
+        printf("%c %i\n", s[i], (int) s[i]);
     }
 }

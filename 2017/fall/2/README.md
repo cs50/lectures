@@ -6,6 +6,10 @@
 
 1. `buggy*.c`
 
+### Loops
+
+1. `mario*.c`
+
 ### Strings
 
 1. `string*.c`
