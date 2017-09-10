@@ -1,4 +1,4 @@
-// Prints three question marks
+// Prints four question marks
 
 #include <stdio.h>
 
