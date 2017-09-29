@@ -1,4 +1,4 @@
-// Implements a list of unique numbers of fixed length
+// Implements a list of unique numbers using an array of fixed length
 
 #include <cs50.h>
 #include <stdio.h>

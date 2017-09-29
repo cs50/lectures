@@ -1,4 +1,4 @@
-// Implements a list of unique numbers of dynamic length
+// Implements a list of unique numbers using an array of dynamic length
 
 #include <cs50.h>
 #include <stdio.h>
