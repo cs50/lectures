@@ -40,11 +40,16 @@ int main(void)
             if (size == capacity)
             {
                 // Allocate space for number
-                numbers = realloc(numbers, sizeof(int) * (size + 1));
-                if (!numbers)
+                int *tmp = realloc(numbers, sizeof(int) * (size + 1));
+                if (!tmp)
                 {
+                    if (numbers)
+                    {
+                        free(numbers);
+                    }
                     return 1;
                 }
+                numbers = tmp;
                 capacity++;
             }
 
