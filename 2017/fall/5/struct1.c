@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "structs.h"
+#include "struct.h"
 
 int main(void)
 {
