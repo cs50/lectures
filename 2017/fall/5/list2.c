@@ -50,15 +50,21 @@ int main(void)
 
             // Add number to list
             n->number = number;
+            n->next = NULL;
             if (numbers)
             {
-                n->next = numbers;
-                numbers = n;
+                for (node *ptr = numbers; ptr != NULL; ptr = ptr->next)
+                {
+                    if (!ptr->next)
+                    {
+                        ptr->next = n;
+                        break;
+                    }
+                }
             }
             else
             {
                 numbers = n;
-                n->next = NULL;
             }
         }
     }
