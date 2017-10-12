@@ -13,7 +13,7 @@ while True:
 
     # Check for EOF
     if not number:
-        break;
+        break
 
     # Check whether number is already in list
     if number not in numbers:
