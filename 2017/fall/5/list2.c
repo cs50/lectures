@@ -12,7 +12,7 @@ node;
 
 int main(void)
 {
-    // memory for numbers
+    // Memory for numbers
     node *numbers = NULL;
 
     // Prompt for numbers (until EOF)

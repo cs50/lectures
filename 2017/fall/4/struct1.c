@@ -9,18 +9,18 @@
 
 int main(void)
 {
-    // allocate memory for students
+    // Space for students
     int enrollment = get_int("enrollment: ");
     student students[enrollment];
 
-    // prompt for students' names and dorms
+    // Prompt for students' names and dorms
     for (int i = 0; i < enrollment; i++)
     {
         students[i].name = get_string("name: ");
         students[i].dorm = get_string("dorm: ");
     }
 
-    // save students to disk
+    // Save students to disk
     FILE *file = fopen("students.csv", "w");
     if (file)
     {

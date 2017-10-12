@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    // memory for numbers
+    // Memory for numbers
     int *numbers = NULL;
     int capacity = 0;
 

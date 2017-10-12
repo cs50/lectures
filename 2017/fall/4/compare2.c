@@ -6,21 +6,21 @@
 
 int main(void)
 {
-    // get a string
+    // Get a string
     char *s = get_string("s: ");
     if (s == NULL)
     {
         return 1;
     }
 
-    // get another string
+    // Get another string
     char *t = get_string("t: ");
     if (t == NULL)
     {
         return 1;
     }
 
-    // compare strings for equality
+    // Compare strings for equality
     if (strcmp(s, t) == 0)
     {
         printf("same\n");

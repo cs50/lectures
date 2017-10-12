@@ -13,7 +13,7 @@ int main(void)
     }
     while (capacity < 1);
 
-    // memory for numbers
+    // Memory for numbers
     int numbers[capacity];
 
     // Prompt for numbers

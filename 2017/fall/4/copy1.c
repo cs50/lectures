@@ -7,37 +7,37 @@
 
 int main(void)
 {
-    // get a string
+    // Get a string
     char *s = get_string("s: ");
     if (!s)
     {
         return 1;
     }
 
-    // allocate memory for another string
+    // Allocate memory for another string
     char *t = malloc((strlen(s) + 1) * sizeof(char));
     if (!t)
     {
         return 1;
     }
 
-    // copy string into memory
+    // Copy string into memory
     for (int i = 0, n = strlen(s); i <= n; i++)
     {
         t[i] = s[i];
     }
 
-    // capitalize first letter in copy
+    // Capitalize first letter in copy
     if (strlen(t) > 0)
     {
         t[0] = toupper(t[0]);
     }
 
-    // print strings
+    // Print strings
     printf("s: %s\n", s);
     printf("t: %s\n", t);
 
-    // free memory
+    // Free memory
     free(t);
     return 0;
 }

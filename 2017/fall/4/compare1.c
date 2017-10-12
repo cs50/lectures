@@ -6,11 +6,11 @@
 
 int main(void)
 {
-    // get two strings
+    // Get two strings
     char *s = get_string("s: ");
     char *t = get_string("t: ");
 
-    // compare strings for equality
+    // Compare strings for equality
     if (strcmp(s, t) == 0)
     {
         printf("same\n");

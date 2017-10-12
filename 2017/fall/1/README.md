@@ -32,4 +32,4 @@
 
 - `parity.c`
 - `sign.c`
-- `sizeof.c`
+- `sizes.c`

@@ -7,8 +7,7 @@ int square(int n);
 
 int main(void)
 {
-    printf("x: ");
-    int x = get_int();
+    int x = get_int("x: ");
     printf("%i\n", square(x));
 }
 
