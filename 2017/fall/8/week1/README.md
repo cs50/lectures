@@ -16,7 +16,6 @@
 
 1. `conditions.py`
 1. `noswitch.py`
-1. `switch.py`
 
 ### Abstraction
 
@@ -33,5 +32,4 @@
 
 - `parity.py`
 - `sign.py`
-- `sizeof.py`
 
