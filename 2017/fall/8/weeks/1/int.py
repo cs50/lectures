@@ -3,4 +3,4 @@
 from cs50 import get_int
 
 i = get_int("integer: ")
-print("hello, {i}")
+print(f"hello, {i}")
