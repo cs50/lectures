@@ -1,6 +1,6 @@
 # Floating-point arithmetic
 
-from cs50 import *
+from cs50 import get_float
 
 # Prompt user for x
 x = get_float("x: ")

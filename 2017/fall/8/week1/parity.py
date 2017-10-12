@@ -1,6 +1,6 @@
 # Remainder operation
 
-from cs50 import *
+from cs50 import get_int
 
 # Prompt user for integer
 n = get_int("n: ");

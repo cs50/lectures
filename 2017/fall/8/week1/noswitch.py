@@ -1,6 +1,6 @@
 # Logical operators
 
-from cs50 import *
+from cs50 import get_char
 
 # Prompt user for answer
 c = get_char("answer: ")

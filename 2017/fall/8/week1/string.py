@@ -1,6 +1,6 @@
 # get_string and print
 
-from cs50 import *
+from cs50 import get_string
 
 s = get_string("name: ")
 print("hello, {s}")

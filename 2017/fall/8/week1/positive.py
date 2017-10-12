@@ -1,6 +1,6 @@
 # Abstraction and scope
 
-from cs50 import *
+from cs50 import get_int
 
 
 def main():
