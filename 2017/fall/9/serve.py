@@ -2,6 +2,7 @@
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
+
 # HTTPRequestHandler class
 class HTTPServer_RequestHandler(BaseHTTPRequestHandler):
 
@@ -17,7 +18,7 @@ class HTTPServer_RequestHandler(BaseHTTPRequestHandler):
 
         # write message
         self.wfile.write(bytes("hello, world", "utf8"))
-        return
+
 
 # configure server
 port = 8080

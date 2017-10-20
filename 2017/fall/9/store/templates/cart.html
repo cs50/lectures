@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Cart</h1>
+{% for item in cart %}
+    {{ item["quantity"] }} : {{ item["name"] }}
+    <br/>
+{% endfor %}
+<p>
+    <a href="/">Continue shopping</a>.
+</p>
+{% endblock %}
