@@ -15,7 +15,7 @@ def register():
     name = request.form.get("name")
     email = request.form.get("email")
     dorm = request.form.get("dorm")
-    if not name or not dorm:
+    if not name or not email or not dorm:
         return render_template("failure.html")
     message = "You are registered!"
     server = smtplib.SMTP("smtp.gmail.com", 587)
