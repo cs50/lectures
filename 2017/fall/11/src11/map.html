@@ -18,15 +18,15 @@
         <script>
 
             function initMap() {
-                var map = new google.maps.Map(document.getElementById("map"), {
+                let map = new google.maps.Map(document.getElementById("map"), {
                     center: {lat: 39.833, lng: -98.583},
                     zoom: 4
                 });
-                var marker = new google.maps.Marker({
+                new google.maps.Marker({
                     map: map,
                     position: {lat: 42.3762, lng: -71.1158}
                 });
-                var marker = new google.maps.Marker({
+                new google.maps.Marker({
                     map: map,
                     position: {lat: 41.3104, lng: -72.9289}
                 });
