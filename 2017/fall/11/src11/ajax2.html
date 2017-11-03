@@ -8,7 +8,7 @@
             function quote()
             {
                 $.getJSON("/quote", {symbol: $("#symbol").val()}, function(data) {
-                    $("#quote").html(`A share of {data.name} costs $$${data.price}.`);
+                    $("#quote").html(`A share of ${data.name} costs $${data.price}.`);
                     $("#symbol").val("");
                 });
             }

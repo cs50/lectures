@@ -1,6 +1,0 @@
-
-
-let name = $("#name").val();
-var foo = "hello" + ", " + name;
-
-let foo = `hello, ${name}`;

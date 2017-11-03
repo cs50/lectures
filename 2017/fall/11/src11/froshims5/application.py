@@ -26,14 +26,17 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/register", methods=["POST"])
+@app.route("/register", methods=["GET", "POST"])
 def register():
-    if request.form["name"] == "" or request.form["dorm"] == "":
-        return render_template("failure.html")
-    registrant = Registrant(request.form["name"], request.form["dorm"])
-    db.session.add(registrant)
-    db.session.commit()
-    return render_template("success.html")
+    if request.method == "GET":
+        return render_template("register.html")
+    elif request.method == "POST":
+        if not request.form.get("name") or not request.form.get("dorm"):
+            return render_template("failure.html")
+        registrant = Registrant(request.form.get("name"), request.form.get("dorm"))
+        db.session.add(registrant)
+        db.session.commit()
+        return render_template("success.html")
 
 
 @app.route("/registrants")
@@ -48,7 +51,7 @@ def unregister():
         rows = Registrant.query.all()
         return render_template("unregister.html", registrants=rows)
     elif request.method == "POST":
-        if request.form["id"]:
-            Registrant.query.filter(Registrant.id == request.form["id"]).delete()
+        if request.form.get("id"):
+            Registrant.query.filter(Registrant.id == request.form.get("id")).delete()
             db.session.commit()
-        return redirect("/registrants")
+        return redirect("/")

@@ -10,13 +10,16 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/register", methods=["POST"])
+@app.route("/register", methods=["GET", "POST"])
 def register():
-    if not request.form.get("name") or not request.form.get("dorm"):
-        return render_template("failure.html")
-    db.execute("INSERT INTO registrants (name, dorm) VALUES(:name, :dorm)",
-               name=request.form.get("name"), dorm=request.form.get("dorm"))
-    return render_template("success.html")
+    if request.method == "GET":
+        return render_template("register.html")
+    elif request.method == "POST":
+        if not request.form.get("name") or not request.form.get("dorm"):
+            return render_template("failure.html")
+        db.execute("INSERT INTO registrants (name, dorm) VALUES(:name, :dorm)",
+                   name=request.form.get("name"), dorm=request.form.get("dorm"))
+        return render_template("success.html")
 
 
 @app.route("/registrants")
@@ -33,4 +36,4 @@ def unregister():
     elif request.method == "POST":
         if request.form["id"]:
             db.execute("DELETE FROM registrants WHERE id = :id", id=request.form.get("id"))
-        return redirect("/registrants")
+        return redirect("/")

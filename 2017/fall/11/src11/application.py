@@ -11,7 +11,6 @@ from flask_autoindex import AutoIndex
 app = Flask(__name__)
 AutoIndex(app, browse_root=os.path.curdir)
 
-
 @app.route("/quote")
 def quote():
     symbol = request.args.get("symbol")
@@ -20,13 +19,13 @@ def quote():
     datareader = csv.reader(webpage.read().decode("utf-8").splitlines())
     next(datareader)
     row = next(datareader)
-    return {
+    return jsonify({
     	"name": symbol.upper(),
         "price": float(row[4]),
         "symbol": symbol.upper()
-    }
+    })
 
 
 @app.route("/register")
 def register():
-    return render_template("register.html")
+    return "You're registered! (Well, not really.)"
