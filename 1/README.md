@@ -1,4 +1,4 @@
-# Lecture 0
+# Lecture 1
 
 ## Examples
 
