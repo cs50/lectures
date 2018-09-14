@@ -17,7 +17,7 @@ int get_positive_int(string prompt)
     int n;
     do
     {
-        n = get_int(prompt);
+        n = get_int("%s", prompt);
     }
     while (n < 1);
     return n;
