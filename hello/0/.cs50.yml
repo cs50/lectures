@@ -1,3 +1,0 @@
-lab50:
-  files:
-    - !include hello.c
