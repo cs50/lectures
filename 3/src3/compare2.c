@@ -1,27 +1,19 @@
-// Compares two strings for equality while checking for errors
+// Compares two strings for equality
 
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
 
+bool compare_strings(string a, string b);
+
 int main(void)
 {
-    // Get a string
-    char *s = get_string("s: ");
-    if (s == NULL)
-    {
-        return 1;
-    }
-
-    // Get another string
-    char *t = get_string("t: ");
-    if (t == NULL)
-    {
-        return 1;
-    }
+    // Get two strings
+    string s = get_string("s: ");
+    string t = get_string("t: ");
 
     // Compare strings for equality
-    if (strcmp(s, t) == 0)
+    if (compare_strings(s, t))
     {
         printf("same\n");
     }
@@ -29,5 +21,26 @@ int main(void)
     {
         printf("different\n");
     }
-    return 0;
+}
+
+bool compare_strings(string a, string b)
+{
+    // Compare strings' lengths
+    if (strlen(a) != strlen(b))
+    {
+        return false;
+    }
+
+    // Compare strings character by character
+    for (int i = 0, n = strlen(a); i < n; i++)
+    {
+        // Different
+        if (a[i] != b[i])
+        {
+            return false;
+        }
+    }
+
+    // Same
+    return true;
 }

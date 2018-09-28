@@ -1,17 +1,16 @@
-// Compares two strings for equality
+// Compares two strings' addresses
 
 #include <cs50.h>
 #include <stdio.h>
-#include <string.h>
 
 int main(void)
 {
     // Get two strings
-    char *s = get_string("s: ");
-    char *t = get_string("t: ");
+    string s = get_string("s: ");
+    string t = get_string("t: ");
 
-    // Compare strings for equality
-    if (strcmp(s, t) == 0)
+    // Compare strings' addresses
+    if (s == t)
     {
         printf("same\n");
     }
