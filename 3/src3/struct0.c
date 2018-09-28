@@ -1,27 +1,25 @@
-// Demonstrates structs
+// Demonstrates lack of structs
 
 #include <cs50.h>
 #include <stdio.h>
-#include <string.h>
-
-#include "struct.h"
 
 int main(void)
 {
     // Space for students
     int enrollment = get_int("Enrollment: ");
-    student students[enrollment];
+    string names[enrollment];
+    string dorms[enrollment];
 
     // Prompt for students' names and dorms
     for (int i = 0; i < enrollment; i++)
     {
-        students[i].name = get_string("Name: ");
-        students[i].dorm = get_string("Dorm: ");
+        names[i] = get_string("Name: ");
+        dorms[i] = get_string("Dorm: ");
     }
 
     // Print students' names and dorms
     for (int i = 0; i < enrollment; i++)
     {
-        printf("%s is in %s.\n", students[i].name, students[i].dorm);
+        printf("%s is in %s.\n", names[i], dorms[i]);
     }
 }

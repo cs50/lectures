@@ -1,7 +1,8 @@
-// Demonstrates structs
+// Demonstrates file I/O
 
 #include <cs50.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "struct.h"
 
@@ -18,9 +19,14 @@ int main(void)
         students[i].dorm = get_string("Dorm: ");
     }
 
-    // Print students' names and dorms
-    for (int i = 0; i < enrollment; i++)
+    // Save students to disk
+    FILE *file = fopen("students.csv", "w");
+    if (file)
     {
-        printf("%s is in %s.\n", students[i].name, students[i].dorm);
+        for (int i = 0; i < enrollment; i++)
+        {
+            fprintf(file, "%s,%s\n", students[i].name, students[i].dorm);
+        }
+        fclose(file);
     }
 }
