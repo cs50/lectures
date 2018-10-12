@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+
+            // toggles visibility of greeting
+            function blink()
+            {
+                let div = document.getElementById("greeting");
+                if (div.style.visibility == "hidden")
+                {
+                    div.style.visibility = "visible";
+                }
+                else
+                {
+                    div.style.visibility = "hidden";
+                }
+            }
+
+            // blink every 500ms
+            window.setInterval(blink, 500);
+
+        </script>
+        <title>blink</title>
+    </head>
+    <body>
+        <div id="greeting">
+            hello, world
+        </div>
+    </body>
+</html>
