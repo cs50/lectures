@@ -3,4 +3,4 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('hello, ' + document.querySelector('#name').value);
         return false;
     };
-}
+});

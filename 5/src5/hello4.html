@@ -2,22 +2,13 @@
 
 <html lang="en">
     <head>
-        <script>
-
-            document.addEventListener('DOMContentLoaded', function() {
-                let input = document.querySelector('input');
-                input.onkeyup = function() {
-                    document.querySelector('p').innerHTML = 'hello, ' + input.value;
-                };
-            });
-
-        </script>
+        <script src="hello4.js"></script>
         <title>hello4</title>
     </head>
     <body>
         <form>
-            <input autocomplete="off" autofocus placeholder="Name" type="text">
+            <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+            <input type="submit">
         </form>
-        <p></p>
     </body>
 </html>

@@ -2,20 +2,20 @@
 
 <html lang="en">
     <head>
+        <script>
+
+            function greet()
+            {
+                alert('hello, ' + document.querySelector('#name').value);
+            }
+
+        </script>
         <title>hello1</title>
     </head>
     <body>
-        <form>
+        <form onsubmit="greet(); return false;">
             <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
             <input type="submit">
         </form>
-        <script>
-
-            document.querySelector('form').onsubmit = function() {
-                alert('hello, ' + document.querySelector('#name').value);
-                return false;
-            };
-
-        </script>
     </body>
 </html>

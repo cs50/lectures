@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+                let input = document.querySelector('input');
+                input.onkeyup = function() {
+                    let p = document.querySelector('p');
+                    if (input.value) {
+                        p.innerHTML = 'hello, ' + input.value;
+                    }
+                    else {
+                        p.innerHTML = 'hello, whoever you are';
+                    }
+                    
+                };
+            });
+
+        </script>
+        <title>hello5</title>
+    </head>
+    <body>
+        <form>
+            <input autocomplete="off" autofocus placeholder="Name" type="text">
+        </form>
+        <p></p>
+    </body>
+</html>

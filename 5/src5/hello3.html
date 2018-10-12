@@ -2,7 +2,16 @@
 
 <html lang="en">
     <head>
-        <script src="hello3.js"></script>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('form').onsubmit = function() {
+                    alert('hello, ' + document.querySelector('#name').value);
+                    return false;
+                };
+            });
+
+        </script>
         <title>hello3</title>
     </head>
     <body>
