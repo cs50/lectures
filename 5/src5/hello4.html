@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+                let input = document.querySelector('input');
+                input.onkeyup = function() {
+                    document.querySelector('p').innerHTML = 'hello, ' + input.value;
+                };
+            });
+
+        </script>
+        <title>hello4</title>
+    </head>
+    <body>
+        <form>
+            <input autocomplete="off" autofocus placeholder="Name" type="text">
+        </form>
+        <p></p>
+    </body>
+</html>
