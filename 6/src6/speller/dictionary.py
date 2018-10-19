@@ -1,3 +1,4 @@
+# Words in dictionary
 words = set()
 
 def check(word):
