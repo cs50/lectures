@@ -1,10 +1,8 @@
-#!/usr/bin/env python
-
 import re
 import sys
 import time
 
-from dictionary import Dictionary
+from dictionary import check, load, size, unload
 
 # Maximum length for a word
 # (e.g., pneumonoultramicroscopicsilicovolcanoconiosis)
@@ -25,14 +23,13 @@ time_load, time_check, time_size, time_unload = 0.0, 0.0, 0.0, 0.0
 dictionary = sys.argv[1] if len(sys.argv) == 3 else WORDS
 
 # Load dictionary
-d = Dictionary()
 before = time.process_time()
-loaded = d.load(dictionary)
+loaded = load(dictionary)
 after = time.process_time()
 
 # Exit if dictionary not loaded
 if not loaded:
-    print("Could not load $dictionary.")
+    print(f"Could not load {dictionary}.")
     sys.exit(1)
 
 # Calculate time to load dictionary
@@ -43,7 +40,7 @@ text = sys.argv[2] if len(sys.argv) == 3 else sys.argv[1]
 file = open(text, "r", encoding="latin_1")
 if not file:
     print("Could not open {}.".format(text))
-    d.unload()
+    unload()
     sys.exit(1)
 
 # Prepare to report misspellings
@@ -98,7 +95,7 @@ while True:
 
         # Check word's spelling
         before = time.process_time()
-        misspelled = not d.check(word)
+        misspelled = not check(word)
         after = time.process_time()
 
         # Update benchmark
@@ -117,7 +114,7 @@ file.close()
 
 # Determine dictionary's size
 before = time.process_time()
-n = d.size()
+n = size()
 after = time.process_time()
 
 # Calculate time to determine dictionary's size
@@ -125,12 +122,12 @@ time_size = after - before
 
 # Unload dictionary
 before = time.process_time()
-unloaded = d.unload()
+unloaded = unload()
 after = time.process_time()
 
 # Abort if dictionary not unloaded
 if not unloaded:
-    print("Could not load $dictionary.")
+    print(f"Could not load {dictionary}.")
     sys.exit(1)
 
 # Calculate time to determine dictionary's size

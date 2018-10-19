@@ -1,7 +1,6 @@
 # Demonstrates objects
 
 from cs50 import get_string
-from student import Student
 
 # Space for students
 students = []
@@ -10,8 +9,8 @@ students = []
 for i in range(3):
     name = get_string("name: ")
     dorm = get_string("dorm: ")
-    students.append(Student(name, dorm))
+    students.append({"name": name, "dorm": dorm})
 
 # Print students' names and dorms
 for student in students:
-    print(f"{student.name} is in {student.dorm}.")
+    print(f"{student['name']} is in {student['dorm']}.")

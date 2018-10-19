@@ -2,7 +2,7 @@
 
 from cs50 import get_string
 
-s = get_string("input: ")
-print("output:");
+s = get_string("Input: ")
+print("Output:");
 for c in s:
     print(c)

@@ -1,81 +1,51 @@
 # Lecture 8
 
 1. `resize.py`
+1. `mario*.py`
 1. `speller/`
 
-## Week 1
+## Types
 
-### Types 
+1. `1/hello.py`
+1. `1/string.py`
+1. `1/int.py`
+1. `1/ints.py`
+1. `1/floats.py`
 
-1. `hello.py`
-1. `string.py`
-1. `int.py`
-1. `float.py`
-1. `ints.py`
-1. `floats.py`
-1. `parity.py`
+## Control Flow
 
-### Control Flow
+1. `1/conditions.py`
+1. `1/answer.py`
 
-1. `conditions.py`
-1. `answer.py`
+## Abstraction
 
-### Abstraction
+1. `1/cough*.py`
+1. `1/positive.py`
 
-1. `cough*.py`
-1. `positive.py`
+## Representation
 
-### Representation
+1. `2/overflow.py`
 
-1. `overflow.py`
+## Strings
 
-## Week 2
+1. `2/capitalize2.py`
+1. `2/strlen.py`
 
-### Debugging
+## Command-line Arguments
 
-1. `buggy0.py`
+1. `2/argv*.py`
 
-### Loops
+## Exit Codes
 
-1. `mario*.py`
+1. `2/exit.py`
 
-### Strings
+## Memory
 
-1. `string*.py`
-1. `ascii0.py`
-1. `capitalize2.py`
-1. `strlen.py`
+- `3/compare1.py`
+- `3/copy1.py`
+- `3/swap.py`
 
-### Command-line Arguments
-
-1. `argv*.py`
-
-### Exit Codes
-
-1. `exit.py`
-
-## Week 3
-
-- `initials.py`
-- `sigma*.py`
-- `linear.py`
-- `binary*.py`
-
-## Week 4
-
-- `compare*.py`
-- `copy1.py`
-- `noswap.py`
-- `swap.py`
-
-## Week 5
+## Data Structures
 
 - `list.py`
 - `struct*.py`
-
-***
-
-## TODO 
-
-* hashbang
-* main

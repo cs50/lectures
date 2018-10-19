@@ -9,4 +9,4 @@ x = get_float("x: ")
 y = get_float("y: ")
 
 # Perform division
-print(f"x / y = {x / y :.50f}")
+print(f"x / y = {(x / y):.50f}")
