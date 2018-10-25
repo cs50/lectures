@@ -12,9 +12,9 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/registrants")
+@app.route("/registered")
 def registrants():
-    return render_template("registrants.html", students=students)
+    return render_template("registered.html", students=students)
 
 
 @app.route("/register", methods=["POST"])

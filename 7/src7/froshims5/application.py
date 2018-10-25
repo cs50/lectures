@@ -13,16 +13,15 @@ def index():
 def register():
     if not request.form.get("name") or not request.form.get("dorm"):
         return render_template("failure.html")
-    file = open("registered.csv", "a")
-    writer = csv.writer(file)
-    writer.writerow((request.form.get("name"), request.form.get("dorm")))
-    file.close()
+    with open("registered.csv", "a") as file:
+        writer = csv.DictWriter(file, fieldnames=["name", "dorm"])
+        writer.writerow({"name": request.form.get("name"), "dorm": request.form.get("dorm")})
     return render_template("success.html")
 
 
 @app.route("/registered")
 def registered():
-    file = open("registered.csv", "r")
-    reader = csv.reader(file)
-    students = list(reader)
+    with open("registered.csv", "r") as file:
+        reader = csv.DictReader(file)
+        students = list(reader)
     return render_template("registered.html", students=students)

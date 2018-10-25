@@ -3,8 +3,8 @@
 {% block body %}
     <h1>Register for Frosh IMs</h1>
     <form action="/register" method="post">
-        <input name="name" placeholder="Name" type="text">
-        <input name="email" placeholder="Email" type="email">
+        <input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+        <input autocomplete="off" name="email" placeholder="Email" type="email">
         <select name="dorm">
             <option disabled selected value="">Dorm</option>
             <option value="Apley Court">Apley Court</option>
