@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>words1</title>
+    </head>
+    <body>
+
+        <input autocomplete="off" autofocus placeholder="Query" type="text">
+
+        <ul></ul>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>
+    
+            let input = document.querySelector('input');
+            input.onkeyup = function() {
+                $.get('/search?q=' + input.value, function(data) {
+                    document.querySelector('ul').innerHTML = data;
+                });
+            };
+
+        </script>
+
+    </body>
+</html>
