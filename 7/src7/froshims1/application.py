@@ -12,7 +12,7 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/registered")
+@app.route("/registrants")
 def registrants():
     return render_template("registered.html", students=students)
 

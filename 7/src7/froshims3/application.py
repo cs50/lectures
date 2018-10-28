@@ -25,4 +25,5 @@ def registered():
     file = open("registered.csv", "r")
     reader = csv.reader(file)
     students = list(reader)
+    file.close()
     return render_template("registered.html", students=students)
