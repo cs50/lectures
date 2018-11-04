@@ -3,11 +3,13 @@
 {% block body %}
 
     <ul>
-        {% for album in albums %}
 
-            <li>{{ album["Title"] }}</li>
+        {% for row in rows %}
+
+            <li>{{ row["name"] }} registered</li>
 
         {% endfor %}
+
     </ul>
 
 {% endblock %}
