@@ -1,4 +1,4 @@
-// Remainder operation
+// Calculates a remainder
 
 #include <cs50.h>
 #include <stdio.h>
