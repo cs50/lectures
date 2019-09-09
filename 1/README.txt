@@ -1,8 +1,6 @@
 hello.c
 string.c
 int.c
-floats.c
-doubles.c
 parity.c
 
 conditions.c
@@ -14,4 +12,6 @@ cough2.c
 cough3.c
 positive.c
 
+floats.c
+doubles.c
 overflow.c
