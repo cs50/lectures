@@ -11,7 +11,9 @@ cough0.c
 cough1.c
 cough2.c
 cough3.c
+square.c
 positive.c
+power.c
 
 mario0.c
 mario1.c
