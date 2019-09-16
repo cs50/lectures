@@ -1,6 +1,7 @@
-// Capitalizes a string
+// Uppercases string using ctype library (and an unnecessary condition)
 
 #include <cs50.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -10,9 +11,9 @@ int main(void)
     printf("After:  ");
     for (int i = 0, n = strlen(s); i < n; i++)
     {
-        if (s[i] >= 'a' && s[i] <= 'z')
+        if (islower(s[i]))
         {
-            printf("%c", s[i] - 32);
+            printf("%c", toupper(s[i]));
         }
         else
         {

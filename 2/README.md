@@ -14,7 +14,7 @@
 1. `string*.c`
 1. `strlen.c`
 1. `ascii*.c`
-1. `capitalize*.c`
+1. `uppercase*.c`
 
 ## Command-line Arguments
 
