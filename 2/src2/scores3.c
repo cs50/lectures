@@ -1,36 +1,32 @@
-// Generates a bar chart of three scores by using an array and using a constant
+// Averages numbers using a helper function
 
 #include <cs50.h>
 #include <stdio.h>
 
-const int COUNT = 3;
-
-void chart(int score);
+float average(int length, int array[]);
 
 int main(void)
 {
-    // Get scores from user
-    int scores[COUNT];
-    for (int i = 0; i < COUNT; i++)
+    // Get number of scores
+    int n = get_int("Scores:  ");
+
+    // Get scores
+    int scores[n];
+    for (int i = 0; i < n; i++)
     {
         scores[i] = get_int("Score %i: ", i + 1);
     }
 
-    // Chart scores
-    for (int i = 0; i < COUNT; i++)
-    {
-        printf("Score %i: ", i + 1);
-        chart(scores[i]);
-    }
+    // Print average
+    printf("Average: %.1f\n", average(n, scores));
 }
 
-// Generate bar
-void chart(int score)
+float average(int length, int array[])
 {
-    // Output one hash per point
-    for (int i = 0; i < score; i++)
+    int sum = 0;
+    for (int i = 0; i < length; i++)
     {
-        printf("#");
+        sum += array[i];
     }
-    printf("\n");
+    return (float) sum / (float) length;
 }
