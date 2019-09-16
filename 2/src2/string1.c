@@ -1,4 +1,4 @@
-// Prints string char by char, one per line, remembering string's length
+// Prints string char by char, one per line, using strlen
 
 #include <cs50.h>
 #include <stdio.h>
@@ -6,10 +6,11 @@
 
 int main(void)
 {
-    string s = get_string("Input: ");
-    printf("Output:\n");
-    for (int i = 0, n = strlen(s); i < n; i++)
+    string s = get_string("Input:  ");
+    printf("Output: ");
+    for (int i = 0; i < strlen(s); i++)
     {
-        printf("%c\n", s[i]);
+        printf("%c", s[i]);
     }
+    printf("\n");
 }

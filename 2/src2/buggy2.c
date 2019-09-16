@@ -1,4 +1,4 @@
-// Buggy example for printf
+// Buggy example for printf and debug50
 
 #include <stdio.h>
 
