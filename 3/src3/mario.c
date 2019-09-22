@@ -6,12 +6,7 @@ void draw(int h);
 int main(void)
 {
     // Get height of pyramid
-    int height;
-    do
-    {
-        height = get_int("Height: ");
-    }
-    while (height < 1);
+    int height = get_int("Height: ");
 
     // Draw pyramid
     draw(height);
