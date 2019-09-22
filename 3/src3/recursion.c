@@ -1,3 +1,5 @@
+// Draws a pyramid using recursion
+
 #include <cs50.h>
 #include <stdio.h>
 
