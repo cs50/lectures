@@ -1,4 +1,4 @@
-// Implements linear search for names
+// Implements linear search for names using !
 
 #include <cs50.h>
 #include <stdio.h>
