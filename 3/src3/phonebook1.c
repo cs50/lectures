@@ -30,7 +30,7 @@ int main(void)
     // Search for EMMA
     for (int i = 0; i < 4; i++)
     {
-        if (!strcmp(people[i].name, "EMMA"))
+        if (strcmp(people[i].name, "EMMA") == 0)
         {
             printf("Found %s\n", people[i].number);
             return 0;
