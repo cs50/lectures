@@ -1,4 +1,4 @@
-// Capitalizes a copy of a string
+// Capitalizes a copy of a string without memory errors
 
 #include <cs50.h>
 #include <ctype.h>
@@ -9,15 +9,20 @@ int main(void)
 {
     // Get a string
     char *s = get_string("s: ");
+    if (s != NULL)
+    {
+        return 1;
+    }
 
     // Allocate memory for another string
     char *t = malloc(strlen(s) + 1);
+    if (t != NULL)
+    {
+        return 1;
+    }
 
     // Copy string into memory
-    for (int i = 0, n = strlen(s); i <= n; i++)
-    {
-        t[i] = s[i];
-    }
+    strcpy(t, s);
 
     // Capitalize copy
     t[0] = toupper(t[0]);
@@ -25,4 +30,8 @@ int main(void)
     // Print strings
     printf("s: %s\n", s);
     printf("t: %s\n", t);
+
+    // Free memory
+    free(t);
+    return 0;
 }

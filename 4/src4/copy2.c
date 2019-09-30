@@ -22,7 +22,4 @@ int main(void)
     // Print strings
     printf("s: %s\n", s);
     printf("t: %s\n", t);
-
-    // Free memory
-    free(t);
 }
