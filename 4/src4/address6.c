@@ -1,4 +1,4 @@
-// Stores and prints a string
+// Stores and prints a string's address
 
 #include <cs50.h>
 #include <stdio.h>
@@ -6,5 +6,5 @@
 int main(void)
 {
     string s = "EMMA";
-    printf("%s\n", s);
+    printf("%p\n", s);
 }
