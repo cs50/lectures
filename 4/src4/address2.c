@@ -1,4 +1,4 @@
-// Prints an integer's address
+// Prints an integer via its address
 
 #include <stdio.h>
 

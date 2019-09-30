@@ -1,4 +1,4 @@
-// Stores and prints a string
+// Prints a string
 
 #include <cs50.h>
 #include <stdio.h>

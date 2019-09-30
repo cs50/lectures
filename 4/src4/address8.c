@@ -1,4 +1,4 @@
-// Stores and prints a string's address
+// Prints a string's chars
 
 #include <cs50.h>
 #include <stdio.h>

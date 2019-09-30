@@ -1,4 +1,4 @@
-// Stores and prints an integer's address
+// Stores and prints an integer via its address
 
 #include <stdio.h>
 
