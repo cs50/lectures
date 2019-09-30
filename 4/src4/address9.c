@@ -1,13 +1,12 @@
-// Stores and prints a string's address
+// Stores and prints a string without using the CS50 Library
 
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
-    string s = "EMMA";
-    printf("%c\n", *s);
-    printf("%c\n", *(s+1));
-    printf("%c\n", *(s+2));
-    printf("%c\n", *(s+3));
+    char *s = "EMMA";
+    printf("%c\n", s[0]);
+    printf("%c\n", s[1]);
+    printf("%c\n", s[2]);
+    printf("%c\n", s[3]);
 }
