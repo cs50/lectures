@@ -45,4 +45,4 @@
 ## Data Structures
 
 - `list.py`
-- `struct*.py`
+- `phonebook*.py`
