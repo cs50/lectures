@@ -1,4 +1,4 @@
-// Prints string char by char, one per line
+// Prints string char by char
 
 #include <cs50.h>
 #include <stdio.h>
