@@ -1,7 +1,6 @@
-# Recognizes a name
+# Responds to a greeting
 # https://pypi.org/project/SpeechRecognition/
 
-import re
 import speech_recognition
 
 # Obtain audio from the microphone
@@ -14,8 +13,11 @@ with speech_recognition.Microphone() as source:
 words = recognizer.recognize_google(audio)
 
 # Respond to speech
-matches = re.search("my name is (.*)", words)
-if matches:
-    print(f"Hey, {matches[1]}.")
+if "hello" in words:
+    print("Hello to you too!")
+elif "how are you" in words:
+    print("I am well, thanks!")
+elif "goodbye" in words:
+    print("Goodbye to you too!")
 else:
-    print("Hey, you.")
+    print("Huh?")
