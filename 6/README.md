@@ -64,7 +64,7 @@ phonebook.py
 ## Week 4
 
 ```
-compare1.c
+compare4.c
 compare.py
 
 copy3.c
@@ -73,6 +73,6 @@ copy.py
 swap.c
 swap.py
 
-phonebook
-jpeg
+phonebook.c
+phonebook*.py
 ```
