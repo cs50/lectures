@@ -1,4 +1,5 @@
 # Generates a QR code
+# https://github.com/lincolnloop/python-qrcode
 
 import qrcode
 
