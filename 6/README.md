@@ -92,6 +92,10 @@ pip3 install pyaudio
 ```
 
 ```
-brew install dlib
+brew install cmake dlib
 pip3 install face_recognition
+```
+
+```
+pip install qrcode[pil]
 ```
