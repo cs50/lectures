@@ -83,3 +83,10 @@ phonebook*.py
 list3.c
 list.py
 ```
+
+## Week 6
+
+```
+brew install portaudio
+pip install pyaudio
+```
