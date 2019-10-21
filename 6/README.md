@@ -10,7 +10,7 @@ string.c
 string*.py
 
 int.c
-int.py
+int*.py
 
 conditions.c
 conditions.py
