@@ -76,3 +76,10 @@ swap.py
 phonebook.c
 phonebook*.py
 ```
+
+## Week 5
+
+```
+list3.c
+list.py
+```
