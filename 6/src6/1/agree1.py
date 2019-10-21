@@ -3,7 +3,7 @@
 from cs50 import get_string
 
 # Prompt user to agree
-s = get_string("Do you agree?")
+s = get_string("Do you agree?\n")
 
 # Check whether agreed
 if s.lower() in ["y", "yes"]:

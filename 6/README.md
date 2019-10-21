@@ -1,5 +1,10 @@
 # Lecture 6
 
+```
+filter/
+speller/
+```
+
 ## Week 1
 
 ```
@@ -16,9 +21,9 @@ conditions.c
 conditions.py
 
 agree.c
-agree*.py
+agree0.py
+agree1.py
 
-cough*.c
 cough*.py
 
 positive.c
@@ -26,14 +31,14 @@ positive.py
 
 mario*.py
 
-overflow.c
+overflow.py
 ```
 
 ## Week 2
 
 ```
 
-scores*.c
+scores2c.c
 scores*.py
 
 string2.c
@@ -51,9 +56,6 @@ exit*.py
 ## Week 3
 
 ```
-numbers.c
-numbers.py
-
 names.c
 names.py
 
@@ -87,8 +89,22 @@ list.py
 ## Week 6
 
 ```
-brew install portaudio
-pip3 install pyaudio
+agree2.py
+
+hogwarts
+ai
+faces
+qr
+```
+
+### Installation
+
+```
+pip install Pillow
+```
+
+```
+agree2.py
 ```
 
 ```
@@ -97,9 +113,10 @@ pip3 install face_recognition
 ```
 
 ```
-pip install qrcode[pil]
+brew install portaudio
+pip3 install pyaudio
 ```
 
 ```
-pip install Pillow
+pip install qrcode[pil]
 ```
