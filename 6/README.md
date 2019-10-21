@@ -64,12 +64,15 @@ phonebook.py
 ## Week 4
 
 ```
+compare1.c
+compare.py
+
 copy3.c
 copy.py
 
-noswap
-swap
-scanf0, scanf1, scanf2
+swap.c
+swap.py
+
 phonebook
 jpeg
 ```
