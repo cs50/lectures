@@ -88,5 +88,10 @@ list.py
 
 ```
 brew install portaudio
-pip install pyaudio
+pip3 install pyaudio
+```
+
+```
+brew install dlib
+pip3 install face_recognition
 ```
