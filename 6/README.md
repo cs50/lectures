@@ -1,48 +1,62 @@
 # Lecture 6
 
-1. `mario*.py`
-1. `speller/`
+## Week 1
 
-## Types
+```
+hello.c
+hello.py
 
-1. `1/hello.py`
-1. `1/string.py`
-1. `1/int.py`
+string.c
+string*.py
 
-## Control Flow
+int.c
+int.py
 
-1. `1/conditions.py`
-1. `1/agree.py`
+conditions.c
+conditions.py
 
-## Abstraction
+agree.c
+agree*.py
 
-1. `1/cough*.py`
-1. `1/positive.py`
+cough*.c
+cough*.py
 
-## Representation
+positive.c
+positive.py
 
-1. `1/overflow.py`
+mario*.py
 
-## Strings
+overflow.c
+```
 
-1. `2/capitalize2.py`
-1. `2/strlen.py`
+## Week 2
 
-## Command-line Arguments
+```
 
-1. `2/argv*.py`
+scores*.c
+scores*.py
 
-## Exit Codes
+string2.c
+string*.py
 
-1. `2/exit.py`
+uppercase2.c
+uppercase.py
 
-## Memory
+argv1.c
+argv*.py
 
-- `3/compare1.py`
-- `3/copy1.py`
-- `3/swap.py`
+exit.c
+exit*.py
 
-## Data Structures
+## Week 3
 
-- `list.py`
-- `phonebook*.py`
+```
+numbers.c
+numbers.py
+
+names.c
+names.py
+
+phonebook1.c
+phonebook.py
+```
