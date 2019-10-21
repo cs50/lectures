@@ -99,3 +99,7 @@ pip3 install face_recognition
 ```
 pip install qrcode[pil]
 ```
+
+```
+pip install Pillow
+```
