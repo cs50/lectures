@@ -1,5 +1,6 @@
 # Abstraction with parameterization
 
+
 def main():
     cough(3)
 
