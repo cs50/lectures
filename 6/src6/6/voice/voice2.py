@@ -1,4 +1,4 @@
-# Responds to a voice
+# Recognizes a name
 # https://pypi.org/project/SpeechRecognition/
 
 import re

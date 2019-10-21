@@ -1,4 +1,4 @@
-# Responds to a voice
+# Recognizes a greeting
 # https://pypi.org/project/SpeechRecognition/
 
 import speech_recognition
