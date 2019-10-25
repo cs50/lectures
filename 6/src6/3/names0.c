@@ -1,4 +1,4 @@
-// Implements linear search for names using !
+// Implements linear search for names
 
 #include <cs50.h>
 #include <stdio.h>
@@ -12,7 +12,7 @@ int main(void)
     // Search for EMMA
     for (int i = 0; i < 4; i++)
     {
-        if (!strcmp(names[i], "EMMA"))
+        if (strcmp(names[i], "EMMA") == 0)
         {
             printf("Found\n");
             return 0;
