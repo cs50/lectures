@@ -19,7 +19,7 @@ with open("CS50 2019 - Lecture 7 - Favorite TV Shows (Responses) - Form Response
         if title in counts:
             counts[title] += 1
         else:
-            counts[title] = 0
+            counts[title] = 1
 
 # Print counts, sorted by key
 for title, count in sorted(counts.items(), key=lambda item: item[1], reverse=True):
