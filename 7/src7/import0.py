@@ -2,16 +2,16 @@ import csv
 
 # Open TSV file
 # https://datasets.imdbws.com/title.basics.tsv.gz
-with open("title.basics.tsv", "r") as input:
+with open("title.basics.tsv", "r") as titles:
 
     # Create DictReader
-    reader = csv.DictReader(input, delimiter="\t")
+    reader = csv.DictReader(titles, delimiter="\t")
 
     # Open CSV file
-    with open("shows0.csv", "w") as output:
+    with open("shows0.csv", "w") as shows:
 
-        # Create DictWriter
-        writer = csv.writer(output)
+        # Create writer
+        writer = csv.writer(shows)
 
         # Write header
         writer.writerow(["tconst", "primaryTitle", "startYear", "genres"])
