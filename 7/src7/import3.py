@@ -2,7 +2,7 @@ import cs50
 import csv
 
 # Create database
-open(f"shows3.db", "w").close()
+open("shows3.db", "w").close()
 db = cs50.SQL("sqlite:///shows3.db")
 
 # Create table
