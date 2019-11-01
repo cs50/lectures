@@ -8,7 +8,7 @@
         <script>
 
             navigator.geolocation.getCurrentPosition(function(position) {
-                document.write('You are here: ' + position.coords.latitude + ', ' + position.coords.longitude);
+                document.body.innerHTML = 'You are here: ' + position.coords.latitude + ', ' + position.coords.longitude;
             });
 
         </script>
