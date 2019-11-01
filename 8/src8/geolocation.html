@@ -1,1 +1,16 @@
+<!DOCTYPE html>
 
+<html lang="en">
+    <head>
+        <title>geolocation</title>
+    </head>
+    <body>
+        <script>
+
+            navigator.geolocation.getCurrentPosition(function(position) {
+                document.write('You are here: ' + position.coords.latitude + ', ' + position.coords.longitude);
+            });
+
+        </script>
+    </body>
+</html>
