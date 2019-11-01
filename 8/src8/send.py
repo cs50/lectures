@@ -24,7 +24,7 @@ with open("responses.csv", "r") as file:
         message["from"] = os.getenv("FROM")
         message["to"] = row["email"]
         message["subject"] = "Test Review"
-        message.set_content(f"Hi {row['name']},\n\nhttps://youtu.be/oHg5SJYRHA0\n\nAll the best,\nBrian")
+        message.set_content(f"Hi {row['first name']},\n\nhttps://youtu.be/oHg5SJYRHA0\n\nAll the best,\nBrian")
 
         # Send message
         server.send_message(message)
