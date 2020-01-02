@@ -52,6 +52,7 @@ argv*.py
 
 exit.c
 exit*.py
+```
 
 ## Week 3
 
