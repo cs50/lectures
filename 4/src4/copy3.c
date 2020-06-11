@@ -10,14 +10,14 @@ int main(void)
 {
     // Get a string
     char *s = get_string("s: ");
-    if (s != NULL)
+    if (s == NULL)
     {
         return 1;
     }
 
     // Allocate memory for another string
     char *t = malloc(strlen(s) + 1);
-    if (t != NULL)
+    if (t == NULL)
     {
         return 1;
     }
