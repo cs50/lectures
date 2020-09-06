@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+store
+{% endblock %}
+
+{% block body %}
+<h1>Store</h1>
+<form action="{{ url_for('store') }}" method="post">
+    <input name="foo" type="number" value="0"/> Foo
+    <br/>
+    <input name="bar" type="number" value="0"/> Bar
+    <br/>
+    <input name="baz" type="number" value="0"/> Baz
+    <br/>
+    <input type="submit" value="Purchase"/>
+</form>
+<p>
+    View your <a href="{{ url_for('cart') }}">shopping cart</a>.
+</p>
+{% endblock %}
