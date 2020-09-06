@@ -1,30 +1,31 @@
-hello.c
-string.c
-int.c
-float.c
-parity.c
+hello0.c
+hello1.c
+addition0.c
+addition1.c
 
 conditions.c
+parity.c
 agree.c
 
-cough0.c
-cough1.c
-cough2.c
-cough3.c
+meow0.c
+meow1.c
+meow2.c
+meow3.c
 square.c
-positive.c
 power.c
+positive.c
 
 mario0.c
 mario1.c
 mario2.c
+
 mario3.c
 mario4.c
 mario5.c
+
 mario6.c
 mario7.c
 mario8.c
 
-floats.c
-doubles.c
+imprecision.c
 overflow.c
