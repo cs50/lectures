@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>form1</title>
+    </head>
+    <body>
+        <form action="/register" id="registration" method="get">
+            <input autocomplete="off" autofocus name="email" placeholder="Email" type="text"/>
+            <input name="password" placeholder="Password" type="password"/>
+            <input name="confirmation" placeholder="Password (again)" type="password"/>
+            <input name="agreement" type="checkbox"/> I agree
+            <input type="submit" value="Register"/>
+        </form>
+        <script>
+
+            let form = document.getElementById("registration");
+            form.onsubmit = function() {
+
+                if (!form.email.value)
+                {
+                    alert("missing email");
+                    return false;
+                }
+                else if (!form.password.value)
+                {
+                    alert("missing password");
+                    return false;
+                }
+                else if (form.password.value != form.confirmation.value)
+                {
+                    alert("passwords don't match");
+                    return false;
+                }
+                else if (!form.agreement.checked)
+                {
+                    alert("checkbox unchecked");
+                    return false;
+                }
+                return true;
+
+            };
+
+        </script>
+   </body>
+</html>

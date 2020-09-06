@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+
+            function quote()
+            {
+                $.getJSON("/quote", {symbol: $("#symbol").val()}, function(data) {
+                    alert(data.price);
+                });
+            }
+
+        </script>
+        <title>ajax0</title>
+    </head>
+    <body>
+        <form onsubmit="quote(); return false;">
+            <input autocomplete="off" autofocus id="symbol" placeholder="Symbol" type="text"/>
+            <input type="submit" value="Get Quote"/>
+        </form>
+    </body>
+</html>

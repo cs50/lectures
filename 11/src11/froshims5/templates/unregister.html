@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <form action="{{ url_for('unregister') }}" method="post">
+        <select name="id">
+            <option disabled selected value="">Registrant</option>
+            {% for registrant in registrants %}
+                <option value="{{ registrant.id }}"/>{{ registrant.name }} from {{ registrant.dorm }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Unregister"/>
+    </form>
+{% endblock %}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script>
+
+            $(function() {
+                $('.locker').click(function() {
+                    $(this).removeClass('closed');
+                });
+            });
+
+        </script>
+        <style>
+
+            body {
+                background-color: #000;
+            }
+
+            .closed {
+                background-color: #ff0;
+            }
+
+            .locker {
+                color: #ff0;
+                font-family: sans-serif;
+                font-size: 60px;
+                font-weight: bold;
+                height: 150px;
+                padding-top: 50px;
+                margin: 20px;
+                text-align: center;
+                width : 100px;
+            }
+
+        </style>
+        <title>lockers-1</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><div class="closed locker">4</div></td>
+                <td><div class="closed locker">8</div></td>
+                <td><div class="closed locker">15</div></td>
+                <td><div class="closed locker">16</div></td>
+                <td><div class="closed locker">23</div></td>
+                <td><div class="closed locker">42</div></td>
+                <td><div class="closed locker">50</div></td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <ul>
+        {% for registrant in registrants %}
+            <li>{{ registrant.name }} from {{ registrant.dorm }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

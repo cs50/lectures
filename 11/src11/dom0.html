@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+
+            function greet()
+            {
+                alert(`hello, ${document.getElementById("name").value}!`);
+            }
+
+        </script>
+        <title>dom0</title>
+    </head>
+    <body>
+        <form id="demo" onsubmit="greet(); return false;">
+            <input autocomplete="off" autofocus id="name" placeholder="Name" type="text"/>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
