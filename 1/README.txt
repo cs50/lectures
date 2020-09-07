@@ -6,7 +6,6 @@ addition1.c
 truncation.c
 
 conditions.c
-parity.c
 agree.c
 
 meow0.c
@@ -14,8 +13,6 @@ meow1.c
 meow2.c
 meow3.c
 
-square.c
-power.c
 positive.c
 
 mario0.c
@@ -24,14 +21,6 @@ mario2.c
 
 mario3.c
 mario4.c
-mario5.c
-
-mario6.c
-mario7.c
-mario8.c
 
 imprecision.c
 overflow.c
-
-counter.c
-balloon.c
