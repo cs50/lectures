@@ -1,4 +1,4 @@
-// Addition with float
+// Addition with long
 
 #include <cs50.h>
 #include <stdio.h>
@@ -6,11 +6,11 @@
 int main(void)
 {
     // Prompt user for x
-    float x = get_float("x: ");
+    long x = get_long("x: ");
 
     // Prompt user for y
-    float y = get_float("y: ");
+    long y = get_long("y: ");
 
     // Perform addition
-    printf("%f\n", x + y);
+    printf("%ld\n", x + y);
 }

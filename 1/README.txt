@@ -3,6 +3,8 @@ hello1.c
 addition0.c
 addition1.c
 
+truncation.c
+
 conditions.c
 parity.c
 agree.c
@@ -30,3 +32,6 @@ mario8.c
 
 imprecision.c
 overflow.c
+
+counter.c
+balloon.c
