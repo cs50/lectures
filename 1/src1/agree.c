@@ -6,7 +6,7 @@
 int main(void)
 {
     // Prompt user to agree
-    char c = get_char("Do you agree?\n");
+    char c = get_char("Do you agree? ");
 
     // Check whether agreed
     if (c == 'Y' || c == 'y')
