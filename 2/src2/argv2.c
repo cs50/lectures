@@ -1,4 +1,4 @@
-// Printing characters in an array of strings
+// Prints characters in an array of strings
 
 #include <cs50.h>
 #include <stdio.h>

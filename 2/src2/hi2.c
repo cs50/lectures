@@ -5,5 +5,5 @@
 int main(void)
 {
     string s = "HI!";
-    printf("%s", s);
+    printf("%s\n", s);
 }

@@ -1,4 +1,4 @@
-// Printing a command-line argument
+// Prints a command-line argument
 
 #include <cs50.h>
 #include <stdio.h>
