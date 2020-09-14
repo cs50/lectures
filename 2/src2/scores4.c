@@ -3,11 +3,11 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Prototype
-float average(int length, int array[]);
-
 // Constant
 int N = 3;
+
+// Prototype
+float average(int length, int array[]);
 
 int main(void)
 {
