@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 // Constant
-int N = 3;
+const int N = 3;
 
 // Prototype
 float average(int length, int array[]);
