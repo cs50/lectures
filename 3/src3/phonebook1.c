@@ -19,7 +19,7 @@ int main(void)
     people[0].number = "+1-617-495-1000";
 
     people[1].name = "David";
-    people[1].number = "+1-617-468-2750";
+    people[1].number = "+1-949-468-2750";
 
     // Search for David
     for (int i = 0; i < 2; i++)
