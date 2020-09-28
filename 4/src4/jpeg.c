@@ -1,7 +1,7 @@
 // Detects if a file is a JPEG
 
-#include <stdio.h>
 #include <stdint.h>
+#include <stdio.h>
 
 typedef uint8_t BYTE;
 

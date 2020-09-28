@@ -7,8 +7,8 @@ compare{0,1,2,3,4}.c
 copy0.c
 copy{1,2}.c
 {copy3,memory}.c
-noswap.c
-swap.c
+swap{0,1}.c
 scanf{0,1,2}.c
 phonebook.c
 jpeg.c
+copy.c
