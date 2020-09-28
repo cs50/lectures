@@ -1,0 +1,14 @@
+address0.c
+address{1,2}.c
+address{3,4}.c
+address{5,6,7}.c
+address{8,9,10,11}.c
+compare{0,1,2,3,4}.c
+copy0.c
+copy{1,2}.c
+{copy3,memory}.c
+noswap.c
+swap.c
+scanf{0,1,2}.c
+phonebook.c
+jpeg.c
