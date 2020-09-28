@@ -11,4 +11,4 @@ swap{0,1}.c
 scanf{0,1,2}.c
 phonebook.c
 jpeg.c
-copy.c
+cp.c
