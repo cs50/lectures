@@ -34,9 +34,9 @@ int main(int argc, char *argv[])
 
     // Copy source to destination, one BYTE at a time
     BYTE buffer;
-    while (fread(&buffer, 1, sizeof(buffer), source))
+    while (fread(&buffer, sizeof(BYTE), 1, source))
     {
-        fwrite(&buffer, 1, sizeof(buffer), destination);
+        fwrite(&buffer, sizeof(BYTE), 1, destination);
     }
 
     // Close files
