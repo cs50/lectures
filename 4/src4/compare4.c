@@ -1,4 +1,4 @@
-// Compares two strings using strcmp
+// Prints two strings' addresses
 
 #include <cs50.h>
 #include <stdio.h>
@@ -9,13 +9,7 @@ int main(void)
     char *s = get_string("s: ");
     char *t = get_string("t: ");
 
-    // Compare strings
-    if (strcmp(s, t) == 0)
-    {
-        printf("Same\n");
-    }
-    else
-    {
-        printf("Different\n");
-    }
+    // Print strings' addresses
+    printf("%p\n", s);
+    printf("%p\n", t);
 }
