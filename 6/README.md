@@ -59,14 +59,14 @@
 
 ## Week 4
 
-compare.py
-copy.py
-swap.py
-phonebook*.py
+4/compare.py
+4/copy.py
+4/swap.py
+4/phonebook*.py
 
 ## Week 6
 
-agree2.py
+1/agree2.py
 
 6/speech/*
 6/faces/detect.py
