@@ -9,7 +9,7 @@ int main(void)
     // An array of names
     string names[] = {"Bill", "Charlie", "Fred", "George", "Ginny", "Percy", "Ron"};
 
-    // Search for RON
+    // Search for Ron
     for (int i = 0; i < 7; i++)
     {
         if (strcmp(names[i], "Ron") == 0)
