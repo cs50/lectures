@@ -5,14 +5,19 @@
 
 ## Week 1
 
-hello.c
-hello.py
+hello0.c
+hello0.py
 
-string.c
-string*.py
+hello1.c
+hello1.py
+hello2.py
+hello3.py
+hello4.py
 
-int.c
-int*.py
+addition0.c
+addition*.py
+
+division.py
 
 conditions.c
 conditions.py
@@ -21,7 +26,8 @@ agree.c
 agree0.py
 agree1.py
 
-cough*.py
+meow*.c
+meow*.py
 
 positive.c
 positive.py
@@ -75,8 +81,11 @@ agree2.py
 
 hogwarts
 ai
-faces
-qr
+6/speech/*
+6/faces/detect.py
+6/faces/recognize.py
+6/qr/qr.py
+6/listen/*.py
 
 ### Installation
 

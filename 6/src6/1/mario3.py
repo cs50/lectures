@@ -1,3 +1,6 @@
-# Prints a column of 3 bricks without a loop
+# Prints a 3-by-3 grid of bricks with loops
 
-print("#\n" * 3, end="")
+for i in range(3):
+    for j in range(3):
+        print("#", end="")
+    print()

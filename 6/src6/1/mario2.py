@@ -1,4 +1,3 @@
-# Prints a column of 3 bricks with a loop
+# Prints a row of 4 question marks without a loop
 
-for i in range(3):
-    print("#")
+print("?" * 4)

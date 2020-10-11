@@ -1,3 +1,5 @@
-# Prints a row of 4 question marks without a loop
+# Prints a row of 4 question marks with a loop
 
-print("?" * 4)
+for i in range(4):
+    print("?", end="")
+print()

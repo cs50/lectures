@@ -1,5 +1,5 @@
 # Words in dictionary
-words = set()
+words = dict()
 
 
 def check(word):
@@ -14,7 +14,7 @@ def load(dictionary):
     """Load dictionary into memory, returning true if successful else false"""
     file = open(dictionary, "r")
     for line in file:
-        words.add(line.rstrip("\n"))
+        words[line.rstrip()] = True
     file.close()
     return True
 
