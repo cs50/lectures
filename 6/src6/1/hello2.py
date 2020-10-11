@@ -1,6 +1,6 @@
-# get_string and print, with concatenation
+# get_string and print, with format strings
 
 from cs50 import get_string
 
-answer = get_string("What's your name? ")
-print("hello, " + answer)
+answer  = get_string("What's your name? ")
+print(f"hello, {answer}")

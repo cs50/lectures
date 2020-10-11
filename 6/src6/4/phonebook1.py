@@ -12,4 +12,4 @@ with open("phonebook.csv", "a") as file:
 
     # Print to file
     writer = csv.writer(file)
-    writer.writerow((name, number))
+    writer.writerow([name, number])

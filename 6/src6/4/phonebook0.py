@@ -12,7 +12,7 @@ number = get_string("Number: ")
 
 # Print to file
 writer = csv.writer(file)
-writer.writerow((name, number))
+writer.writerow([name, number])
 
 # Close file
 file.close()

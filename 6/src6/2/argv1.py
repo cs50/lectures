@@ -1,6 +1,6 @@
-# Printing command-line arguments
+# Printing command-line arguments, indexing into argv
 
 from sys import argv
 
-for arg in argv:
-    print(arg)
+for i in range(len(argv)):
+    print(argv[i])

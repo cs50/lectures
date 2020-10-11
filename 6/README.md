@@ -5,82 +5,69 @@
 
 ## Week 1
 
-hello0.c
-hello0.py
+1/hello0.c
+1/hello0.py
 
-hello1.c
-hello1.py
-hello2.py
-hello3.py
-hello4.py
+1/hello1.c
+1/hello1.py
+1/hello2.py
+1/hello3.py
 
-addition0.c
-addition*.py
+1/addition0.c
+1/addition*.py
 
-division.py
+1/division.py
 
-conditions.c
-conditions.py
+1/conditions.c
+1/conditions.py
 
-agree.c
-agree0.py
-agree1.py
+1/agree.c
+1/agree0.py
+1/agree1.py
 
-meow*.c
-meow*.py
+1/meow0.c
+1/meow0.py
+1/meow1.c
+1/meow1.py
+1/meow2.c
+1/meow2.py
+1/meow3.c
+1/meow3.py
 
-positive.c
-positive.py
+1/positive.c
+1/positive.py
 
-mario*.py
+1/mario*.py
 
-overflow.py
+1/int.py
 
 ## Week 2
 
-scores2c.c
-scores*.py
+2/scores*.py
 
-string2.c
-string*.py
+2/uppercase*.py
 
-uppercase2.c
-uppercase.py
+2/argv*.py
 
-argv1.c
-argv*.py
-
-exit.c
-exit*.py
+2/exit.py
 
 ## Week 3
 
-names.c
-names.py
-
-phonebook1.c
-phonebook.py
+3/numbers.py
+3/names.py
+3/phonebook.py
 
 ## Week 4
 
-compare4.c
 compare.py
-
-copy3.c
 copy.py
-
-swap.c
 swap.py
-
-phonebook.c
 phonebook*.py
 
 ## Week 6
 
 agree2.py
 
-hogwarts
-ai
 6/speech/*
 6/faces/detect.py
 6/faces/recognize.py

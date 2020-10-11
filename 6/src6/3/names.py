@@ -3,11 +3,12 @@
 import sys
 
 # A list of names
-names = ["EMMA", "RODRIGO", "BRIAN", "DAVID"]
+names = ["Bill", "Charlie", "Fred", "George", "Ginny", "Percy", "Ron"]
 
-# Search for EMMA
-if "EMMA" in names:
+# Search for Ron
+if "Ron" in names:
     print("Found")
     sys.exit(0)
+
 print("Not found")
 sys.exit(1)
