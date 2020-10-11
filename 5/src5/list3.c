@@ -30,6 +30,7 @@ int main(void)
     n = malloc(sizeof(node));
     if (n == NULL)
     {
+        free(list);
         return 1;
     }
     n->number = 2;
@@ -40,6 +41,8 @@ int main(void)
     n = malloc(sizeof(node));
     if (n == NULL)
     {
+        free(list->next);
+        free(list);
         return 1;
     }
     n->number = 3;
@@ -59,4 +62,5 @@ int main(void)
         free(list);
         list = tmp;
     }
+    return 0;
 }

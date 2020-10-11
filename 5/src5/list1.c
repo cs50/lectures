@@ -21,6 +21,7 @@ int main(void)
     int *tmp = malloc(4 * sizeof(int));
     if (tmp == NULL)
     {
+        free(list);
         return 1;
     }
 
@@ -47,4 +48,5 @@ int main(void)
 
     // Free list
     free(list);
+    return 0;
 }

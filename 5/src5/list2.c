@@ -21,6 +21,7 @@ int main(void)
     int *tmp = realloc(list, 4 * sizeof(int));
     if (tmp == NULL)
     {
+        free(list);
         return 1;
     }
     list = tmp;
@@ -36,4 +37,5 @@ int main(void)
 
     // Free list
     free(list);
+    return 0;
 }
