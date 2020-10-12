@@ -66,6 +66,7 @@
 
 ## Week 6
 
+6/hogwarts/hogwarts.py
 1/agree2.py
 
 6/speech/*
