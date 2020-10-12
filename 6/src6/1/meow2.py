@@ -7,3 +7,6 @@ def main():
 # Meow once
 def meow():
     print("meow")
+
+
+meow()
