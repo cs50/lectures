@@ -1,7 +1,5 @@
 # Implements a phone book
 
-import sys
-
 from cs50 import get_string
 
 people = {

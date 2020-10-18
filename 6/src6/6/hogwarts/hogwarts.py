@@ -11,11 +11,11 @@ houses = {
 }
 
 # Count votes
-with open("Sorting Hat - Form Responses 1.csv", "r") as file:
+with open("Sorting Hat (Responses) - Form Responses 1.csv", "r") as file:
     reader = csv.reader(file)
     next(reader)
     for row in reader:
-        houses[row[3]] += 1
+        houses[row[1]] += 1
 
 # Print counts
 for house in houses:

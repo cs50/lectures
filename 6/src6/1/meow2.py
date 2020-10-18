@@ -9,4 +9,4 @@ def meow():
     print("meow")
 
 
-meow()
+main()

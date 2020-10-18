@@ -10,4 +10,4 @@ def meow(n):
         print("meow")
 
 
-meow()
+main()
