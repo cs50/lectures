@@ -11,13 +11,13 @@ with open("Favorite TV Shows - Form Responses 1.csv", "r") as file:
     # Create DictReader
     reader = csv.DictReader(file)
 
-    # Iterate over CSV file, adding each (uppercased) title to dictionary
+    # Iterate over CSV file
     for row in reader:
 
         # Canoncalize title
         title = row["title"].strip().upper()
 
-        # Count title
+        # Update counter
         if title in titles:
             titles[title] += 1
         else:
