@@ -1,15 +1,9 @@
-# Imports titles and genres from CSV into a SQLite database
+# Searches CSV for popularity of a title
 
-import cs50
 import csv
 
-# Create database
-open("favorites.db", "w").close()
-db = cs50.SQL("sqlite:///favorites.db")
-
-# Create tables
-db.execute("CREATE TABLE shows (id INTEGER, title TEXT, PRIMARY KEY(id))")
-db.execute("CREATE TABLE genres (show_id INTEGER, genre TEXT, FOREIGN KEY(show_id) REFERENCES shows(id))")
+# Prompt user for title
+title = input("Title: ").strip().upper()
 
 # Open CSV file
 with open("Favorite TV Shows - Form Responses 1.csv", "r") as file:
@@ -17,15 +11,11 @@ with open("Favorite TV Shows - Form Responses 1.csv", "r") as file:
     # Create DictReader
     reader = csv.DictReader(file)
 
-    # Iterate over CSV file
+    # Iterate over CSV file, counting favorites
+    counter = 0
     for row in reader:
+        if row["title"].strip().upper() == title:
+            counter += 1
 
-        # Canoncalize title
-        title = row["title"].strip().upper()
-
-        # Insert title
-        id = db.execute("INSERT INTO shows (title) VALUES(?)", title)
-
-        # Insert genres
-        for genre in row["genres"].split(", "):
-            db.execute("INSERT INTO genres (show_id, genre) VALUES(?, ?)", id, genre)
+# Print popularity
+print(counter)
