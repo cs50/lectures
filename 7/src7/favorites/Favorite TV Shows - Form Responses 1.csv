@@ -1,0 +1,515 @@
+Timestamp,title,genres
+10/19/2020 1:41:38,Punisher,"Action, Adventure, Comedy, Crime, Romance, Sci-Fi, War"
+10/19/2020 13:34:57,The Office,Comedy
+10/19/2020 13:35:01,Breaking Bad,"Crime, Drama, Thriller"
+10/19/2020 13:35:01,new girl,"Comedy, Romance"
+10/19/2020 13:35:02,archer,"Action, Adventure, Animation, Comedy"
+10/19/2020 13:35:03,The Office,Comedy
+10/19/2020 13:35:03,Brooklyn99,Comedy
+10/19/2020 13:35:03,Fleabag,"Comedy, Drama"
+10/19/2020 13:35:03,community,Comedy
+10/19/2020 13:35:03,Suits,Drama
+10/19/2020 13:35:04,Gilmore Girls,"Comedy, Family"
+10/19/2020 13:35:04,Parks and Recreation,Comedy
+10/19/2020 13:35:04,Umbrella Academy,"Comedy, Drama, Mystery, Sci-Fi"
+10/19/2020 13:35:04,avatar the last airbender,"Action, Adventure, Animation"
+10/19/2020 13:35:06,New Girl,Comedy
+10/19/2020 13:35:06,the office,Comedy
+10/19/2020 13:35:06,The Office,"Comedy, Documentary, Reality-TV"
+10/19/2020 13:35:08,Game of Thrones,Drama
+10/19/2020 13:35:08,Breaking Bad,"Action, Adventure, Crime"
+10/19/2020 13:35:08,Sherlock,"Action, Crime, Mystery, Thriller"
+10/19/2020 13:35:08,Breaking Bad,"Crime, Drama, Thriller"
+10/19/2020 13:35:08,Dragon Ball Z,"Action, Adventure, Animation"
+10/19/2020 13:35:09,Tiny Words,Documentary
+10/19/2020 13:35:09,Love Island ,"Drama, Reality-TV"
+10/19/2020 13:35:09,The 100,Sci-Fi
+10/19/2020 13:35:10,Outer Banks,"Action, Adventure"
+10/19/2020 13:35:10,El Marginal,"Crime, Drama"
+10/19/2020 13:35:10,CS50,"Adventure, Horror, Romance, Thriller"
+10/19/2020 13:35:10,Rick and Morty,"Action, Adventure, Animation, Comedy, Sci-Fi"
+10/19/2020 13:35:11,Lost Girl,Fantasy
+10/19/2020 13:35:11,Sex education,Comedy
+10/19/2020 13:35:11,Game of Thrones,Fantasy
+10/19/2020 13:35:12,Money Heist,"Action, Adventure, Crime, Drama, Thriller"
+10/19/2020 13:35:12,The Office ,Comedy
+10/19/2020 13:35:13,Crash Landing on You,"Action, Comedy, Drama, Romance, Thriller"
+10/19/2020 13:35:13,Community,Comedy
+10/19/2020 13:35:13,Tom and Jerry,"Animation, Family"
+10/19/2020 13:35:13,Rick and Morty,"Animation, Comedy, Sci-Fi"
+10/19/2020 13:35:13,Avatar: The Last Airbender,"Action, Adventure, Animation, Comedy, Family"
+10/19/2020 13:35:14,Friends,Comedy
+10/19/2020 13:35:14,Stranger things,"Fantasy, Sci-Fi"
+10/19/2020 13:35:14,survivor,"Family, Reality-TV"
+10/19/2020 13:35:14,The Office,Comedy
+10/19/2020 13:35:14,The Office,"Comedy, Reality-TV"
+10/19/2020 13:35:14,Frasier,Comedy
+10/19/2020 13:35:14,Suits,Drama
+10/19/2020 13:35:14,The Office,Comedy
+10/19/2020 13:35:15,Midsomer Murders,Crime
+10/19/2020 13:35:15,Friends,Comedy
+10/19/2020 13:35:15,Parks & Recreation ,Comedy
+10/19/2020 13:35:15,the office,"Comedy, Documentary"
+10/19/2020 13:35:16,The Good Place,"Comedy, Drama, Fantasy"
+10/19/2020 13:35:16,Love on the Spectrum,"Documentary, Family, Reality-TV"
+10/19/2020 13:35:16,Euphoria,Drama
+10/19/2020 13:35:16,The Mandalorian,"Action, Adventure, Fantasy, Sci-Fi, Thriller"
+10/19/2020 13:35:16,Seinfeld,Comedy
+10/19/2020 13:35:16,The Office,Comedy
+10/19/2020 13:35:17,The Boys,"Action, Adventure, Comedy, Fantasy, Sci-Fi, Thriller"
+10/19/2020 13:35:17,Zeta Gundam,"Animation, Sci-Fi"
+10/19/2020 13:35:17,Mad Men,Drama
+10/19/2020 13:35:17,Peaky Blinders,Drama
+10/19/2020 13:35:17,Dark,Sci-Fi
+10/19/2020 13:35:18,Game of Thrones,"Action, Drama, Fantasy, History, Mystery"
+10/19/2020 13:35:18,Stranger things,"Action, Adventure, Sci-Fi"
+10/19/2020 13:35:18,the office ,Comedy
+10/19/2020 13:35:19,New Girl,"Comedy, Romance, Western"
+10/19/2020 13:35:19,breaking bad,"Action, Crime"
+10/19/2020 13:35:19,The Bachelor/Bachelorette,"Reality-TV, Romance"
+10/19/2020 13:35:19,Better Call Saul,Drama
+10/19/2020 13:35:20,Big Mouth,Comedy
+10/19/2020 13:35:20,Silicon Valley,Comedy
+10/19/2020 13:35:20,Bojack Horeseman,"Comedy, Drama, Reality-TV"
+10/19/2020 13:35:22,JoJo's Bizarre Adventure,"Action, Animation"
+10/19/2020 13:35:22,Haikyuu!!,"Animation, Sport"
+10/19/2020 13:35:22,Girlfriends,"Comedy, Romance"
+10/19/2020 13:35:23,Seinfeld,Comedy
+10/19/2020 13:35:24,Emily in Paris,Drama
+10/19/2020 13:35:25,Always Sunny in Philadelphia ,"Comedy, Family"
+10/19/2020 13:35:25,Spongebob,"Action, Adventure, Animation"
+10/19/2020 13:35:25,Big Bang Theory,Comedy
+10/19/2020 13:35:25,Hunting Hitler,"Documentary, History"
+10/19/2020 13:35:25,Elementary,"Crime, Drama, Mystery"
+10/19/2020 13:35:25,Boondocks,"Animation, Comedy"
+10/19/2020 13:35:26,Suits,"Comedy, Crime, Drama, Mystery, Romance, Talk-Show"
+10/19/2020 13:35:26,Twin Peaks,"Crime, Mystery, Sci-Fi, Thriller"
+10/19/2020 13:35:26,Breaking Bad,"Crime, Drama, Thriller"
+10/19/2020 13:35:26,Game of Thrones,"Action, Adventure, Drama, Fantasy"
+10/19/2020 13:35:27,La casa de papel,Action
+10/19/2020 13:35:27,Breaking Bad,"Documentary, Drama"
+10/19/2020 13:35:27,Stranger Things,"Action, Adventure, Fantasy, Sci-Fi"
+10/19/2020 13:35:27,Bones,Crime
+10/19/2020 13:35:27,Avatar the Last Airbender,"Action, Adventure, Animation, Fantasy"
+10/19/2020 13:35:27,Modern Family,"Comedy, Family"
+10/19/2020 13:35:27,Hannibal,"Crime, Horror, Thriller"
+10/19/2020 13:35:27,Criminal Minds,"Action, Crime, Thriller"
+10/19/2020 13:35:28,The IT crowd,Comedy
+10/19/2020 13:35:28,Blue Planet,Documentary
+10/19/2020 13:35:28,Lucifer,Comedy
+10/19/2020 13:35:28,Big Bang Theory,Comedy
+10/19/2020 13:35:28,Big Bang Theory,Comedy
+10/19/2020 13:35:28,Naruto: Shippuden,"Action, Animation"
+10/19/2020 13:35:28,The office,Comedy
+10/19/2020 13:35:29,Game of Thrones,"Drama, Fantasy"
+10/19/2020 13:35:29,Comedy,Comedy
+10/19/2020 13:35:29,CS50 with David Malan,"Action, Adventure, Drama, Horror"
+10/19/2020 13:35:29,The Amazing Race,"Game-Show, Reality-TV"
+10/19/2020 13:35:29,Futurama,Animation
+10/19/2020 13:35:29,One Tree Hill,"Drama, Family, Romance, Sport"
+10/19/2020 13:35:29,Strainger things,"Adventure, Drama"
+10/19/2020 13:35:30,Friends,Comedy
+10/19/2020 13:35:30,lost,"Adventure, Drama, Mystery"
+10/19/2020 13:35:31,Jimmy fallon,"Action, Crime, News, Sport"
+10/19/2020 13:35:31,Bojack Horseman,"Animation, Drama"
+10/19/2020 13:35:31,Ozark,"Action, Crime, Drama"
+10/19/2020 13:35:32,The Umbrella Academy,"Action, Mystery, Sci-Fi"
+10/19/2020 13:35:32,The Walking Dead,Drama
+10/19/2020 13:35:32,Strong Woman Bong Soon,"Action, Comedy, Drama, Romance"
+10/19/2020 13:35:32,Psych,"Action, Crime, Drama, Family, Mystery"
+10/19/2020 13:35:32,Suits,"Drama, Mystery, Reality-TV"
+10/19/2020 13:35:33,Supernatural,"Action, Crime, Drama"
+10/19/2020 13:35:33,How to get away,"Drama, Thriller"
+10/19/2020 13:35:33,Avatar the last Airbender,Animation
+10/19/2020 13:35:33,Breaking Bad,"Action, Comedy, Crime, Drama"
+10/19/2020 13:35:34,Taboo,"Adventure, Drama, History, Mystery, War"
+10/19/2020 13:35:34,Breaking Bad,"Crime, Drama, Family, Thriller"
+10/19/2020 13:35:34,Breaking Bad,"Drama, Thriller"
+10/19/2020 13:35:35,CS50,"Comedy, Horror"
+10/19/2020 13:35:35,F.R.I.E.N.D.S,"Comedy, Drama, Romance, Western"
+10/19/2020 13:35:35,Game of Thrones,"Action, Adventure, Fantasy"
+10/19/2020 13:35:35,The Good Place,Comedy
+10/19/2020 13:35:35,Breaking Bad,"Action, Crime, Drama, Mystery, Thriller"
+10/19/2020 13:35:35,The Flash,"Action, Sci-Fi"
+10/19/2020 13:35:35,Naruto ,"Action, Adventure, Animation"
+10/19/2020 13:35:35,Twin Peaks,"Comedy, Drama, Horror, Mystery"
+10/19/2020 13:35:35,The Office,Comedy
+10/19/2020 13:35:35,The Simpsons,Comedy
+10/19/2020 13:35:35,The Office,Comedy
+10/19/2020 13:35:35,Friends,Comedy
+10/19/2020 13:35:35,The Office,Comedy
+10/19/2020 13:35:36,Shigatsu Wa Kimi No Uso,Animation
+10/19/2020 13:35:36,Money Heist,Action
+10/19/2020 13:35:36,Fleabag,"Drama, Family, Romance"
+10/19/2020 13:35:36,Tiger King,Drama
+10/19/2020 13:35:37,Buffy the Vampire Slayer,Drama
+10/19/2020 13:35:37,The Big Bang Theory,Comedy
+10/19/2020 13:35:37,The Big Bang Theory,Comedy
+10/19/2020 13:35:37,Gilmore Girls,"Comedy, Drama"
+10/19/2020 13:35:37,Community,"Biography, Comedy, Documentary, Fantasy, History, Reality-TV, Sci-Fi, Short, Talk-Show, Western"
+10/19/2020 13:35:38,Good Luck Charlie,Comedy
+10/19/2020 13:35:38,Love O2O,Romance
+10/19/2020 13:35:38,Parks and Recreation,Comedy
+10/19/2020 13:35:39,Black Clover,"Action, Adventure, Animation, Comedy, Fantasy"
+10/19/2020 13:35:39,Riverdale,"Action, Crime, Drama, Romance"
+10/19/2020 13:35:39,Two and a Half Men!,"Action, Drama, Family, Sci-Fi, Western"
+10/19/2020 13:35:39,Haunting of Hill House,Horror
+10/19/2020 13:35:40,Friends,Comedy
+10/19/2020 13:35:40,Narcos,Action
+10/19/2020 13:35:41,American got talent,Reality-TV
+10/19/2020 13:35:41,Digimon,"Action, Adventure, Drama"
+10/19/2020 13:35:41,Rodies,"Action, Adventure, Game-Show, Reality-TV, Thriller"
+10/19/2020 13:35:41,Ted Lasso,"Comedy, Drama"
+10/19/2020 13:35:41,Person of Interest,Mystery
+10/19/2020 13:35:41,Scrubs,Comedy
+10/19/2020 13:35:42,The Big Bang Theory,Comedy
+10/19/2020 13:35:42,The Office,"Comedy, Family, Romance"
+10/19/2020 13:35:42,Miraculous: Tales of Ladybug and Chat Noir,"Action, Adventure, Animation, Fantasy, Romance"
+10/19/2020 13:35:42,sex education,"Comedy, Drama"
+10/19/2020 13:35:42,A journey of a wild David CS50,Documentary
+10/19/2020 13:35:42,The Sopranos,"Comedy, Crime, Drama"
+10/19/2020 13:35:43,Merlin,Sci-Fi
+10/19/2020 13:35:43,Fleabag,"Comedy, Drama, Short"
+10/19/2020 13:35:43,Supernatural,"Action, Adventure, Fantasy, Mystery, Sci-Fi"
+10/19/2020 13:35:43,Parks & Rec ,Comedy
+10/19/2020 13:35:43,FRIENDS,Comedy
+10/19/2020 13:35:44,Google documentary,Documentary
+10/19/2020 13:35:44,The Expanse,"Action, Sci-Fi"
+10/19/2020 13:35:44,The Big Bang Theory,Comedy
+10/19/2020 13:35:45,Alf,Comedy
+10/19/2020 13:35:45,Futurama,"Animation, Comedy"
+10/19/2020 13:35:45,Cs50 With David sir,"Fantasy, Thriller"
+10/19/2020 13:35:45,HIMYM,"Action, Adventure, Comedy, Drama, Music, Romance"
+10/19/2020 13:35:45,Brooklyn 99,Comedy
+10/19/2020 13:35:46,Breaking Bad,Crime
+10/19/2020 13:35:46,Suits,"Action, Adventure, Crime, Fantasy, Reality-TV, Sci-Fi, Sport, Thriller, Western"
+10/19/2020 13:35:46,stranger things,"Action, Adventure, Comedy, Drama, Family, Fantasy"
+10/19/2020 13:35:46,Black Mirror,"Sci-Fi, Thriller"
+10/19/2020 13:35:46,The Office,Comedy
+10/19/2020 13:35:47,Family Guy,Comedy
+10/19/2020 13:35:47,Tarak Mehta ka Ooltah Chasmah,Comedy
+10/19/2020 13:35:47,Breaking Bad,"Action, Crime, Drama, Western"
+10/19/2020 13:35:47,Avatar: The Last Airbender,"Adventure, Animation, Fantasy"
+10/19/2020 13:35:47,CS50,"Adventure, Horror"
+10/19/2020 13:35:47,Friends,Comedy
+10/19/2020 13:35:47,sherlock,"Crime, Drama, Mystery, Thriller"
+10/19/2020 13:35:47,Battlestar Galactica,"Action, Drama, Sci-Fi, War"
+10/19/2020 13:35:47,Breaking bad,Drama
+10/19/2020 13:35:47,Grey's Anatomy,Reality-TV
+10/19/2020 13:35:48,The Office,Comedy
+10/19/2020 13:35:48,Grey's Anatomy,Drama
+10/19/2020 13:35:48,Lucifer,Drama
+10/19/2020 13:35:48,Futurama,"Action, Adventure, Animation, Comedy, Sci-Fi"
+10/19/2020 13:35:49,Game of Thrones,"Action, Adventure, Fantasy, Sci-Fi"
+10/19/2020 13:35:49,Stepsis makes out with mom,Comedy
+10/19/2020 13:35:49,Games Of Thrones,"Adventure, Drama, Sci-Fi"
+10/19/2020 13:35:49,Breaking Bad,"Drama, History, Horror, Musical, Mystery, Romance, Thriller"
+10/19/2020 13:35:49,Dexter,Drama
+10/19/2020 13:35:49,Big Bang Theory,Comedy
+10/19/2020 13:35:49,Naruto Shippuden,"Action, Adventure, Animation, Fantasy"
+10/19/2020 13:35:50,How I Met Your Mother,"Comedy, Family, Romance"
+10/19/2020 13:35:50,Grey's Anatomy,Drama
+10/19/2020 13:35:50,The Good Place,"Fantasy, Mystery, Sci-Fi"
+10/19/2020 13:35:50,X-Files,Sci-Fi
+10/19/2020 13:35:50,Friends,"Comedy, Romance"
+10/19/2020 13:35:50,Supernatural,"Action, Fantasy, Musical"
+10/19/2020 13:35:51,call my manager,"Comedy, Drama, Fantasy"
+10/19/2020 13:35:51,13 reasons why,"Crime, Mystery, Thriller"
+10/19/2020 13:35:51,The Office,Comedy
+10/19/2020 13:35:52,IT Crowd,Comedy
+10/19/2020 13:35:52,Glee,Musical
+10/19/2020 13:35:52,your mom,Action
+10/19/2020 13:35:52,nathan for you,Comedy
+10/19/2020 13:35:52,LOST,"Action, Adventure, Drama"
+10/19/2020 13:35:53,The Office,Comedy
+10/19/2020 13:35:53,The Mentalist,"Crime, Drama, Mystery"
+10/19/2020 13:35:53,Parks and Recreation,Comedy
+10/19/2020 13:35:53,The Office,Comedy
+10/19/2020 13:35:53,The Blacklist,Crime
+10/19/2020 13:35:53,The Boys,Action
+10/19/2020 13:35:53,Sense 8,"Documentary, Fantasy, Sci-Fi"
+10/19/2020 13:35:53,Elite,Mystery
+10/19/2020 13:35:53,the good place,"Comedy, Family"
+10/19/2020 13:35:54,How i met your mother,Comedy
+10/19/2020 13:35:54,90- Day Fiance ,Reality-TV
+10/19/2020 13:35:54,West wing,Drama
+10/19/2020 13:35:54,Sherlock,"Adventure, Musical, War"
+10/19/2020 13:35:54,Archie Bunker's Place,"Comedy, Drama, Family"
+10/19/2020 13:35:54,Suits,Drama
+10/19/2020 13:35:54,agents of shield,"Action, Adventure, Comedy, Sci-Fi, Thriller"
+10/19/2020 13:35:54,The Leftovers,Mystery
+10/19/2020 13:35:54,peaky blinders ,"Action, Adventure, Crime, Drama, Thriller"
+10/19/2020 13:35:55,The Twilight Zone,Sci-Fi
+10/19/2020 13:35:55,Lost,"Action, Adventure, Fantasy, Sci-Fi, Thriller"
+10/19/2020 13:35:56,Planet Earth,Documentary
+10/19/2020 13:35:56,Game of Thrones,"Adventure, Drama, Fantasy"
+10/19/2020 13:35:56,Silicon Valley,Comedy
+10/19/2020 13:35:56,Game of thrones,"Action, Adventure, Fantasy, Horror, Mystery, Thriller"
+10/19/2020 13:35:56,Friends,Comedy
+10/19/2020 13:35:56,Ahmed Dawoud,"Adventure, Sci-Fi"
+10/19/2020 13:35:57,Twin Peaks,"Horror, Mystery, Sci-Fi"
+10/19/2020 13:35:57,Friends etc.,"Action, Adventure, Comedy, Fantasy, Horror, Sci-Fi, War"
+10/19/2020 13:35:57,The Late Late Show with James Corden,Talk-Show
+10/19/2020 13:35:57,lost,"Adventure, Comedy, Crime, Drama, Family, Mystery, Sci-Fi"
+10/19/2020 13:35:57,Kapil Sharma Show,"Comedy, History, Sci-Fi"
+10/19/2020 13:35:57,The 100,"Action, Adventure"
+10/19/2020 13:35:57,CS50 with David Malan,"Comedy, Sci-Fi, Thriller"
+10/19/2020 13:35:57,F.R.I.E.N.D.S.,Comedy
+10/19/2020 13:35:57,Hawaii 50,"Action, Crime"
+10/19/2020 13:35:57,How I Met Your Mother,"Comedy, Musical, Romance"
+10/19/2020 13:35:58,CS50 with David Malan,"Action, Comedy, Drama, Horror, Sci-Fi"
+10/19/2020 13:35:58,The big bang theory,Comedy
+10/19/2020 13:35:58,Ozark,Action
+10/19/2020 13:35:58,The Good Place,"Comedy, Fantasy, Romance"
+10/19/2020 13:35:58,Jimmy Kimmel,"Comedy, Talk-Show"
+10/19/2020 13:35:58,Dexter,Thriller
+10/19/2020 13:35:59,Friends,Comedy
+10/19/2020 13:35:59,NCIS,"Action, Crime"
+10/19/2020 13:35:59,Naruto,"Action, Adventure, Animation"
+10/19/2020 13:35:59,the clone wars,"Action, Adventure, Animation, Fantasy, Sci-Fi, War"
+10/19/2020 13:35:59,Big Bang Theory,"Comedy, Drama"
+10/19/2020 13:35:59,Game of thrones,"Action, Adventure"
+10/19/2020 13:36:00,friends ,"Comedy, Family, Fantasy, Romance"
+10/19/2020 13:36:00,The 100,"Action, Sci-Fi"
+10/19/2020 13:36:00,The office,Comedy
+10/19/2020 13:36:00,Scam 1992,"Biography, Drama, Reality-TV"
+10/19/2020 13:36:00,Space Battleship Yamato 2199,"Action, Adventure, Animation, Sci-Fi"
+10/19/2020 13:36:01,office,"Action, Adventure, Animation, Biography"
+10/19/2020 13:36:01,Modern Family,Comedy
+10/19/2020 13:36:01,Friends,"Comedy, Drama, Romance"
+10/19/2020 13:36:01,I don't watch. ,Thriller
+10/19/2020 13:36:01,The Simpsons,"Animation, Comedy"
+10/19/2020 13:36:02,Avatar the last airbender ,"Action, Adventure, Animation"
+10/19/2020 13:36:02,Grey's Anatomy,Drama
+10/19/2020 13:36:02,The amazing world of Gumball,Animation
+10/19/2020 13:36:02,One Piece,"Action, Adventure, Animation"
+10/19/2020 13:36:02,Money Heist,Thriller
+10/19/2020 13:36:03,bojack horseman,"Comedy, Drama, Family"
+10/19/2020 13:36:03,Rick and Morty,"Adventure, Animation, Comedy, Fantasy"
+10/19/2020 13:36:03,games of thrones,"Action, Adventure, Thriller, War"
+10/19/2020 13:36:03,The Wire,"Crime, Drama"
+10/19/2020 13:36:03,Mad Men,Drama
+10/19/2020 13:36:03,Mr Robot,"Drama, Thriller"
+10/19/2020 13:36:03,Ozark,"Adventure, Drama"
+10/19/2020 13:36:04,Breaking Bad,"Action, Drama, Sci-Fi"
+10/19/2020 13:36:04,Sherlock ,"Adventure, Drama, Mystery"
+10/19/2020 13:36:04,Star Trek,Sci-Fi
+10/19/2020 13:36:04,got,War
+10/19/2020 13:36:04,New Amsterdam,Drama
+10/19/2020 13:36:05,Drake and Josh,"Adventure, Comedy, Drama, Family"
+10/19/2020 13:36:05,"Anne with an ""E""","Action, Adventure, Biography, Comedy, Documentary, Mystery, Talk-Show"
+10/19/2020 13:36:05,Mom,Comedy
+10/19/2020 13:36:05,breaking bad & GOT,"Action, Adventure, War"
+10/19/2020 13:36:06,Game of thrones,"Action, Adventure"
+10/19/2020 13:36:06,Futurama,Animation
+10/19/2020 13:36:06,24,"Action, Adventure"
+10/19/2020 13:36:06,Brooklyn Nine-Nine,"Action, Comedy"
+10/19/2020 13:36:07,The Flash,Sci-Fi
+10/19/2020 13:36:07,Silicon Valley,Comedy
+10/19/2020 13:36:07,Longmire,Western
+10/19/2020 13:36:08,Doctor Who,Sci-Fi
+10/19/2020 13:36:08,Breaking Bad,Drama
+10/19/2020 13:36:09,Big Bang Theory,"Comedy, Mystery, Sci-Fi, Thriller"
+10/19/2020 13:36:09,The Big Bang Theory,"Comedy, Documentary, Mystery, Sci-Fi"
+10/19/2020 13:36:09,Breaking Bad,"Crime, Drama, Family"
+10/19/2020 13:36:09,The amazing world of Gumball,Animation
+10/19/2020 13:36:10,Supernatural,"Action, Comedy, Horror"
+10/19/2020 13:36:10,CS50x With David J Malan and Brian Yu,"Action, Adventure, Comedy, Documentary, Drama, Horror, Mystery, Thriller"
+10/19/2020 13:36:10,Brooklyn Nine Nine,"Action, Comedy, Drama"
+10/19/2020 13:36:10,newsroom,News
+10/19/2020 13:36:10,Dance Moms,"Biography, Comedy"
+10/19/2020 13:36:11,Navicis,Crime
+10/19/2020 13:36:11,Game of Thrones,"Action, Drama, Fantasy, War"
+10/19/2020 13:36:12,Lost,"Action, Drama, Fantasy, Sci-Fi"
+10/19/2020 13:36:11,Gilmore Girls,"Drama, Family"
+10/19/2020 13:36:11,Greys Anatomy ,"Drama, Family"
+10/19/2020 13:36:12,Breaking Bad,"Action, Crime, Drama, Thriller"
+10/19/2020 13:36:12,The 100,"Action, Adventure"
+10/19/2020 13:36:12,the letter of the king,"Action, Adventure, Thriller, Western"
+10/19/2020 13:36:12,Psych,"Crime, Mystery, Thriller"
+10/19/2020 13:36:13,Game of Thrones,"Adventure, Documentary, Drama, Sci-Fi"
+10/19/2020 13:36:13,Schitts Creek,Comedy
+10/19/2020 13:36:14,Money Heist,"Action, Thriller"
+10/19/2020 13:36:14,Castle,"Comedy, Crime, Drama"
+10/19/2020 13:36:14,Friends,Comedy
+10/19/2020 13:36:14,Game of Thrones,"Adventure, Drama, Fantasy"
+10/19/2020 13:36:14,Avatar the Last Airbender,"Action, Adventure, Animation, Comedy, Fantasy"
+10/19/2020 13:36:15,X files,"Action, Adventure, Crime, Documentary, Sci-Fi, Thriller"
+10/19/2020 13:36:16,friends,"Action, Adventure, Animation, Comedy, Crime, Drama, Family, Horror, Mystery"
+10/19/2020 13:36:16,Parks and Recreation,"Action, Adventure, Animation, Comedy, Crime"
+10/19/2020 13:36:16,Silicon Valley,Comedy
+10/19/2020 13:36:16,Top Gear ,Comedy
+10/19/2020 13:36:16,SUITS,Western
+10/19/2020 13:36:16,Westworld,"Action, Adventure, Fantasy, Sci-Fi, Thriller"
+10/19/2020 13:36:16,CS50 with David J Malan,"Drama, Horror"
+10/19/2020 13:36:17,Sex Education,Comedy
+10/19/2020 13:36:17,Doctor Bull,"Comedy, Crime"
+10/19/2020 13:36:17,The Boys,"Action, Fantasy, Sci-Fi"
+10/19/2020 13:36:18,CS50 Introduction to Computer Science,"Adventure, Crime, Mystery"
+10/19/2020 13:36:17,Friends etc.,"Action, Adventure, Comedy, Fantasy, Horror, Sci-Fi, War"
+10/19/2020 13:36:17,La Casa de Papel,Action
+10/19/2020 13:36:18,Cs50,"Action, Adventure, Comedy, Drama, Horror, War"
+10/19/2020 13:36:18,Putin,"Action, Adventure, Sport, Talk-Show"
+10/19/2020 13:36:18,the office ,"Animation, Comedy, Romance"
+10/19/2020 13:36:18,The amazing world of Gumball,Animation
+10/19/2020 13:36:18,Mad men,Drama
+10/19/2020 13:36:18,.,"Adventure, Animation, Comedy, Family, Fantasy, Game-Show, Horror, Mystery, Romance, Sci-Fi"
+10/19/2020 13:36:18,Suits,"Comedy, Drama, Thriller"
+10/19/2020 13:36:18,friends,Comedy
+10/19/2020 13:36:18,Chuck,"Action, Adventure"
+10/19/2020 13:36:18,Vikings,History
+10/19/2020 13:36:18,The Crown,"Documentary, Drama, History"
+10/19/2020 13:36:19,Koombiyo,"Action, Comedy, Thriller"
+10/19/2020 13:36:19,breaking bad & GOT,"Action, Adventure, War"
+10/19/2020 13:36:19,Friends,Comedy
+10/19/2020 13:36:19,Friends,"Comedy, Drama"
+10/19/2020 13:36:19,Law and Order,Crime
+10/19/2020 13:36:19,24,"Action, Adventure"
+10/19/2020 13:36:19,The Office,"Comedy, Drama"
+10/19/2020 13:36:19,Soul Eater,"Fantasy, Mystery"
+10/19/2020 13:36:19,One Piece,Adventure
+10/19/2020 13:36:19,CS50,Horror
+10/19/2020 13:36:19,Stranger Things,"Fantasy, Sci-Fi"
+10/19/2020 13:36:20,JustAddMagic,Mystery
+10/19/2020 13:36:20,Kamichama Karin,Animation
+10/19/2020 13:36:20,Alf,Comedy
+10/19/2020 13:36:20,Julie and the phantoms,"Action, Adventure, Comedy, Crime, Drama, Family, Fantasy, Game-Show"
+10/19/2020 13:36:20,Sherlocks; Friends ,"Action, Crime, Drama"
+10/19/2020 13:36:20,Bones,Crime
+10/19/2020 13:36:20,The Handmaid's Tale,"Drama, Fantasy"
+10/19/2020 13:36:21,Hawaii Five O,"Action, Animation, Fantasy, Game-Show, History, Music, Musical, Reality-TV, Sci-Fi, Short, Thriller, War, Western"
+10/19/2020 13:36:22,bojack horseman,"Comedy, Drama, Family"
+10/19/2020 13:36:22,Karan Singh Rajput Khushali,"Action, Crime, Documentary, Drama, Horror, Mystery, Thriller"
+10/19/2020 13:36:22,Rissoli & Isles,Mystery
+10/19/2020 13:36:22,Homeland,Action
+10/19/2020 13:36:22,friends,"Comedy, Family"
+10/19/2020 13:36:23,NCIS,"Action, Comedy, Crime, Drama"
+10/19/2020 13:36:23,Mentalist ,"Action, Crime, Documentary"
+10/19/2020 13:36:23,Mad Men,"Drama, History"
+10/19/2020 13:36:23,Game Of thrones,"Action, Biography, Sci-Fi, Western"
+10/19/2020 13:36:23,Turkey,Action
+10/19/2020 13:36:24,Sherlock,Crime
+10/19/2020 13:36:24,The promised neverland,"Action, Adventure, Animation, Comedy, Horror, Sci-Fi"
+10/19/2020 13:36:25,Friends,"Comedy, Family"
+10/19/2020 13:36:25,modern family,Comedy
+10/19/2020 13:36:25,Mr. Robot,"Adventure, Animation, Crime, Thriller"
+10/19/2020 13:36:26,Stranger things,Sci-Fi
+10/19/2020 13:36:26,Harry potter,"Animation, Comedy"
+10/19/2020 13:36:27,Marvelous Mrs. Maisel,Comedy
+10/19/2020 13:36:27,Stranger Things,"Mystery, Thriller"
+10/19/2020 13:36:27,DARPA Robotics,"Documentary, Drama, Talk-Show"
+10/19/2020 13:36:27,A life on planet earth,"Biography, Mystery, Reality-TV, Romance, Sci-Fi, Sport"
+10/19/2020 13:36:28,supernatural,"Adventure, Sci-Fi"
+10/19/2020 13:36:28,game of thrones,"Adventure, Animation, Crime"
+10/19/2020 13:36:28,One Piece,"Action, Adventure"
+10/19/2020 13:36:28,Mr Bobot,Thriller
+10/19/2020 13:36:28,Tmkoc,Comedy
+10/19/2020 13:36:29,The Big Bang Theory,Comedy
+10/19/2020 13:36:29,Dexter,"Action, Crime, Drama"
+10/19/2020 13:36:30,The Witcher,"Action, Fantasy"
+10/19/2020 13:36:30,Sherlock,"Comedy, Crime, Drama"
+10/19/2020 13:36:32,The Big Bang Theory,"Comedy, Drama, Short"
+10/19/2020 13:36:32,Game of Thrones,Action
+10/19/2020 13:36:33,Zondag met Lubach,Comedy
+10/19/2020 13:36:33,American horror story,"Action, Biography, Crime, Drama, Mystery, Thriller"
+10/19/2020 13:36:33,The noite,Talk-Show
+10/19/2020 13:36:34,Brooklyn Nine-Nine,Comedy
+10/19/2020 13:36:34,How I met your mother,Comedy
+10/19/2020 13:36:35,Doctor Who,"Action, Adventure, Comedy, Drama, Fantasy, Romance, Sci-Fi"
+10/19/2020 13:36:35,C.I.D,"Adventure, Comedy, Sci-Fi, War"
+10/19/2020 13:36:35,Series of Unfortunate Events,"Comedy, Drama, Mystery"
+10/19/2020 13:36:36,Friends,Comedy
+10/19/2020 13:36:36,95 Kvartal,"Comedy, Music, Sci-Fi"
+10/19/2020 13:36:36,Broadchurch,Crime
+10/19/2020 13:36:38,Twin Peaks,"Adventure, Biography, Comedy, Documentary, History, Musical"
+10/19/2020 13:36:38,friends,Comedy
+10/19/2020 13:36:38,La casa de papel,Action
+10/19/2020 13:36:38,adventure ,"Adventure, Documentary, Drama, Family, Fantasy, Romance, Sci-Fi, Talk-Show"
+10/19/2020 13:36:39,got,"Adventure, Comedy, Drama"
+10/19/2020 13:36:39,Name,Action
+10/19/2020 13:36:40,CS 50,"Drama, Horror"
+10/19/2020 13:36:42,Simpsons,Animation
+10/19/2020 13:36:44,Peep Show,Comedy
+10/19/2020 13:36:44,Better Call Saul,Drama
+10/19/2020 13:36:44,Emily in Paris,Comedy
+10/19/2020 13:36:44,Transplant,Drama
+10/19/2020 13:36:41,American Psycho,"Crime, Thriller"
+10/19/2020 13:36:45,The Lawyer,"Comedy, Documentary, Drama, History, Musical"
+10/19/2020 13:36:47,Game of thrones,Action
+10/19/2020 13:36:48,Friends,Comedy
+10/19/2020 13:36:49,Kally'Mashup,"Comedy, Music"
+10/19/2020 13:36:50,Brazzers ,Romance
+10/19/2020 13:36:50,One Piece,Animation
+10/19/2020 13:36:51,Game of Thrones,Action
+10/19/2020 13:36:51,Lucifer,"Comedy, Crime, Drama"
+10/19/2020 13:36:52,Big Bang Theory,"Action, Adventure, Comedy, History, Sci-Fi, Sport"
+10/19/2020 13:36:55,The Office,"Animation, Comedy, Drama, Horror, Sci-Fi"
+10/19/2020 13:36:56,Batman TAS,"Action, Adventure, Animation, Crime, Fantasy"
+10/19/2020 13:36:56,GREY'S ANATOMY,"Comedy, Romance"
+10/19/2020 13:36:57,Spongebob,Comedy
+10/19/2020 13:36:59,MR Robot,"Action, Sci-Fi, Sport, War"
+10/19/2020 13:36:59,Big Bang Theory,"Action, Adventure, Comedy, History, Sci-Fi, Sport"
+10/19/2020 13:37:01,How I met your mother,"Adventure, Biography, Documentary, Drama, News"
+10/19/2020 13:37:01,GOT,"Action, Adventure, Fantasy"
+10/19/2020 13:37:02,The Office,Comedy
+10/19/2020 13:37:02,LaCasa De Papel,"Crime, Drama"
+10/19/2020 13:37:03,Dupa,"Action, Fantasy, Game-Show, Music"
+10/19/2020 13:37:05,True Outspeak - Olavo de Carvalho,Talk-Show
+10/19/2020 13:37:06,Game of Thrones,Action
+10/19/2020 13:37:08,Stranger Things,"Adventure, Mystery, Sci-Fi"
+10/19/2020 13:37:08,Suits,"Documentary, Drama"
+10/19/2020 13:37:08,Seinfeld,Comedy
+10/19/2020 13:37:08,Breaking Bad,"Action, Crime, Drama"
+10/19/2020 13:37:09,Brooklyn99,"Comedy, Crime"
+10/19/2020 13:37:09,CS50 with David Malan,Horror
+10/19/2020 13:37:09,Avatar: The Last Airbender,Animation
+10/19/2020 13:37:09,Merlin,"Action, Adventure, Fantasy, Mystery"
+10/19/2020 13:37:10,Black Mirror,Sci-Fi
+10/19/2020 13:37:12,micky mouse,"Action, Reality-TV, War"
+10/19/2020 13:37:12,"The Flash, The Kapil Sharma Show, Interstellar","Action, Adventure, Comedy, Sci-Fi"
+10/19/2020 13:37:15,"My Brother, My Brother, and Me","Comedy, Documentary, Drama, Family, Musical, Mystery, Reality-TV, Short, Talk-Show"
+10/19/2020 13:37:15,Narcos,Biography
+10/19/2020 13:37:16,Avatar: The Last Airbender,Animation
+10/19/2020 13:37:17,Parks and Recreation,Comedy
+10/19/2020 13:37:18,Game of Thrones,Action
+10/19/2020 13:37:19,Still Game,Comedy
+10/19/2020 13:37:20,National Geographic in total as a channel,"Biography, Documentary"
+10/19/2020 13:37:21,"All the ""Harry Potter""",Fantasy
+10/19/2020 13:37:27,TMKOC,"Comedy, Family"
+10/19/2020 13:37:28,Game of Thrones,"Action, Adventure"
+10/19/2020 13:37:34,No idea,"Action, Adventure, Crime, Fantasy, Mystery, Sci-Fi"
+10/19/2020 13:37:35,Breaking bad,"Action, Crime, Drama"
+10/19/2020 13:37:38,Game of Thrones,"Action, Adventure"
+10/19/2020 13:37:39,Frinds,Comedy
+10/19/2020 13:37:44,friends,Comedy
+10/19/2020 13:37:45,Wanis Diaries :D,"Comedy, Family"
+10/19/2020 13:37:45,Handmaid's Tale,"Drama, Fantasy, Horror, Mystery, Sci-Fi, Thriller"
+10/19/2020 13:37:46,Game of Thrones,"Action, Adventure"
+10/19/2020 13:37:49,Spongebob Squarepants,"Animation, Comedy"
+10/19/2020 13:37:49,The big bang theory,Family
+10/19/2020 13:37:55,Game of Thrones,"Action, Adventure"
+10/19/2020 13:37:56,Grey’s anatomy,Sci-Fi
+10/19/2020 13:37:56,DR. House,Drama
+10/19/2020 13:37:57,Friends,Comedy
+10/19/2020 13:38:02,The Wire,"Crime, Drama"
+10/19/2020 13:38:06,Game of Thrones,"Action, Adventure, Drama"
+10/19/2020 13:38:07,CS50X with David,"Crime, Thriller"
+10/19/2020 13:38:08,Scooby Doo,"Adventure, Family, Mystery"
+10/19/2020 13:38:13,Friends,Comedy
+10/19/2020 13:38:15,Game of Thrones,"Action, Adventure"
+10/19/2020 13:38:18,kuwtk,"Action, Comedy"
+10/19/2020 13:38:21,friends,Comedy
+10/19/2020 13:38:24,Game of Thrones,"Action, Adventure"
+10/19/2020 13:38:32,Game of Thrones,"Action, Adventure"
+10/19/2020 13:38:32,The Honourable Woman,"Drama, Thriller"
+10/19/2020 13:38:38,"good doctor, Before disaster flight","Documentary, Mystery"
+10/19/2020 13:38:38,Space Runaway Ideon,"Action, Animation, Sci-Fi"
+10/19/2020 13:38:41,Game of Thrones,"Action, Adventure"
+10/19/2020 13:38:49,Game of Thrones,"Action, Adventure"
+10/19/2020 13:38:50,czech public cash,"Action, Adventure, Short"
+10/19/2020 13:40:31,Friends,Comedy
+10/19/2020 13:40:46,Want,Drama
+10/19/2020 13:41:03,Game of thrones,"Action, Adventure, Drama, Fantasy"
+10/19/2020 13:42:05,Madam Secretary,Drama
+10/19/2020 13:42:19,Game of Thrones,"Action, Adventure, History, Thriller, War"
+10/19/2020 13:42:45,Still Game,Comedy
