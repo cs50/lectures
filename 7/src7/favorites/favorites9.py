@@ -5,7 +5,7 @@ import csv
 from cs50 import SQL
 
 # Open database
-db = SQL("sqlite:///favorites.db")
+db = SQL("sqlite:///shows.db")
 
 # Prompt user for title
 title = input("Title: ").strip().upper()

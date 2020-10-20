@@ -4,7 +4,7 @@ import cs50
 import csv
 
 # Create database
-open("favorites.db", "w").close()
+open("shows.db", "w").close()
 db = cs50.SQL("sqlite:///favorites.db")
 
 # Create tables
