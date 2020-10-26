@@ -21,9 +21,9 @@
         </select>
         <script>
 
-            document.querySelector('select').onchange = function() {
+            document.querySelector('select').addEventListener('change', function(event) {
                 document.querySelector('body').style.fontSize = this.value;
-            };
+            });
 
         </script>
     </body>

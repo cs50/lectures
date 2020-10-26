@@ -11,10 +11,10 @@
         </form>
         <script>
 
-            document.querySelector('form').onsubmit = function() {
+            document.querySelector('form').addEventListener('submit', function(event) {
                 alert('hello, ' + document.querySelector('#name').value);
-                return false;
-            };
+                event.preventDefault();
+            });
 
         </script>
     </body>

@@ -6,16 +6,15 @@
 
             document.addEventListener('DOMContentLoaded', function() {
                 let input = document.querySelector('input');
-                input.onkeyup = function() {
+                input.addEventListener('keyup', function(event) {
                     let name = document.querySelector('#name');
                     if (input.value) {
-                        name.innerHTML = input.value;
+                        name.innerHTML = `hello, ${input.value}`;
                     }
                     else {
-                        name.innerHTML = 'whoever you are';
+                        name.innerHTML = 'hello, whoever you are';
                     }
-                    
-                };
+                });
             });
 
         </script>
@@ -25,6 +24,6 @@
         <form>
             <input autocomplete="off" autofocus placeholder="Name" type="text">
         </form>
-        <p>hello, <span id="name"></span></p>
+        <p id="name"></p>
     </body>
 </html>
