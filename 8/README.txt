@@ -27,3 +27,10 @@ blink.html
 geolocation.html
 
 autocomplete.html
+
+api/off.py
+api/on.py
+api/red.py
+api/green.py
+api/blue.py
+api/blink.py
