@@ -5,13 +5,16 @@ headings.html
 list.html
 table.html
 image.html
-link.html
+link0.html
 responsive.html
 
 search.html
 
 css{0,1,2,3}.html
 css4.{html,css}
+
+paragraphs{1,2}.html
+link{1,2}.html
 
 hello{1,2,3,4}.html
 hello4.js
