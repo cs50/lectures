@@ -1,4 +1,4 @@
-# Implements a registration form, storing registrants in a list
+# Implements a registration form, storing registrants in a list, with error messages
 
 from flask import Flask, redirect, render_template, request
 
@@ -21,6 +21,8 @@ def index():
 
 @app.route("/register", methods=["POST"])
 def register():
+
+    # Validate submission
     name = request.form.get("name")
     if not name:
         return render_template("error.html", message="Missing name")
@@ -29,7 +31,11 @@ def register():
         return render_template("error.html", message="Missing sport")
     if sport not in SPORTS:
         return render_template("error.html", message="Invalid sport")
+
+    # Remember registrant
     REGISTRANTS[name] = sport
+
+    # Confirm registration
     return redirect("/registrants")
 
 
