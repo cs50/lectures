@@ -14,21 +14,18 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 
-@app.route("/books")
-def books():
-    session["cart"] = []
+@app.route("/")
+def index():
     books = db.execute("SELECT * FROM books");
     return render_template("books.html", books=books)
 
 
-@app.route("/books/<id>")
-def book(id):
-    books = db.execute("SELECT * FROM books WHERE id = ?", id)
-    return render_template("book.html", book=books[0])
-
-
 @app.route("/cart", methods=["GET", "POST"])
 def cart():
+
+    # Ensure cart exists
+    if "cart" not in session:
+        session["cart"] = []
 
     # POST
     if request.method == "POST":
@@ -38,5 +35,5 @@ def cart():
         return redirect("/cart")
 
     # GET
-    books = db.execute("SELECT * FROM books")
-    return render_template("cart.html", books=books, cart=session["cart"])
+    books = db.execute("SELECT * FROM books WHERE id IN (?)", session["cart"])
+    return render_template("cart.html", books=books)

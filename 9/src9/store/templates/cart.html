@@ -4,8 +4,8 @@
 
     <h1>Cart</h1>
     <ol>
-        {% for id in cart %}
-            <li>{{ books[id].title }}</li>
+        {% for book in books %}
+            <li>{{ book.title }}</li>
         {% endfor %}
     </ol>
 
