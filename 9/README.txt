@@ -1,4 +1,3 @@
-serve.py
 hello*
 froshims*
-words*
+shows*
