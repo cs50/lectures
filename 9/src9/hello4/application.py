@@ -9,5 +9,4 @@ app = Flask(__name__)
 def index():
     if request.method == "POST":
         return render_template("greet.html", name=request.form.get("name", "world"))
-    else:
-        return render_template("index.html")
+    return render_template("index.html")

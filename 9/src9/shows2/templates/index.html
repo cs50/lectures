@@ -15,15 +15,16 @@
         <script>
     
             let input = document.querySelector('input');
-            input.onkeyup = function() {
+            input.addEventListener('keyup', function() {
                 $.get('/search?q=' + input.value, function(shows) {
                     let html = '';
                     for (let id in shows) {
-                        html += '<li>' + shows[id].title + '</li>';
+                        let title = shows[id].title.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
+                        html += '<li>' + title + '</li>';
                     }
                     document.querySelector('ul').innerHTML = html;
                 });
-            };
+            });
 
         </script>
 

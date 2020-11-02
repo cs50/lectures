@@ -26,7 +26,7 @@ def deregister():
     # Forget registrant
     id = request.form.get("id")
     if id:
-        db.execute("DELETE FROM registrants WHERE id = ?", request.form.get("id"))
+        db.execute("DELETE FROM registrants WHERE id = ?", id)
     return redirect("/registrants")
 
 

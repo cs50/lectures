@@ -1,4 +1,4 @@
-# Implements a registration form using checkboxes
+# Implements a registration form using radio buttons
 
 from flask import Flask, render_template, request
 

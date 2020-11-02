@@ -12,7 +12,7 @@ Session(app)
 
 @app.route("/")
 def index():
-    if "name" not in session:
+    if not session.get("name"):
         return redirect("/login")
     return render_template("index.html")
 

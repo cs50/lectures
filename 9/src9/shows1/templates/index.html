@@ -15,11 +15,11 @@
         <script>
     
             let input = document.querySelector('input');
-            input.onkeyup = function() {
+            input.addEventListener('keyup', function() {
                 $.get('/search?q=' + input.value, function(shows) {
                     document.querySelector('ul').innerHTML = shows;
                 });
-            };
+            });
 
         </script>
 

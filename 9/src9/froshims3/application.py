@@ -1,4 +1,4 @@
-# Implements a registration form, storing registrants in a list, with error messages
+# Implements a registration form, storing registrants in a dictionary, with error messages
 
 from flask import Flask, redirect, render_template, request
 
