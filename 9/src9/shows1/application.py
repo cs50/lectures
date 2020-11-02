@@ -17,7 +17,7 @@ def index():
 def search():
     q = request.args.get("q")
     if q:
-        shows = db.execute("SELECT * FROM shows WHERE title LIKE ?", "%" + request.args.get("q") + "%")
+        shows = db.execute("SELECT * FROM shows WHERE title LIKE ?", "%" + q + "%")
     else:
         shows = []
     return render_template("search.html", shows=shows)

@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="initial-scale=1, width=device-width">
-        <title>words</title>
+        <title>shows</title>
     </head>
     <body>
 
@@ -16,8 +16,8 @@
     
             let input = document.querySelector('input');
             input.onkeyup = function() {
-                $.get('/search?q=' + input.value, function(data) {
-                    document.querySelector('ul').innerHTML = data;
+                $.get('/search?q=' + input.value, function(shows) {
+                    document.querySelector('ul').innerHTML = shows;
                 });
             };
 
