@@ -1,3 +1,4 @@
 hello*
 froshims*
+store
 shows*
