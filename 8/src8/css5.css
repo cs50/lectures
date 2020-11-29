@@ -1,19 +1,19 @@
-body
+.centered
 {
     text-align: center;
 }
 
-header
+.large
 {
     font-size: large;
 }
 
-main
+.medium
 {
     font-size: medium;
 }
 
-footer
+.small
 {
     font-size: small;
 }
