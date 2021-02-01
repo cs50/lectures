@@ -7,14 +7,14 @@ pip3 install Pillow
 ```
 
 ```
-agree2.py
-```
-
-```
 # https://github.com/numpy/numpy/issues/15947#issuecomment-686159427
 brew install cmake dlib openblas
 OPENBLAS="$(brew --prefix openblas)" pip3 install numpy
 pip3 install face_recognition
+```
+
+```
+pip3 install pyttsx3
 ```
 
 ```
