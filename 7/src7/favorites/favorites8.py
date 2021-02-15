@@ -5,7 +5,7 @@ import csv
 
 # Create database
 open("shows.db", "w").close()
-db = cs50.SQL("sqlite:///favorites.db")
+db = cs50.SQL("sqlite:///shows.db")
 
 # Create tables
 db.execute("CREATE TABLE shows (id INTEGER, title TEXT, PRIMARY KEY(id))")
