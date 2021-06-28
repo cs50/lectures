@@ -2,5 +2,7 @@
 !.gitignore
 !.cs50.yml
 *.pyc
+*.pdf
+*.zip
 flask_session/
 __pycache__/
