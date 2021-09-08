@@ -1,7 +1,10 @@
-// Design
+// Constants
 
 #include <cs50.h>
 #include <stdio.h>
+
+// Number of points that I lost
+const int MINE = 2;
 
 int main(void)
 {
@@ -9,11 +12,11 @@ int main(void)
     int points = get_int("How many points did you lose? ");
 
     // Compare points against mine
-    if (points < 2)
+    if (points < MINE)
     {
         printf("You lost fewer points than me.\n");
     }
-    else if (points > 2)
+    else if (points > MINE)
     {
         printf("You lost more points than me.\n");
     }

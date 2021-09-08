@@ -17,7 +17,7 @@ int main(void)
     {
         printf("You lost more points than me.\n");
     }
-    else
+    else if (points == 2)
     {
         printf("You lost the same number of points as me.\n");
     }

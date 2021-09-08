@@ -3,8 +3,8 @@ hello1.c
 
 calculator{0,1,2}.c
 
-# Conditionals, Boolean expressions, relational operators; constants
-points{0,1}.c
+# Conditionals, Boolean expressions, relational operators; design; constants
+points{0,1,2}.c
 parity.c
 agree.c
 
