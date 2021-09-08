@@ -1,37 +1,34 @@
 hello0.c
 hello1.c
-addition0.c
-addition1.c
 
-truncation.c
+calculator{0,1,2}.c
 
-conditions.c
+# Conditionals, Boolean expressions, relational operators; constants
+points{0,1}.c
 parity.c
 agree.c
 
-meow0.c
-meow1.c
-meow2.c
-meow3.c
+# Return values, arguments
+meow{0,1,2,3}.c
+discount{0,1}.c
 
-square.c
-power.c
-positive.c
+# Loops
+coins{0,1,2}.c
+blocks{0,1,2}.c
+bricks{0,1,2}.c
 
-mario0.c
-mario1.c
-mario2.c
+# Imprecision
+calculator3.c
 
-mario3.c
-mario4.c
-mario5.c
+# Libraries
+pennies.c
 
-mario6.c
-mario7.c
-mario8.c
-
-imprecision.c
-overflow.c
-
-counter.c
+# Animation
 balloon.c
+
+# Overflow
+counter.c
+
+# UNUSED
+positive.c
+power.c

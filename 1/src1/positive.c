@@ -1,5 +1,8 @@
 // Abstraction and scope
 
+// TODO: guess number between 1 and 100, always 50; number of times HUID lost?
+
+
 #include <cs50.h>
 #include <stdio.h>
 
