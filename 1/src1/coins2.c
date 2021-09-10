@@ -1,7 +1,5 @@
 // Prints a row of n question marks with a loop
 
-// TODO: add get_width() function
-//
 #include <cs50.h>
 #include <stdio.h>
 

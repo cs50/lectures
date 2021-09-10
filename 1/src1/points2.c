@@ -3,11 +3,11 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Number of points that I lost
-const int MINE = 2;
-
 int main(void)
 {
+    // Number of points that I lost
+    const int MINE = 2;
+
     // Prompt user for points
     int points = get_int("How many points did you lose? ");
 

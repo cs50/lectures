@@ -3,8 +3,6 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// TODO: use do-while first, then just use constant
-
 int main(void)
 {
     int n;
