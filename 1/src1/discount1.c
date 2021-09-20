@@ -1,19 +1,19 @@
-// Return value, multiple arguments
+// Return value
 
 #include <cs50.h>
 #include <stdio.h>
 
-float discount(float price, int percentage);
+float discount(float price);
 
 int main(void)
 {
-    float regular_price = get_float("Regular Price: ");
-    float percent_off = get_float("Percent Off: ");
-    printf("Sale Price: %.2f\n", discount(regular_price, percent_off));
+    float regular = get_float("Regular Price: ");
+    float sale = discount(regular);
+    printf("Sale Price: %.2f\n", sale);
 }
 
 // Discount price
-float discount(float price, int percentage)
+float discount(float price)
 {
-    return price * (100 - percentage) / 100;
+    return price * .85;
 }

@@ -1,3 +1,7 @@
+#calculator{3,4}.c
+
+#discount{0,1,2}.c
+
 hello0.c
 hello1.c
 
@@ -19,6 +23,9 @@ bricks{0,1,2}.c
 
 # Imprecision
 calculator3.c
+
+# Truncation
+calculator4.c
 
 # Libraries
 pennies.c

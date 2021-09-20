@@ -6,11 +6,11 @@
 int main(void)
 {
     // Prompt for user's name
-    string s = get_string("Name: ");
+    string name = get_string("Name: ");
 
     // Count number of characters up until '\0' (aka NUL)
     int n = 0;
-    while (s[n] != '\0')
+    while (name[n] != '\0')
     {
         n++;
     }
