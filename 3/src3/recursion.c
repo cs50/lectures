@@ -3,7 +3,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-void draw(int h);
+void draw(int n);
 
 int main(void)
 {
@@ -14,19 +14,19 @@ int main(void)
     draw(height);
 }
 
-void draw(int h)
+void draw(int n)
 {
     // If nothing to draw
-    if (h <= 0)
+    if (n <= 0)
     {
         return;
     }
 
-    // Draw pyramid of height h - 1
-    draw(h - 1);
+    // Draw pyramid of height n - 1
+    draw(n - 1);
 
-    // Draw one more row of width h
-    for (int i = 0; i < h; i++)
+    // Draw one more row of width n
+    for (int i = 0; i < n; i++)
     {
         printf("#");
     }

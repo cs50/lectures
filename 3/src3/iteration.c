@@ -3,7 +3,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-void draw(int h);
+void draw(int n);
 
 int main(void)
 {
@@ -14,10 +14,10 @@ int main(void)
     draw(height);
 }
 
-void draw(int h)
+void draw(int n)
 {
-    // Draw pyramid of height h
-    for (int i = 0; i < h; i++)
+    // Draw pyramid of height n
+    for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < i + 1; j++)
         {
