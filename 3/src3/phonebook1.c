@@ -15,7 +15,7 @@ int main(void)
 {
     person people[2];
 
-    people[0].name = "Brian";
+    people[0].name = "Carter";
     people[0].number = "+1-617-495-1000";
 
     people[1].name = "David";
