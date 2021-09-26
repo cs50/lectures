@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     // Check first three bytes
     if (bytes[0] == 0xff && bytes[1] == 0xd8 && bytes[2] == 0xff)
     {
-        printf("Maybe\n");
+        printf("Yes, possibly\n");
     }
     else
     {

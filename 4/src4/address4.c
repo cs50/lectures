@@ -1,10 +1,10 @@
-// Stores and prints an integer via its address
+// Prints a string
 
+#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
-    int n = 50;
-    int *p = &n;
-    printf("%i\n", *p);
+    string s = "HI!";
+    printf("%s\n", s);
 }

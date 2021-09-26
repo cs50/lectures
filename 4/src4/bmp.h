@@ -1,5 +1,3 @@
-// BMP-related data types based on Microsoft's own
-
 #include <stdint.h>
 
 // These data types are essentially aliases for C/C++ primitive data types. 
