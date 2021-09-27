@@ -8,7 +8,7 @@ address{9,10,11,12}.c
 compare{0,1,2,3,4}.c
 copy0.c
 copy{1,2}.c
-copy3
+copy3.c
 
 memory.c
 garbage.c
@@ -20,4 +20,5 @@ scanf{0,1,2}.c
 phonebook.{csv,c}
 
 jpeg.c
-cp.c
+
+filter/helpers.c
