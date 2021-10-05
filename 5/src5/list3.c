@@ -1,4 +1,4 @@
-// Implements a list of numbers with linked list by prepending
+// Implements a list of numbers with linked list
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,7 +22,7 @@ int main(void)
     {
         return 1;
     }
-    n->number = 3;
+    n->number = 1;
     n->next = NULL;
     list = n;
 
@@ -34,8 +34,8 @@ int main(void)
         return 1;
     }
     n->number = 2;
-    n->next = list;
-    list = n;
+    n->next = NULL;
+    list->next = n;
 
     // Add number to list
     n = malloc(sizeof(node));
@@ -45,9 +45,9 @@ int main(void)
         free(list);
         return 1;
     }
-    n->number = 1;
-    n->next = list;
-    list = n;
+    n->number = 3;
+    n->next = NULL;
+    list->next->next = n;
 
     // Print list
     for (node *tmp = list; tmp != NULL; tmp = tmp->next)

@@ -35,6 +35,7 @@ int main(void)
     n = malloc(sizeof(node));
     if (n == NULL)
     {
+        free_tree(tree);
         return 1;
     }
     n->number = 1;
@@ -46,6 +47,7 @@ int main(void)
     n = malloc(sizeof(node));
     if (n == NULL)
     {
+        free_tree(tree);
         return 1;
     }
     n->number = 3;
@@ -58,6 +60,7 @@ int main(void)
 
     // Free tree
     free_tree(tree);
+    return 0;
 }
 
 void free_tree(node *root)
