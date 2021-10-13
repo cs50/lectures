@@ -34,7 +34,7 @@
 1/meow3.c
 1/meow3.py
 
-1/mario{0,1,2,3,4}.py
+1/mario{0,1,2,3,4,5,6,7}.py
 
 ## Week 2
 
@@ -45,11 +45,6 @@
 2/argv{0,1,2}.py
 
 2/exit.py
-
-
-
-
-
 
 ## Week 3
 
@@ -66,11 +61,12 @@
 
 ## Week 6
 
-6/hogwarts/hogwarts.py
+6/hogwarts/hogwarts{0,1}.py
 1/agree2.py
 
-6/speech/*
+6/speech/speech{0,1}.py
 6/faces/detect.py
 6/faces/recognize.py
+6/listen/listen{0,1,2,3}.py
 6/qr/qr.py
-6/listen/*.py
+6/speech/speech2.py

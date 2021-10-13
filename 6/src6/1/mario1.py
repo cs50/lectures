@@ -1,5 +1,11 @@
-# Prints a row of 4 question marks with a loop
+# Prints a column of n bricks with a loop
 
-for i in range(4):
-    print("?", end="")
-print()
+from cs50 import get_int
+
+while True:
+    n = get_int("Height: ")
+    if n > 0:
+        break
+
+for i in range(n):
+    print("#")

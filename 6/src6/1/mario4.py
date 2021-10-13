@@ -1,4 +1,5 @@
-# Prints a 3-by-3 grid of bricks with loop and * operator
+# Prints a row of 4 question marks with a loop
 
-for i in range(3):
-    print("#" * 3)
+for i in range(4):
+    print("?", end="")
+print()

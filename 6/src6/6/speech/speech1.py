@@ -1,4 +1,4 @@
-# Says hello
+# Says hello to someone
 
 import pyttsx3
 
