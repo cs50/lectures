@@ -1,12 +1,6 @@
 # Installation
 
 ```
-# https://github.com/python-pillow/Pillow/issues/3438#issuecomment-555019284
-export CPATH=`xcrun --show-sdk-path`/usr/include
-pip3 install Pillow
-```
-
-```
 # https://github.com/numpy/numpy/issues/15947#issuecomment-686159427
 brew install cmake dlib openblas
 OPENBLAS="$(brew --prefix openblas)" pip3 install numpy

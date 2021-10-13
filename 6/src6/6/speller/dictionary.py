@@ -14,7 +14,8 @@ def load(dictionary):
     """Load dictionary into memory, returning true if successful else false"""
     file = open(dictionary, "r")
     for line in file:
-        words.add(line.rstrip())
+        word = line.rstrip()
+        words.add(word)
     file.close()
     return True
 

@@ -2,5 +2,6 @@
 
 from cs50 import get_string
 
-s = get_string("Before: ")
-print(f"After:  {s.upper()}")
+before = get_string("Before: ")
+after = before.upper()
+print(f"After:  {after}")

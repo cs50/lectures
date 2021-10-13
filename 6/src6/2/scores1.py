@@ -1,11 +1,13 @@
-# Averages three numbers using an array and a loop
+# Averages three numbers using a list and a loop
 
 from cs50 import get_int
 
 # Get scores
 scores = []
 for i in range(3):
-    scores.append(get_int("Score: "))
+    score = get_int("Score: ")
+    scores.append(score)
 
 # Print average
-print(f"Average: {sum(scores) / len(scores)}")
+average = sum(scores) / len(scores)
+print(f"Average: {average}")

@@ -1,7 +1,3 @@
-#calculator{3,4}.c
-
-#discount{0,1,2}.c
-
 hello0.c
 hello1.c
 
@@ -17,9 +13,7 @@ meow{0,1,2,3}.c
 discount{0,1}.c
 
 # Loops
-coins{0,1,2}.c
-blocks{0,1,2}.c
-bricks{0,1,2}.c
+mario{0,1,2,3}.c
 
 # Imprecision
 calculator3.c
@@ -28,14 +22,10 @@ calculator3.c
 calculator4.c
 
 # Libraries
-pennies.c
+#pennies.c
 
 # Animation
-balloon.c
+#balloon.c
 
 # Overflow
-counter.c
-
-# UNUSED
-positive.c
-power.c
+#counter.c

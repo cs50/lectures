@@ -13,17 +13,17 @@
 1/hello2.py
 1/hello3.py
 
-1/addition0.c
-1/addition*.py
+1/calculator0.c
+1/calculator{0,1,2,3}.py
 
-1/division.py
+1/points1.c
+1/points1.py
 
-1/conditions.c
-1/conditions.py
+1/parity.c
+1/parity.py
 
 1/agree.c
-1/agree0.py
-1/agree1.py
+1/agree{0,1}.py
 
 1/meow0.c
 1/meow0.py
@@ -34,22 +34,22 @@
 1/meow3.c
 1/meow3.py
 
-1/positive.c
-1/positive.py
-
-1/mario*.py
-
-1/int.py
+1/mario{0,1,2,3,4}.py
 
 ## Week 2
 
-2/scores*.py
+2/scores{0,1,2}.py
 
-2/uppercase*.py
+2/uppercase{0,1}.py
 
-2/argv*.py
+2/argv{0,1,2}.py
 
 2/exit.py
+
+
+
+
+
 
 ## Week 3
 
