@@ -24,9 +24,9 @@ with open("favorites.csv", "r") as file:
             titles[title] = 1
 
 # Function for comparing titles by popularity
-def f(title):
+def get_value(title):
     return titles[title]
 
 # Print titles in sorted order
-for title in sorted(titles, key=f, reverse=True):
+for title in sorted(titles, key=get_value, reverse=True):
     print(title, titles[title])
