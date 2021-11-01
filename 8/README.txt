@@ -17,7 +17,7 @@ home{0,1,2,3,4}.html
 home5.{css,html}
 paragraphs{1,2}.html
 link{1,2,3,4,5}.html
-favorites{0,1,2}.html
+phonebook{0,1}.html
 search2.html
 
 # JavaScript
