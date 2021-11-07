@@ -16,8 +16,8 @@
             let input = document.querySelector('input');
             input.addEventListener('input', async function() {
                 let response = await fetch('/search?q=' + input.value);
-                let html = await response.text();
-                document.querySelector('ul').innerHTML = html;
+                let shows = await response.text();
+                document.querySelector('ul').innerHTML = shows;
             });
 
         </script>
