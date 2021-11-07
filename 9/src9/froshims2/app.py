@@ -5,12 +5,11 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 SPORTS = [
-    "Dodgeball",
-    "Flag Football",
+    "Basketball",
     "Soccer",
-    "Volleyball",
     "Ultimate Frisbee"
 ]
+
 
 @app.route("/")
 def index():

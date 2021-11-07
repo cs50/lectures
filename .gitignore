@@ -1,6 +1,5 @@
 .*
 !.gitignore
-!.cs50.yml
 *.pyc
-flask_session/
 __pycache__/
+flask_session/

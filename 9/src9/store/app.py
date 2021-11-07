@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Connect to database
 db = SQL("sqlite:///store.db")
 
-# Configure sessions
+# Configure session
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
