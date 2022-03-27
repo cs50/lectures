@@ -1,4 +1,4 @@
-# Demonstrates formatting
+# Demonstrates formatting after the decimal place
 
 x = int(input("What's x? "))
 y = int(input("What's y? "))

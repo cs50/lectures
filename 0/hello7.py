@@ -1,4 +1,4 @@
-# Demonstrates defining a function
+# Demonstrates defining a function with a parameter
 
 
 def hello(to):
