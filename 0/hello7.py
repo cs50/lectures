@@ -1,9 +1,9 @@
 # Demonstrates defining a function with a parameter
 
 
-def hello(to):
-    print("hello,", to)
+def greet(who):
+    print("hello,", who)
 
 
 name = input("What's your name? ")
-hello(name)
+greet(name)

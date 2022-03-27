@@ -1,4 +1,4 @@
-# Demonstrates __name__
+# Demonstrates defining a main function
 
 
 def main():
@@ -6,9 +6,8 @@ def main():
     hello(name)
 
 
-def hello(to):
-    print("hello,", to)
+def hello(who="world"):
+    print("hello,", who)
 
 
-if __name__ == "__main__":
-    main()
+main()
