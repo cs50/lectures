@@ -1,9 +1,3 @@
-# Demonstrates validation of user's input
+# Demonstrates str multiplication
 
-while True:
-    n = int(input("What's n? "))
-    if n > 1:
-        break
-
-for _ in range(n):
-    print("meow")
+print("meow\n" * 3, end="")

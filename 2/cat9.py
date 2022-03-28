@@ -1,21 +1,9 @@
-# Demonstrates defining functions
+# Demonstrates validation of user's input
 
+while True:
+    n = int(input("What's n? "))
+    if n > 1:
+        break
 
-def main():
-    meow(get_number())
-
-
-def get_number():
-    while True:
-        n = int(input("What's n? "))
-        if n > 1:
-            return n
-
-
-def meow(n):
-    for _ in range(n):
-        print("meow")
-
-
-if __name__ == "__main__":
-    main()
+for _ in range(n):
+    print("meow")
