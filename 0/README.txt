@@ -12,4 +12,7 @@ calculator{8,9,10}.py
 hello{8,9,10,11,12}.py
 
 # Writing functions with return values
-calculator11.py  # Re-use x to discuss scope, then x*x, then x**2, then pow
+# Re-use x to discuss scope, then x*x, then x**2, then pow
+# NameError (case-sensitive var, undefined function)
+# ValueError (converting word to an int)
+calculator11.py
