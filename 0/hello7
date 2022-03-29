@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+# Demonstrates executable script
+
+name = input("What's your name? ")
+print(f"hello, {name}")

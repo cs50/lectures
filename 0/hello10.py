@@ -1,14 +1,9 @@
-# Demonstrates __name__
+# Demonstrates defining a function with a parameter with a default value
 
 
-def main():
-    name = input("What's your name? ")
-    hello(name)
+def greet(who="world"):
+    print("hello,", who)
 
 
-def hello(to):
-    print("hello,", to)
-
-
-if __name__ == "__main__":
-    main()
+name = input("What's your name? ")
+greet(name)

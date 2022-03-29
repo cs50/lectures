@@ -1,10 +1,4 @@
-# Demonstrates defining a function without parameters
+# Demonstrates str functions
 
-
-def greet():
-    print("hello, ", end="")
-
-
-name = input("What's your name? ")
-greet()
-print(name)
+name = input("What's your name? ").strip().title()
+print(f"hello, {name}")
