@@ -3,7 +3,10 @@
 
 def main():
     x = int(input("What's x? "))
-    print("Even" if is_even(x) else "Odd")
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
 
 
 def is_even(n):
