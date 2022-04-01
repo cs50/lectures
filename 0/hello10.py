@@ -1,9 +1,13 @@
-# Demonstrates defining a function with a parameter with a default value
+# Demonstrates defining a main function
 
 
-def greet(who="world"):
-    print("hello,", who)
+def main():
+    name = input("What's your name? ")
+    hello(name)
 
 
-name = input("What's your name? ")
-greet(name)
+def hello(to="world"):
+    print("hello,", to)
+
+
+main()

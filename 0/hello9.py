@@ -1,9 +1,10 @@
-# Demonstrates defining a function with a parameter
+# Demonstrates defining a function with a parameter with a default value
 
 
-def greet(who):
-    print("hello,", who)
+def hello(to="world"):
+    print("hello,", to)
 
 
+hello()
 name = input("What's your name? ")
-greet(name)
+hello(name)
