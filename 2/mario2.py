@@ -10,5 +10,4 @@ def print_column(height):
         print("#")
 
 
-if __name__ == "__main__":
-    main()
+main()

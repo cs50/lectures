@@ -12,5 +12,4 @@ def print_square(size):
         print()
 
 
-if __name__ == "__main__":
-    main()
+main()

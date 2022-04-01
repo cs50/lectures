@@ -10,5 +10,4 @@ def print_square(size):
         print("#" * size)
 
 
-if __name__ == "__main__":
-    main()
+main()

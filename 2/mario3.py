@@ -9,5 +9,4 @@ def print_column(height):
     print("#\n" * height, end="")
 
 
-if __name__ == "__main__":
-    main()
+main()
