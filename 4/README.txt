@@ -8,4 +8,5 @@ say{0,1}.py
 
 itunes*.py
 
+sayings.py
 say2.py
