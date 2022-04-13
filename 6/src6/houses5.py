@@ -7,7 +7,4 @@ house = input("What's your house? ")
 
 with open("houses.csv", "a") as file:
     writer = csv.DictWriter(file, fieldnames=["name", "house"])
-    writer.writerow({
-        "name": name,
-        "house": house
-    })
+    writer.writerow({"name": name, "house": house})
