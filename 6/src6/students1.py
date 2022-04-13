@@ -1,6 +1,6 @@
-# Reads a CSV file
+# Unpacks a list
 
-with open("houses.csv") as file:
+with open("students0.csv") as file:
     next(file)
     for line in file:
         name, house = line.rstrip().split(",")

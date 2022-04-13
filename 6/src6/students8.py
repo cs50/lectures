@@ -3,8 +3,8 @@
 import csv
 
 name = input("What's your name? ")
-house = input("What's your house? ")
+home = input("Where's your home? ")
 
-with open("houses.csv", "a") as file:
+with open("students1.csv", "a") as file:
     writer = csv.writer(file)
-    writer.writerow([name, house])
+    writer.writerow([name, home])

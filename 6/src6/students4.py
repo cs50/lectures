@@ -1,18 +1,17 @@
-# Sorts a list of dictionaries
-
+# Sorts a list of dictionaries using a function
 
 students = []
 
-with open("houses.csv") as file:
+with open("students0.csv") as file:
     next(file)
     for line in file:
         name, house = line.rstrip().split(",")
         students.append({"name": name, "house": house})
 
 
-def key(s):
-    return s["name"]
+def get_key(student):
+    return student["name"]
 
 
-for student in sorted(students, key=key):
+for student in sorted(students, key=get_key):
     print(f"{student['name']} is in {student['house']}")
