@@ -11,5 +11,4 @@ with open("students1.csv") as file:
         students.append({"name": row[0], "home": row[1]})
 
 for student in sorted(students, key=lambda student: student["name"]):
-    if student["home"]:
-        print(f"{student['name']} is from {student['home']}")
+    print(f"{student['name']} is from {student['home']}")
