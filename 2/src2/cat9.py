@@ -1,8 +1,10 @@
-# Demonstrates validation of user's input
+# Introduces continue, break
 
 while True:
     n = int(input("What's n? "))
-    if n > 1:
+    if n <= 0:
+        continue
+    else:
         break
 
 for _ in range(n):
