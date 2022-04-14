@@ -4,7 +4,7 @@ import csv
 
 students = []
 
-with open("students1.csv") as file:
+with open("students2.csv") as file:
     reader = csv.DictReader(file)
     for row in reader:
         students.append({"name": row["name"], "home": row["home"]})

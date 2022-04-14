@@ -5,7 +5,6 @@ import csv
 students = []
 
 with open("students1.csv") as file:
-    next(file)
     reader = csv.reader(file)
     for row in reader:
         students.append({"name": row[0], "home": row[1]})
