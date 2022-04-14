@@ -1,14 +1,17 @@
-# Reads a CSV file using csv.reader
-
-import csv
+# Sorts a list of dictionaries using a function
 
 students = []
 
-with open("students1.csv") as file:
+with open("students0.csv") as file:
     next(file)
-    reader = csv.reader(file)
-    for row in reader:
-        students.append({"name": row[0], "home": row[1]})
+    for line in file:
+        name, house = line.rstrip().split(",")
+        students.append({"name": name, "house": house})
 
-for student in sorted(students, key=lambda student: student["name"]):
-    print(f"{student['name']} is from {student['home']}")
+
+def get_name(student):
+    return student["name"]
+
+
+for student in sorted(students, key=get_name):
+    print(f"{student['name']} is in {student['house']}")

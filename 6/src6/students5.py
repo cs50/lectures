@@ -1,4 +1,4 @@
-# Sorts a list of dictionaries using a lambda function
+# Reads a CSV file into a list of dict objects
 
 students = []
 
@@ -8,5 +8,5 @@ with open("students0.csv") as file:
         name, house = line.rstrip().split(",")
         students.append({"name": name, "house": house})
 
-for student in sorted(students, key=lambda student: student["name"]):
+for student in students:
     print(f"{student['name']} is in {student['house']}")
