@@ -1,4 +1,4 @@
-from calculator4 import square
+from calculator5 import square
 
 def test_square():
     assert square(2) == 4

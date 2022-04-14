@@ -1,4 +1,4 @@
-from calculator5 import square
+from calculator6 import square
 
 
 def test_positive():
