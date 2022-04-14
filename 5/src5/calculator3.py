@@ -1,4 +1,4 @@
-# Tests a function with one function
+# Demonstrates defining a function with a return value
 
 
 def main():
@@ -11,13 +11,14 @@ def square(n):
 
 
 def test_square():
-    assert square(3) == 9
-    assert square(2) == 4
-    assert square(1) == 1
-    assert square(0) == 0
-    assert square(-1) == 1
-    assert square(-2) == 4
-    assert square(-3) == 9
+    try:
+        assert square(2) == 4
+    except AssertionError:
+        print("2 squared was not 4")
+    try:
+        assert square(3) == 9
+    except AssertionError:
+        print("3 squared was not 9")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-# Demonstrates defining a function with a return value
+# Removes tests for pytest
 
 
 def main():
@@ -8,11 +8,6 @@ def main():
 
 def square(n):
     return n * n
-
-
-def test_square():
-    assert square(2) == 4
-    assert square(3) == 9
 
 
 if __name__ == "__main__":
