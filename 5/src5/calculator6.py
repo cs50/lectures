@@ -1,4 +1,4 @@
-# Removes tests for pytest
+# Tests a function with multiple functions via pytest
 
 
 def main():
