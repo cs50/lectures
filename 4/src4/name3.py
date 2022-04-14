@@ -1,4 +1,4 @@
-#
+# Demonstrates sys.exit
 
 import sys
 
