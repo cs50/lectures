@@ -14,5 +14,10 @@ calculator{4,5}.py
 calculator6.py
 test_calculator6.py
 
-hello*.py
-test_hello.py
+hello0.py
+
+hello1.py
+test_hello1.py
+
+test/test_hello1.py
+test/__init__.py
