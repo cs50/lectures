@@ -1,10 +1,10 @@
-# Adds optional subdomain
+# Adds re.IGNORECASE
 
 import re
 
 email = input("What's your email? ").strip()
 
-if re.search("^\w+@(\w+\.)?\w+\.edu$", email, re.IGNORECASE):
+if re.search("^\w+@\w+\.edu$", email, re.IGNORECASE):
     print("Valid")
 else:
     print("Invalid")

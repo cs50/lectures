@@ -1,10 +1,10 @@
-# Adds character class, removes lower()
+# Adds character class
 
 import re
 
 email = input("What's your email? ").strip()
 
-if re.search("^[a-zA-z0-9_]+@[a-zA-z0-9_]+\.edu$", email, re.IGNORECASE):
+if re.search("^[a-zA-Z0-9_]+@[a-zA-Z0-9_]+\.edu$", email):
     print("Valid")
 else:
     print("Invalid")

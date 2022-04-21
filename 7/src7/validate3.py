@@ -1,6 +1,6 @@
 # Validates email address by checking whether domain ends with .edu
 
-email = input("What's your email? ").strip().lower()
+email = input("What's your email? ").strip()
 
 username, domain = email.split("@")
 
