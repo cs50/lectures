@@ -1,5 +1,5 @@
 validate*.py
 
-phone*.py
+name*.py
 
 twitter*.py
