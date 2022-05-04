@@ -1,1 +1,3 @@
 student*.py
+
+wizard.py

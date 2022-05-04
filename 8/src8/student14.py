@@ -1,4 +1,4 @@
-# Prompts for patronus too, but doesn't display yet
+# Adds charm method
 
 
 class Student:
@@ -14,10 +14,21 @@ class Student:
     def __str__(self):
         return f"{self.name} of {self.house}"
 
+    def charm(self):
+        if self.patronus == "Stag":
+            return "🐴"
+        elif self.patronus == "Otter":
+            return "🦦"
+        elif self.patronus == "Jack Russell terrier":
+            return "🐶"
+        else:
+            raise RuntimeError("Missing patronus")
+
 
 def main():
     student = get_student()
-    print(student)
+    print("Expecto Patronum!")
+    print(student.charm())
 
 
 def get_student():
