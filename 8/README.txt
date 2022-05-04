@@ -1,1 +1,1 @@
-hogwarts*.py
+student*.py
