@@ -1,4 +1,4 @@
-# Uses list instead
+# Stores student as (mutable) list
 
 
 def main():

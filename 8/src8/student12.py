@@ -1,4 +1,4 @@
-# Prints student without __str__
+# Adds validation in __init__
 
 
 class Student:
@@ -13,14 +13,13 @@ class Student:
 
 def main():
     student = get_student()
-    print(student)
+    print(f"{student.name} of {student.house}")
 
 
 def get_student():
     name = input("Name: ")
     house = input("House: ")
-    student = Student(name, house)
-    return student
+    return Student(name, house)
 
 
 if __name__ == "__main__":

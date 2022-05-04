@@ -1,4 +1,4 @@
-# Adds validation in __init__
+# Eliminates unneeded variable
 
 
 class Student:
@@ -19,8 +19,7 @@ def main():
 def get_student():
     name = input("Name: ")
     house = input("House: ")
-    student = Student(name, house)
-    return student
+    return Student(name, house)
 
 
 if __name__ == "__main__":
