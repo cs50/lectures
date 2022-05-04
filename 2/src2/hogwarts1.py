@@ -1,6 +1,6 @@
 # Demonstrates iterating over a list
 
-students = ["Hermione", "Harry", "Rob"]
+students = ["Hermione", "Harry", "Ron"]
 
 for student in students:
     print(student)

@@ -3,7 +3,7 @@
 students = {
     "Hermione": "Gryffindor",
     "Harry": "Gryffindor",
-    "Rob": "Gryffindor",
+    "Ron": "Gryffindor",
     "Draco": "Slytherin",
 }
 
