@@ -3,7 +3,7 @@
 
 def main():
     name, house = get_student()
-    print(f"{name} of {house}")
+    print(f"{name} from {house}")
 
 
 def get_student():

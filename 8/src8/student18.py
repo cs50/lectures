@@ -9,7 +9,7 @@ class Student:
         self.house = house
 
     def __str__(self):
-        return f"{self.name} of {self.house}"
+        return f"{self.name} from {self.house}"
 
     @property
     def house(self):
