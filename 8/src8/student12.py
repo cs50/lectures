@@ -1,4 +1,4 @@
-# Adds __str__
+# Prints student without __str__
 
 
 class Student:
@@ -9,9 +9,6 @@ class Student:
             raise ValueError("Invalid house")
         self.name = name
         self.house = house
-
-    def __str__(self):
-        return f"{self.name} of {self.house}"
 
 
 def main():

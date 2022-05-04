@@ -1,10 +1,8 @@
-# Adds __init__
+# Defines class for a student
 
 
 class Student:
-    def __init__(self, name, house):
-        self.name = name
-        self.house = house
+    ...
 
 
 def main():
@@ -13,9 +11,9 @@ def main():
 
 
 def get_student():
-    name = input("Name: ")
-    house = input("House: ")
-    student = Student(name, house)
+    student = Student()
+    student.name = input("Name: ")
+    student.house = input("House: ")
     return student
 
 

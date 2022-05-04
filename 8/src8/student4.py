@@ -5,7 +5,7 @@
 def main():
     student = get_student()
     if student[0] == "Padma":
-        student[0] = "Ravenclaw"
+        student[1] = "Ravenclaw"
     print(f"{student[0]} of {student[1]}")
 
 

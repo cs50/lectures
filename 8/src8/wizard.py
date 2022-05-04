@@ -12,6 +12,7 @@ class Student(Wizard):
         if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
             raise ValueError("Invalid house")
         self.house = house
+
     ...
 
 
@@ -19,4 +20,5 @@ class Professor(Wizard):
     def __init__(self, name, department, patronus):
         super().__init__(name, patronus)
         self.department = department
+
     ...

@@ -1,20 +1,17 @@
-# Defines class for a student
-
-
-class Student:
-    ...
+# Demonstrates mutability of dicts
 
 
 def main():
     student = get_student()
-    print(f"{student.name} of {student.house}")
+    if student["name"] == "Padma":
+        student["house"] = "Ravenclaw"
+    print(f"{student['name']} of {student['house']}")
 
 
 def get_student():
-    student = Student()
-    student.name = input("Name: ")
-    student.house = input("House: ")
-    return student
+    name = input("Name: ")
+    house = input("House: ")
+    return {"name": name, "house": house}
 
 
 if __name__ == "__main__":

@@ -1,16 +1,17 @@
-# Stores student as dict
+# Uses list instead
 
 
 def main():
     student = get_student()
-    print(f"{student['name']} of {student['house']}")
+    if student[0] == "Padma":
+        student[1] = "Ravenclaw"
+    print(f"{student[0]} of {student[1]}")
 
 
 def get_student():
-    student = {}
-    student["name"] = input("Name: ")
-    student["house"] = input("House: ")
-    return student
+    name = input("Name: ")
+    house = input("House: ")
+    return [name, house]
 
 
 if __name__ == "__main__":
