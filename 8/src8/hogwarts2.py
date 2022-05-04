@@ -1,4 +1,4 @@
-#
+# Returns student as tuple, unpacking it
 
 
 def main():

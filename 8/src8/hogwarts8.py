@@ -1,24 +1,19 @@
-#
+# Defines class for a student
 
 
 class Student:
-    def __init__(self, name, house):
-        self.name = name
-        self.house = house
-
-    def __str__(self):
-        return f"{self.name} of {self.house}"
+    ...
 
 
 def main():
     student = get_student()
-    print(student)
+    print(f"{student.name} of {student.house}")
 
 
 def get_student():
-    name = input("Name: ")
-    house = input("House: ")
-    student = Student(name, house)
+    student = Student()
+    student.name = input("Name: ")
+    student.house = input("House: ")
     return student
 
 

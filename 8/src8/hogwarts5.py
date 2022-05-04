@@ -1,4 +1,4 @@
-#
+# Stores student as dict
 
 
 def main():
@@ -7,9 +7,10 @@ def main():
 
 
 def get_student():
-    name = input("Name: ")
-    house = input("House: ")
-    return {"name": name, "house": house}
+    student = {}
+    student["name"] = input("Name: ")
+    student["house"] = input("House: ")
+    return student
 
 
 if __name__ == "__main__":

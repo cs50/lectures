@@ -1,11 +1,9 @@
-#
+# Returns student as tuple, without unpacking it
 # https://scifi.stackexchange.com/q/105992
 
 
 def main():
     student = get_student()
-    if student[0] == "Padma":
-        student[0] = "Ravenclaw"
     print(f"{student[0]} of {student[1]}")
 
 

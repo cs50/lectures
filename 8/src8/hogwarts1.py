@@ -1,4 +1,4 @@
-#
+# Modularizes getting student's name and house
 
 
 def main():
