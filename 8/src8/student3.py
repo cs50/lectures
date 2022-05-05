@@ -1,5 +1,4 @@
 # Returns student as tuple, without unpacking it
-# https://scifi.stackexchange.com/q/105992
 
 
 def main():
