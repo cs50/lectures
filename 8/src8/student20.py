@@ -1,4 +1,4 @@
-#
+# Moves get_student into Student class
 
 
 class Student:
