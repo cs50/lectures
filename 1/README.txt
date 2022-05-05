@@ -8,3 +8,5 @@ grade3.py
 agree*.py
 
 parity*.py
+
+house*.py
