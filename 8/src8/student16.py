@@ -1,4 +1,4 @@
-# Adds charm method
+# Adds charm method to cast a charm
 
 
 class Student:
@@ -15,14 +15,15 @@ class Student:
         return f"{self.name} from {self.house}"
 
     def charm(self):
-        if self.patronus == "Stag":
-            return "🐴"
-        elif self.patronus == "Otter":
-            return "🦦"
-        elif self.patronus == "Jack Russell terrier":
-            return "🐶"
-        else:
-            raise RuntimeError("Missing patronus")
+        match self.patronus:
+            case "Stag":
+                return "🐴"
+            case "Otter":
+                return "🦦"
+            case "Jack Russell terrier":
+                return "🐶"
+            case _:
+                raise RuntimeError("Missing patronus")
 
 
 def main():

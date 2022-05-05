@@ -1,4 +1,4 @@
-# Implements sort() with a static method
+# Implements sort() with a static method, adds class variable
 
 import random
 

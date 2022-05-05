@@ -1,4 +1,4 @@
-# Circumvents error-checking by setting attribute
+# Removes patronus for simplicy, circumvents error-checking by setting attribute
 
 
 class Student:

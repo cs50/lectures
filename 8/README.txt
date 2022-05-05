@@ -1,8 +1,8 @@
 student*.py
 
-hat*.py
-
 type*.py
+
+hat*.py
 
 wizard.py
 

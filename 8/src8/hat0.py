@@ -4,8 +4,8 @@ import random
 
 
 class Hat:
-
-    houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
+    def __init__(selft):
+        self.houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
 
     def sort(self, name):
         print(name, "is in", random.choice(self.houses))
