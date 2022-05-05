@@ -1,12 +1,17 @@
-# Demonstrates inheritance [add error checking last]
+# Demonstrates inheritance [maybe don't add `if` error-checking]
 
 
 class Wizard:
     def __init__(self, name, patronus):
         if not name:
             raise ValueError("Missing name")
+        if patronus and patronus not in ["Stag", "Otter", "Jack Russell terrier"]:
+            raise ValueError("Invalid patronus")
         self.name = name
         self.patronus = patronus
+
+    def charm(self):
+        ...
 
 
 class Student(Wizard):

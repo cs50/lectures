@@ -2,11 +2,13 @@
 
 
 class Student:
-    def __init__(self, name, house, patronus):
+    def __init__(self, name, house, patronus=None):
         if not name:
             raise ValueError("Missing name")
         if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
             raise ValueError("Invalid house")
+        if patronus and patronus not in ["Stag", "Otter", "Jack Russell terrier"]:
+            raise ValueError("Invalid patronus")
         self.name = name
         self.house = house
         self.patronus = patronus
@@ -23,7 +25,7 @@ class Student:
             case "Jack Russell terrier":
                 return "🐶"
             case _:
-                raise RuntimeError("Missing patronus")
+                return "🪄"
 
 
 def main():
@@ -35,7 +37,7 @@ def main():
 def get_student():
     name = input("Name: ")
     house = input("House: ")
-    patronus = input("Patronus: ")
+    patronus = input("Patronus: ") or None
     return Student(name, house, patronus)
 
 
