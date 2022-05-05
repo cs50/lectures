@@ -20,8 +20,8 @@ class Student(Wizard):
 
 
 class Professor(Wizard):
-    def __init__(self, name, department, patronus):
+    def __init__(self, name, subject, patronus):
         super().__init__(name, patronus)
-        self.department = department
+        self.subject = subject
 
     ...
