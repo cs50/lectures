@@ -1,5 +1,6 @@
 # Demonstrates inheritance [add error checking last]
 
+
 class Wizard:
     def __init__(self, name, patronus):
         if not name:
