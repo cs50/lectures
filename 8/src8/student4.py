@@ -1,4 +1,4 @@
-# Demonstrates immutability of tuples
+# Demonstrates immutability of tuples, removes parentheses
 # https://scifi.stackexchange.com/q/105992
 
 

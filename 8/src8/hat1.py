@@ -1,4 +1,4 @@
-# Implements sort() with a static method, adds class variable
+# Implements sort() with a class method
 
 import random
 
@@ -7,9 +7,9 @@ class Hat:
 
     houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
 
-    @staticmethod
-    def sort(name):
-        print(name, "is in", random.choice(Hat.houses))
+    @classmethod
+    def sort(cls, name):
+        print(name, "is in", random.choice(cls.houses))
 
 
 Hat.sort("Harry")

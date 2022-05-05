@@ -2,31 +2,31 @@
 
 
 class Wizard:
-    def __init__(self, name, patronus):
+    def __init__(self, name):
         if not name:
             raise ValueError("Missing name")
-        if patronus and patronus not in ["Stag", "Otter", "Jack Russell terrier"]:
-            raise ValueError("Invalid patronus")
         self.name = name
-        self.patronus = patronus
 
-    def charm(self):
-        ...
+    ...
 
 
 class Student(Wizard):
-    def __init__(self, name, house, patronus):
-        super().__init__(name, patronus)
-        if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
-            raise ValueError("Invalid house")
+    def __init__(self, name, house):
+        super().__init__(name)
         self.house = house
 
     ...
 
 
 class Professor(Wizard):
-    def __init__(self, name, subject, patronus):
-        super().__init__(name, patronus)
+    def __init__(self, name, subject):
+        super().__init__(name)
         self.subject = subject
 
     ...
+
+
+wizard = Wizard("Albus")
+student = Student("Harry")
+professor = Professor("Severus")
+...
