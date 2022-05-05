@@ -1,4 +1,4 @@
-# Adds validation in __init__
+# Adds validation in __init__ using raise
 
 
 class Student:
