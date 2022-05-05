@@ -2,6 +2,7 @@
 
 import random
 
+
 class Hat:
 
     houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
