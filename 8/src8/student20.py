@@ -2,17 +2,22 @@
 
 
 class Student:
-    def __init__(self, name):
+    def __init__(self, name, house):
         self.name = name
+        self.house = house
+
+    def __str__(self):
+        return f"{self.name} from {self.house}"
 
     @classmethod
-    def get(cls, name, house):
+    def get(cls):
         name = input("Name: ")
-        return cls(name)
+        house = input("House: ")
+        return cls(name, house)
 
 
 def main():
-    student = Student.get_student()
+    student = Student.get()
     print(student)
 
 
