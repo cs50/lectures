@@ -1,10 +1,10 @@
-# Incompatible types in assignment
+# Success
 
 
-def meow(n: int) -> str:
-    return "meow\n" * 3
+def meow(n: int):
+    for _ in range(n):
+        print("meow")
 
 
 number: int = int(input("Number: "))
-meows: int = meow(number)
-print(meows, end="")
+meow(number)

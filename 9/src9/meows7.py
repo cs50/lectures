@@ -1,7 +1,7 @@
-# Prints None because mistakes meow as having a return value
+# Annotates return value, ... does not return a value
 
 
-def meow(n: int):
+def meow(n: int) -> None:
     for _ in range(n):
         print("meow")
 
