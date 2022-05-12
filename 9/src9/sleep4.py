@@ -1,4 +1,5 @@
-# Returns generator expression
+# Uses yield
+
 
 def main():
     n = int(input("What's n? "))
@@ -7,7 +8,8 @@ def main():
 
 
 def sheep(n):
-    return ("🐑" * i for i in range(n))
+    for i in range(n):
+        yield "🐑" * i
 
 
 if __name__ == "__main__":

@@ -27,6 +27,6 @@ class Professor(Wizard):
 
 
 wizard = Wizard("Albus")
-student = Student("Harry")
-professor = Professor("Severus")
+student = Student("Harry", "Gryffindor")
+professor = Professor("Severus", "Defense Against the Dark Arts")
 ...

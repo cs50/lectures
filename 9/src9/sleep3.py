@@ -1,4 +1,5 @@
-# Returns list comprehension
+# Returns a list of sheep
+
 
 def main():
     n = int(input("What's n? "))
@@ -7,7 +8,10 @@ def main():
 
 
 def sheep(n):
-    return ["🐑" * i for i in range(n)]
+    flock = []
+    for i in range(n):
+        flock.append("🐑" * i)
+    return flock
 
 
 if __name__ == "__main__":
