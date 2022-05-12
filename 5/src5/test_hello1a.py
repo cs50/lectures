@@ -6,4 +6,4 @@ def test_default():
 
 
 def test_argument():
-    assert hello("you") == "hello, you"
+    assert hello("David") == "hello, David"

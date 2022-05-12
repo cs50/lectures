@@ -23,7 +23,7 @@ test_calculator6.py
 hello0.py
 
 hello1.py
-test_hello1.py
+test_hello1*.py
 
-test/test_hello1.py
+test/test_hello1c.py
 test/__init__.py
