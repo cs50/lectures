@@ -1,4 +1,4 @@
-# Uses map with lambda function
+# Uses list comprehension
 
 
 def main():
@@ -6,7 +6,7 @@ def main():
 
 
 def yell(*words):
-    uppercased = map(lambda arg: arg.upper(), words)
+    uppercased = [arg.upper() for arg in words]
     print(*uppercased)
 
 

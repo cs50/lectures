@@ -1,16 +1,12 @@
-# Uses map with named function
+# Uses map
 
 
 def main():
     yell("This", "is", "CS50")
 
 
-def uppercase(s):
-    return s.upper()
-
-
 def yell(*words):
-    uppercased = map(uppercase, words)
+    uppercased = map(str.upper, words)
     print(*uppercased)
 
 
