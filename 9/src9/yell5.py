@@ -1,15 +1,13 @@
-# Adds **kwargs
+# Uses list comprehension
 
 
 def main():
-    yell("hello", "world", sep=" @#$% ")
+    yell("This", "is", "CS50")
 
 
-def yell(*words, **kwargs):
-    caps = []
-    for word in words:
-        caps.append(word.upper())
-    print(kwargs["sep"].join(caps))
+def yell(*words):
+    uppercased = [arg.upper() for arg in words]
+    print(*uppercased)
 
 
 if __name__ == "__main__":

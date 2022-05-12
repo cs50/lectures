@@ -1,15 +1,17 @@
-# Also accepts named parameter
+# Uses map with named function
 
 
 def main():
-    yell("hello", "world")
+    yell("This", "is", "CS50")
 
 
-def yell(*words, sep=" "):
-    caps = []
-    for word in words:
-        caps.append(word.upper())
-    print(sep.join(caps))
+def uppercase(s):
+    return s.upper()
+
+
+def yell(*words):
+    uppercased = map(uppercase, words)
+    print(*uppercased)
 
 
 if __name__ == "__main__":

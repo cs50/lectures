@@ -1,15 +1,15 @@
-# Prints a list of arbitrarily many args in all caps
+# Prints arbitrarily many args in uppercase
 
 
 def main():
-    yell("hello", "world")
+    yell("This", "is", "CS50")
 
 
 def yell(*words):
-    caps = []
+    uppercased = []
     for word in words:
-        caps.append(word.upper())
-    print(" ".join(caps))
+        uppercased.append(word.upper())
+    print(*uppercased)
 
 
 if __name__ == "__main__":

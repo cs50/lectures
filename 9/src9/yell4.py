@@ -1,15 +1,13 @@
-# Uses named parameter
+# Uses map with lambda function
 
 
 def main():
-    yell("hello", "world", sep=" @#$% ")
+    yell("This", "is", "CS50")
 
 
-def yell(*words, sep=" "):
-    caps = []
-    for word in words:
-        caps.append(word.upper())
-    print(sep.join(caps))
+def yell(*words):
+    uppercased = map(lambda arg: arg.upper(), words)
+    print(*uppercased)
 
 
 if __name__ == "__main__":

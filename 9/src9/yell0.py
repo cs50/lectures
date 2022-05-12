@@ -1,8 +1,8 @@
-# Prints a single arg in all caps
+# Prints a word in uppercase
 
 
 def main():
-    yell("hello, world")
+    yell("This is CS50")
 
 
 def yell(word):
