@@ -1,10 +1,5 @@
-# Demonstrates defining a function without parameters
+# Demonstrates str functions
 
-
-def hello():
-    print("hello")
-
-
-name = input("What's your name? ")
-hello()
-print(name)
+name = input("What's your name? ").strip().title()
+first, last = name.split(" ")
+print(f"hello, {first}")

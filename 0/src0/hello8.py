@@ -1,9 +1,10 @@
-# Demonstrates defining a function with a parameter
+# Demonstrates defining a function without parameters
 
 
-def hello(to):
-    print("hello,", to)
+def hello():
+    print("hello")
 
 
 name = input("What's your name? ")
-hello(name)
+hello()
+print(name)
