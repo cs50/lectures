@@ -20,6 +20,9 @@ test_calculator5.py
 calculator6.py
 test_calculator6.py
 
+calculator7.py
+test_calculator7.py
+
 hello0.py
 
 hello1.py
