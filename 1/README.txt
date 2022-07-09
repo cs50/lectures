@@ -23,9 +23,3 @@ calculator4.c
 
 # Libraries
 pennies.c
-
-# Animation
-#balloon.c
-
-# Overflow
-#counter.c
