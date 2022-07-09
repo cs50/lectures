@@ -10,7 +10,7 @@ agree.c
 
 # Return values, arguments
 meow{0,1,2,3}.c
-discount{0,1}.c
+discount{0,1,2}.c
 
 # Loops
 mario{0,1,2,3}.c
@@ -22,7 +22,7 @@ calculator3.c
 calculator4.c
 
 # Libraries
-#pennies.c
+pennies.c
 
 # Animation
 #balloon.c
