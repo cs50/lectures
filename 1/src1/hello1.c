@@ -1,4 +1,4 @@
-// get_string and printf with %s
+// get_string and printf with incorrect placeholder
 
 #include <cs50.h>
 #include <stdio.h>

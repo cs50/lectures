@@ -1,4 +1,4 @@
-// Prints a 3-by-3 grid of bricks with a loop
+// Prints a 3-by-3 grid of bricks with nested loops
 
 #include <stdio.h>
 

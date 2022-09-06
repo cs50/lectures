@@ -1,4 +1,4 @@
-// Addition with long
+// Division with longs, demonstrating type casting
 
 #include <cs50.h>
 #include <stdio.h>
@@ -11,6 +11,7 @@ int main(void)
     // Prompt user for y
     long y = get_long("y: ");
 
-    // Perform addition
-    printf("%li\n", x + y);
+    // Divide x by y
+    float z = (float) x / (float) y;
+    printf("%.20f\n", z);
 }

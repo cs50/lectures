@@ -1,4 +1,4 @@
-// Addition with long
+// Division with longs, demonstrating truncation
 
 #include <cs50.h>
 #include <stdio.h>
@@ -11,6 +11,6 @@ int main(void)
     // Prompt user for y
     long y = get_long("y: ");
 
-    // Perform addition
-    printf("%ld\n", x + y);
+    // Divide x by y
+    printf("%li\n", x / y);
 }

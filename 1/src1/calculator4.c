@@ -1,4 +1,4 @@
-// Truncation
+// Division with longs, demonstrating type casting
 
 #include <cs50.h>
 #include <stdio.h>
@@ -12,8 +12,6 @@ int main(void)
     long y = get_long("y: ");
 
     // Divide x by y
-    float z = x / y;
-
-    // Perform division
+    float z = (float) x / (float) y;
     printf("%f\n", z);
 }

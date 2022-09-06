@@ -1,22 +1,16 @@
-// Prints a 3-by-3 grid of bricks with a helper function
+// Prints a 3-by-3 grid of bricks with nested loops using a constant
 
 #include <stdio.h>
 
-void print_row(void);
-
 int main(void)
 {
-    for (int i = 0; i < 3; i++)
+    const int n = 3;
+    for (int i = 0; i < n; i++)
     {
-        print_row();
+        for (int j = 0; j < n; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
     }
-}
-
-void print_row(void)
-{
-    for (int j = 0; j < 3; j++)
-    {
-        printf("#");
-    }
-    printf("\n");
 }

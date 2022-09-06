@@ -1,4 +1,4 @@
-// Addition with long
+// Division with longs, demonstrating double
 
 #include <cs50.h>
 #include <stdio.h>
@@ -11,6 +11,7 @@ int main(void)
     // Prompt user for y
     long y = get_long("y: ");
 
-    // Perform addition
-    printf("%li\n", x + y);
+    // Divide x by y
+    double z = (double) x / (double) y;
+    printf("%.20f\n", z);
 }
