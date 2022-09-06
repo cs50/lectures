@@ -1,4 +1,4 @@
-// Prints a column of n bricks using two functions
+// Prints an n-by-n grid of bricks using two functions
 
 #include <cs50.h>
 #include <stdio.h>
@@ -27,6 +27,10 @@ void print_bricks(int n)
 {
     for (int i = 0; i < n; i++)
     {
-        printf("#\n");
+        for (int j = 0; j < n; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
     }
 }

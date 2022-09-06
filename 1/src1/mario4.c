@@ -3,24 +3,24 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int get_height(void);
+int get_size(void);
 
 int main(void)
 {
-    int n = get_height();
+    int n = get_size();
     for (int i = 0; i < n; i++)
     {
         printf("#\n");
     }
 }
 
-int get_height(void)
+int get_size(void)
 {
-    int height;
+    int size;
     do
     {
-        height = get_int("Height: ");
+        size = get_int("Size: ");
     }
-    while (height < 1);
-    return height;
+    while (size < 1);
+    return size;
 }

@@ -13,10 +13,8 @@ meow2.c
 # make a function
 meow{3,4}.c
 
-
-
 # loops
-mario{0,1,2,3}.c
+mario{0,1,2,3,4,5}.c
 
 
 

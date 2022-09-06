@@ -1,10 +1,11 @@
-// Prints a column of n bricks using two functions
+// Prints an n-by-n grid of bricks using three functions
 
 #include <cs50.h>
 #include <stdio.h>
 
 int get_size(void);
 void print_bricks(int n);
+void print_row(int n);
 
 int main(void)
 {
@@ -27,6 +28,15 @@ void print_bricks(int n)
 {
     for (int i = 0; i < n; i++)
     {
-        printf("#\n");
+        print_row(n);
     }
+}
+
+void print_row(int n)
+{
+    for (int j = 0; j < n; j++)
+    {
+        printf("#");
+    }
+    printf("\n");
 }
