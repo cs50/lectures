@@ -14,17 +14,13 @@ meow2.c
 meow{3,4}.c
 
 # loops
-mario{0,1,2,3,4,5}.c
+mario{0,1,2,3,4,5,6,7}.c
 
 
 
-### TODO
+## TODO
 
-parity.c
-
-
-# constants
-TODO
+# constants, break
 
 # types
 calculator0.c
@@ -41,15 +37,10 @@ calculator4.c
 # Libraries
 pennies.c
 
-# Animation
-#balloon.c
-
-# Overflow
-#counter.c
-
 ----
 
-# DON'T USE
-discount{0,1,2}.c
-
-
+## DON'T USE
+#discount{0,1,2}.c
+#balloon.c
+#counter.c
+#parity.c

@@ -34,7 +34,7 @@ void print_bricks(int n)
 
 void print_row(int n)
 {
-    for (int j = 0; j < n; j++)
+    for (int i = 0; i < n; i++)
     {
         printf("#");
     }
