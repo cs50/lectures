@@ -1,4 +1,4 @@
-// Addition with int
+// Addition with int, allows for overflow
 
 #include <cs50.h>
 #include <stdio.h>
