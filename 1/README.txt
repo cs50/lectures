@@ -1,19 +1,38 @@
-hello0.c
-hello1.c
+# functions, arguments, strings, side effects, return values, variables
+hello{0,1}.c
 
-calculator{0,1,2}.c
-
-# Conditionals, Boolean expressions, relational operators; design; constants
-points{0,1,2}.c
-parity.c
+# ints, conditionals, Boolean expressions, chars
+compare{0,1,2}.c
 agree.c
 
-# Return values, arguments
-meow{0,1,2,3}.c
-discount{0,1,2}.c
+# loops
+meow0.c
+meow1.c
+meow2.c
 
-# Loops
+# make a function
+meow{3,4}.c
+
+
+
+# loops
 mario{0,1,2,3}.c
+
+
+
+### TODO
+
+parity.c
+
+
+# constants
+TODO
+
+# types
+calculator0.c
+
+# Overflow
+calculator2.c
 
 # Imprecision
 calculator3.c
@@ -29,3 +48,10 @@ pennies.c
 
 # Overflow
 #counter.c
+
+----
+
+# DON'T USE
+discount{0,1,2}.c
+
+
