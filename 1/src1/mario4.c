@@ -1,26 +1,22 @@
-// Prints a column of n bricks using a function
+// Prints a 3-by-3 grid of bricks with a helper function
 
-#include <cs50.h>
 #include <stdio.h>
 
-int get_size(void);
+void print_row(void);
 
 int main(void)
 {
-    int n = get_size();
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < 3; i++)
     {
-        printf("#\n");
+        print_row();
     }
 }
 
-int get_size(void)
+void print_row(void)
 {
-    int size;
-    do
+    for (int j = 0; j < 3; j++)
     {
-        size = get_int("Size: ");
+        printf("#");
     }
-    while (size < 1);
-    return size;
+    printf("\n");
 }

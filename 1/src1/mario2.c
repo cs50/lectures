@@ -1,19 +1,11 @@
-// Prints a row of n question marks with a loop
+// Prints a column of 3 bricks with a loop
 
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
-    int n;
-    do
+    for (int i = 0; i < 3; i++)
     {
-        n = get_int("Size: ");
+        printf("#\n");
     }
-    while (n < 1);
-    for (int i = 0; i < n; i++)
-    {
-        printf("?");
-    }
-    printf("\n");
 }
