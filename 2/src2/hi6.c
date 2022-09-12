@@ -10,8 +10,6 @@ int main(void)
     words[0] = "HI!";
     words[1] = "BYE!";
 
-    for (int i = 0; i < 2; i++)
-    {
-        printf("%s\n", words[i]);
-    }
+    printf("%s\n", words[0]);
+    printf("%s\n", words[1]);
 }
