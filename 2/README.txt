@@ -1,3 +1,5 @@
+../README.txt
+
 hello{0,1}.c
 
 buggy{0,1}.c
