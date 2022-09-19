@@ -2,6 +2,7 @@
     "editor.matchBrackets": "never",
     "editor.minimap.enabled": false,
     "editor.scrollbar.verticalScrollbarSize": 0,
+    "window.commandCenter": false,
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": false,
     "workbench.colorTheme": "GitHub Dark Default",
