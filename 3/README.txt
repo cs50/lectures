@@ -1,5 +1,4 @@
-numbers.c
-names.c
-phonebook{0,1}.c
+search*.c
+phonebook*.c
 iteration.c
-recursion.c
+recursion*.c

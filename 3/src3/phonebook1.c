@@ -21,10 +21,11 @@ int main(void)
     people[1].name = "David";
     people[1].number = "+1-949-468-2750";
 
-    // Search for David
+    // Search for name
+    string name = get_string("Name: ");
     for (int i = 0; i < 2; i++)
     {
-        if (strcmp(people[i].name, "David") == 0)
+        if (strcmp(people[i].name, name) == 0)
         {
             printf("Found %s\n", people[i].number);
             return 0;
