@@ -4,7 +4,7 @@ compare*.c
 copy*.c
 
 memory.c
-#garbage.c
+garbage.c
 
 swap*.c
 
