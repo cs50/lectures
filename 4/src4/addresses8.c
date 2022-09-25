@@ -1,4 +1,4 @@
-// Stores and prints a string without using the CS50 Library
+// Prints a string's chars
 
 #include <stdio.h>
 

@@ -1,4 +1,4 @@
-// Capitalizes a copy of a string using strcpy
+// Capitalizes a copy of a string
 
 #include <cs50.h>
 #include <ctype.h>
@@ -14,8 +14,11 @@ int main(void)
     // Allocate memory for another string
     char *t = malloc(strlen(s) + 1);
 
-    // Copy string into memory
-    strcpy(t, s);
+    // Copy string into memory, including '\0'
+    for (int i = 0; i <= strlen(s); i++)
+    {
+        t[i] = s[i];
+    }
 
     // Capitalize copy
     t[0] = toupper(t[0]);
