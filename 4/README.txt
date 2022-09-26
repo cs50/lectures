@@ -8,6 +8,6 @@ garbage.c
 
 swap*.c
 
-scanf*.c
+get*.c
 
 phonebook.{csv,c}
