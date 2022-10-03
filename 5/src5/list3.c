@@ -1,4 +1,4 @@
-// Implements a list of numbers using a linked list
+// Prepends numbers to a linked list
 
 #include <cs50.h>
 #include <stdio.h>
@@ -14,7 +14,7 @@ node;
 int main(int argc, char *argv[])
 {
     // Memory for numbers
-    node *numbers = NULL;
+    node *list = NULL;
 
     // For each command-line argument
     for (int i = 1; i < argc; i++)
@@ -31,38 +31,19 @@ int main(int argc, char *argv[])
         n->number = number;
         n->next = NULL;
 
-        // If list is empty
-        if (numbers == NULL)
-        {
-            // This node is the whole list
-            numbers = n;
-        }
-
-        // If list has numbers already
-        else
-        {
-            // Iterate over nodes in list
-            for (node *ptr = numbers; ptr != NULL; ptr = ptr->next)
-            {
-                // If at end of list
-                if (ptr->next == NULL)
-                {
-                    // Append node
-                    ptr->next = n;
-                    break;
-                }
-            }
-        }
+        // Prepend node to list
+        n->next = list;
+        list = n;
     }
 
     // Print numbers
-    for (node *ptr = numbers; ptr != NULL; ptr = ptr->next)
+    for (node *ptr = list; ptr != NULL; ptr = ptr->next)
     {
         printf("%i\n", ptr->number);
     }
 
     // Free memory
-    node *ptr = numbers;
+    node *ptr = list;
     while (ptr != NULL)
     {
         node *next = ptr->next;
