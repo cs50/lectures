@@ -1,4 +1,4 @@
-// Implements a list of numbers using a linked list
+// Prepends numbers to a linked list, using for loop to print
 
 #include <cs50.h>
 #include <stdio.h>
@@ -31,28 +31,9 @@ int main(int argc, char *argv[])
         n->number = number;
         n->next = NULL;
 
-        // If list is empty
-        if (list == NULL)
-        {
-            // This node is the whole list
-            list = n;
-        }
-
-        // If list has numbers already
-        else
-        {
-            // Iterate over nodes in list
-            for (node *ptr = list; ptr != NULL; ptr = ptr->next)
-            {
-                // If at end of list
-                if (ptr->next == NULL)
-                {
-                    // Append node
-                    ptr->next = n;
-                    break;
-                }
-            }
-        }
+        // Prepend node to list
+        n->next = list;
+        list = n;
     }
 
     // Print numbers

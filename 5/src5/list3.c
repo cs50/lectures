@@ -1,4 +1,4 @@
-// Prepends numbers to a linked list
+// Prepends numbers to a linked list, using while loop to print
 
 #include <cs50.h>
 #include <stdio.h>
@@ -37,13 +37,15 @@ int main(int argc, char *argv[])
     }
 
     // Print numbers
-    for (node *ptr = list; ptr != NULL; ptr = ptr->next)
+    node *ptr = list;
+    while (ptr != NULL)
     {
         printf("%i\n", ptr->number);
+        ptr = ptr->next;
     }
 
     // Free memory
-    node *ptr = list;
+    ptr = list;
     while (ptr != NULL)
     {
         node *next = ptr->next;
