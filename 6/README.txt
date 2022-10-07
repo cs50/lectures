@@ -1,6 +1,8 @@
 # Lecture 6
 
-6/filter/*.py
+6/faces/detect.py
+6/faces/recognize.py
+
 6/speller/dictionary.py
 
 ## Week 1
@@ -58,12 +60,10 @@
 
 ## Week 6
 
-6/hogwarts/hogwarts{0,1}.py
+6/hogwarts/hogwarts.py
 1/agree2.py
 
 6/speech/speech{0,1}.py
-6/faces/detect.py
-6/faces/recognize.py
 6/listen/listen{0,1,2,3}.py
 6/qr/qr.py
 6/speech/speech2.py

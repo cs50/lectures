@@ -1,7 +1,7 @@
 # Recognizes a greeting
 
 # Get input
-words = input("Say something!\n").lower()
+words = input("Say something: ").lower()
 
 # Respond to speech
 if "hello" in words:
