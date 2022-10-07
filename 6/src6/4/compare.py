@@ -1,10 +1,8 @@
 # Compares two strings
 
-from cs50 import get_string
-
 # Get two strings
-s = get_string("s: ")
-t = get_string("t: ")
+s = input("s: ")
+t = input("t: ")
 
 # Compare strings
 if s == t:

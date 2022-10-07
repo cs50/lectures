@@ -36,18 +36,17 @@
 
 ## Week 2
 
-2/scores{0,1,2}.py
+2/scores*.py
 
-2/uppercase{0,1}.py
+2/uppercase*.py
 
-2/argv{0,1,2}.py
+2/greet*.py
 
 2/exit.py
 
 ## Week 3
 
-3/numbers.py
-3/names.py
+3/names*.py
 3/phonebook.py
 
 ## Week 4
