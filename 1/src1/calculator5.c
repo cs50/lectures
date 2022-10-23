@@ -1,4 +1,4 @@
-// Division with longs, demonstrating type casting
+// Division with longs, demonstrating floating-point imprecision
 
 #include <cs50.h>
 #include <stdio.h>
