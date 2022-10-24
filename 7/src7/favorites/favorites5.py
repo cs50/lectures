@@ -13,11 +13,12 @@ with open("favorites.csv", "r") as file:
 
     # Iterate over CSV file, printing each favorite
     for row in reader:
-        favorite = row["Favorite Language"]
+        favorite = row["language"]
         if favorite in counts:
             counts[favorite] += 1
         else:
             counts[favorite] = 0
 
+# Print counts
 for favorite in counts:
     print(f"{favorite}: {counts[favorite]}")

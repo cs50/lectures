@@ -13,7 +13,7 @@ with open("favorites.csv", "r") as file:
 
     # Iterate over CSV file, printing each favorite
     for row in reader:
-        favorite = row["Favorite Language"]
+        favorite = row["language"]
         if favorite == "Scratch":
             scratch += 1
         elif favorite == "C":
@@ -21,6 +21,7 @@ with open("favorites.csv", "r") as file:
         elif favorite == "Python":
             python += 1
 
+# Print counts
 print(f"Scratch: {scratch}")
 print(f"C: {c}")
 print(f"Python: {python}")

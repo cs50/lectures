@@ -10,5 +10,5 @@ with open("favorites.csv", "r") as file:
 
     # Iterate over CSV file, printing each favorite
     for row in reader:
-        favorite = row["Favorite Language"]
+        favorite = row["language"]
         print(favorite)

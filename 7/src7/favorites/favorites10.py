@@ -1,4 +1,4 @@
-# Sorts favorites by value using lambda function
+# Favorite problem instead of favorite language
 
 import csv
 
@@ -13,12 +13,13 @@ with open("favorites.csv", "r") as file:
 
     # Iterate over CSV file, printing each favorite
     for row in reader:
-        favorite = row["language"]
+        favorite = row["problem"]
         if favorite in counts:
             counts[favorite] += 1
         else:
             counts[favorite] = 0
 
-# Print counts
-for favorite in sorted(counts, key=lambda language: counts[language], reverse=True):
+# Print count
+favorite = input("Favorite: ")
+if favorite in counts:
     print(f"{favorite}: {counts[favorite]}")
