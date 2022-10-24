@@ -1,9 +1,6 @@
-# Prints popularity of titles in CSV, sorted by title
+# Counts favorites using variables
 
 import csv
-
-# For accumulating (and later sorting) titles
-titles = {}
 
 # Open CSV file
 with open("favorites.csv", "r") as file:
@@ -11,18 +8,19 @@ with open("favorites.csv", "r") as file:
     # Create DictReader
     reader = csv.DictReader(file)
 
-    # Iterate over CSV file, adding each (uppercased) title to dictionary
+    # Counts
+    scratch, c, python = 0, 0, 0
+
+    # Iterate over CSV file, printing each favorite
     for row in reader:
+        favorite = row["Favorite Language"]
+        if favorite == "Scratch":
+            scratch += 1
+        elif favorite == "C":
+            c += 1
+        elif favorite == "Python":
+            python += 1
 
-        # Canoncalize title
-        title = row["title"].strip().upper()
-
-        # Count title
-        if title in titles:
-            titles[title] += 1
-        else:
-            titles[title] = 1
-
-# Print titles in sorted order
-for title in sorted(titles):
-    print(title, titles[title])
+print(f"Scratch: {scratch}")
+print(f"C: {c}")
+print(f"Python: {python}")

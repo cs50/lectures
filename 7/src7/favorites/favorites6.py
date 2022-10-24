@@ -1,9 +1,6 @@
-# Prints popularity of titles in CSV, sorted by popularity, using a lambda function
+# Sorts favorites by key
 
 import csv
-
-# For accumulating (and later sorting) titles
-titles = {}
 
 # Open CSV file
 with open("favorites.csv", "r") as file:
@@ -11,18 +8,16 @@ with open("favorites.csv", "r") as file:
     # Create DictReader
     reader = csv.DictReader(file)
 
-    # Iterate over CSV file
+    # Counts
+    counts = {}
+
+    # Iterate over CSV file, printing each favorite
     for row in reader:
-
-        # Canoncalize title
-        title = row["title"].strip().upper()
-
-        # Update counter
-        if title in titles:
-            titles[title] += 1
+        favorite = row["Favorite Language"]
+        if favorite in counts:
+            counts[favorite] += 1
         else:
-            titles[title] = 1
+            counts[favorite] = 0
 
-# Print titles in sorted order
-for title in sorted(titles, key=lambda title: titles[title], reverse=True):
-    print(title, titles[title])
+for favorite in sorted(counts):
+    print(f"{favorite}: {counts[favorite]}")
