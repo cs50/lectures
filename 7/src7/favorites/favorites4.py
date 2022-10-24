@@ -11,7 +11,7 @@ with open("favorites.csv", "r") as file:
     # Counts
     scratch, c, python = 0, 0, 0
 
-    # Iterate over CSV file, printing each favorite
+    # Iterate over CSV file, counting favorites
     for row in reader:
         favorite = row["language"]
         if favorite == "Scratch":
