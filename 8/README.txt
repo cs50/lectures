@@ -29,3 +29,5 @@ background.html
 blink.html
 autocomplete.html
 geolocation.html
+
+favorites{0,1,2}.html
