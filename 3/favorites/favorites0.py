@@ -3,7 +3,7 @@
 import csv
 
 # Open CSV file
-with open("Favorite TV Shows - Form Responses 1.csv", "r") as file:
+with open("favorites.csv", "r") as file:
 
     # Create reader
     reader = csv.reader(file)
