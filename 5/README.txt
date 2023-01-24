@@ -26,6 +26,7 @@ hello{1,2,3}.html
 hello4.{html,js}
 hello{5,6}.html
 
+favorites{0,1}.py
 favorites{0,1,2,3}.html
 
 background.html
