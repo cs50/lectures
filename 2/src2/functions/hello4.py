@@ -1,5 +1,5 @@
-# Demonstrates a function with a positional argument and a named argument
+# Demonstrates str functions
 
 name = input("What's your name? ")
-print("hello, ", end="")
-print(name)
+first, last = name.split(" ")
+print(f"hello, {first}")

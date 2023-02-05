@@ -1,4 +1,4 @@
-# Demonstrates a function with two positional arguments
+# Demonstrates a format string
 
 name = input("What's your name? ")
-print("hello,", name)
+print(f"hello, {name}")

@@ -1,8 +1,6 @@
-# Demonstrates rounding to nearest int
+# Demonstrates fewer variables
 
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
-z = round(x + y)
-
-print(z)
+print(round(x + y))

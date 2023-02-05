@@ -1,6 +1,8 @@
-# Demonstrates a while loop, counting up from 1
+# Demonstrates definining a function
 
-i = 1
-while i <= 3:
+def meow():
     print("meow")
-    i = i + 1
+
+
+for i in range(3):
+    meow()

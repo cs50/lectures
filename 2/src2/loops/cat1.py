@@ -1,6 +1,4 @@
-# Demonstrates a while loop, counting down
+# Demonstrates a for loop, using range
 
-i = 3
-while i != 0:
+for i in range(3):
     print("meow")
-    i = i - 1
