@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 
-<!-- Removes outer DIV -->
+<!-- Demonstrates CSS selectors -->
 
 <html lang="en">
     <head>
-        <title>css</title>
+        <style>
+
+            body
+            {
+                text-align: center;
+            }
+
+            .large
+            {
+                font-size: large;
+            }
+
+            .medium
+            {
+                font-size: medium;
+            }
+
+            .small
+            {
+                font-size: small;
+            }
+
+        </style>
+        <title>home</title>
     </head>
-    <body style="text-align: center">
-        <div style="font-size: large">
+    <body class="centered">
+        <p class="large">
             John Harvard
-        </div>
-        <div style="font-size: medium">
+        </p>
+        <p class="medium">
             Welcome to my home page!
-        </div>
-        <div style="font-size: small">
+        </p>
+        <p class="small">
             Copyright &#169; John Harvard
-        </div>
+        </p>
     </body>
 </html>
