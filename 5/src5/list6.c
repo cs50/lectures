@@ -63,6 +63,7 @@ int main(int argc, char *argv[])
                 {
                     n->next = ptr->next;
                     ptr->next = n;
+                    break;
                 }
             }
         }
