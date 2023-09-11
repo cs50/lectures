@@ -1,3 +1,0 @@
-list*.c
-
-tree.c
