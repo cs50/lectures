@@ -1,4 +1,4 @@
-// Addition with int, allows for overflow
+// Uses %f
 
 #include <cs50.h>
 #include <stdio.h>
@@ -11,6 +11,6 @@ int main(void)
     // Prompt user for y
     int y = get_int("y: ");
 
-    // Perform addition
-    printf("%i\n", x + y);
+    // Divide x by y
+    printf("%f\n", x / y);
 }
