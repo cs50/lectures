@@ -1,16 +1,25 @@
-// Division with longs, demonstrating truncation
+// Helper function with arguments and return value
 
 #include <cs50.h>
 #include <stdio.h>
 
+int add(int a, int b);
+
 int main(void)
 {
     // Prompt user for x
-    long x = get_long("x: ");
+    int x = get_int("x: ");
 
     // Prompt user for y
-    long y = get_long("y: ");
+    int y = get_int("y: ");
 
-    // Divide x by y
-    printf("%li\n", x / y);
+    // Perform addition
+    int z = add(x, y);
+    printf("%i\n", z);
+}
+
+int add(int a, int b)
+{
+    int c = a + b;
+    return c;
 }

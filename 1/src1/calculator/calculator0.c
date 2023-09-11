@@ -1,9 +1,7 @@
-// Eliminates unnecessary variables
+// Addition with int, allows for overflow
 
 #include <cs50.h>
 #include <stdio.h>
-
-int add(int a, int b);
 
 int main(void)
 {
@@ -14,10 +12,5 @@ int main(void)
     int y = get_int("y: ");
 
     // Perform addition
-    printf("%i\n", add(x, y));
-}
-
-int add(int a, int b)
-{
-    return a + b;
+    printf("%i\n", x + y);
 }

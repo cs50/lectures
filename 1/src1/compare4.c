@@ -1,4 +1,4 @@
-// Conditional that isn't necessary
+// Conditionals
 
 #include <cs50.h>
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main(void)
     {
         printf("x is greater than y\n");
     }
-    else if (x == y)
+    else
     {
         printf("x is equal to y\n");
     }

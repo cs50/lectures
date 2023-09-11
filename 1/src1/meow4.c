@@ -1,18 +1,10 @@
-// Abstraction with parameterization
+// Better design
 
 #include <stdio.h>
 
-void meow(int n);
-
 int main(void)
 {
-    meow(3);
-}
-
-// Meow some number of times
-void meow(int n)
-{
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < 3; i++)
     {
         printf("meow\n");
     }

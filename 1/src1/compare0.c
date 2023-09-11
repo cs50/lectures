@@ -1,4 +1,4 @@
-// Conditionals, Boolean expressions, relational operators
+// Conditional, Boolean expression, relational operator
 
 #include <cs50.h>
 #include <stdio.h>

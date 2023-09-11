@@ -1,16 +1,24 @@
-// Addition with long
+// Scope error
 
 #include <cs50.h>
 #include <stdio.h>
 
+int add(void);
+
 int main(void)
 {
     // Prompt user for x
-    long x = get_long("x: ");
+    int x = get_int("x: ");
 
     // Prompt user for y
-    long y = get_long("y: ");
+    int y = get_int("y: ");
 
     // Perform addition
-    printf("%li\n", x + y);
+    int z = add();
+    printf("%i\n", z);
+}
+
+int add(void)
+{
+    return x + y;
 }
