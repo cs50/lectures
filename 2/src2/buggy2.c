@@ -3,22 +3,18 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int get_negative_int(void);
+void print_column(int height);
 
 int main(void)
 {
-    int i = get_negative_int();
-    printf("%i\n", i);
+    int h = get_int("Height: ");
+    print_column(h);
 }
 
-// Prompt user for positive integer
-int get_negative_int(void)
+void print_column(int height)
 {
-    int n;
-    do
+    for (int i = 0; i <= height; i++)
     {
-        n = get_int("Negative Integer: ");
+        printf("#\n");
     }
-    while (n < 0);
-    return n;
 }
