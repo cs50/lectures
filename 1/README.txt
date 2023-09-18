@@ -1,3 +1,5 @@
+../README.txt
+
 # functions, arguments, strings, side effects, return values, variables
 hello{0,1,2}.c
 

@@ -2,7 +2,7 @@
 
 hello{0,1}.c
 
-buggy{0,1}.c
+buggy{0,1,2}.c
 
 scores{0,1,2,3,4}.c
 
