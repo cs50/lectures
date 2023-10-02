@@ -12,4 +12,4 @@ swap*.c
 
 get*.c
 
-phonebook.{csv,c}
+phonebook*.c
