@@ -1,3 +1,5 @@
+// Copies a file
+
 #include <stdio.h>
 #include <stdint.h>
 
