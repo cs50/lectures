@@ -1,3 +1,4 @@
-list*.c
+../README.txt
 
+list*.c
 tree.c
