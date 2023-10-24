@@ -1,4 +1,4 @@
-# Lecture 6
+../README.txt
 
 1/hello0.c
 1/hello0.py
