@@ -1,4 +1,4 @@
-// Incorrectly gets a string from user using scanf
+// Incorrectly gets a string from user using scanf; compile with -Wno-uninitialized
 
 #include <stdio.h>
 

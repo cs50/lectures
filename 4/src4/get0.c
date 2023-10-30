@@ -4,8 +4,8 @@
 
 int main(void)
 {
-    int x;
-    printf("x: ");
-    scanf("%i", &x);
-    printf("x: %i\n", x);
+    int n;
+    printf("n: ");
+    scanf("%i", &n);
+    printf("n: %i\n", n);
 }
