@@ -12,7 +12,7 @@ video.html
 link0.html
 meta{0,1}.html
 search{0,1}.html
-register{0,1}.html
+register{0,1,2}.html
 
 # CSS
 
