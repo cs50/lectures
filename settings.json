@@ -5,8 +5,6 @@
     "terminal.integrated.enableBell": false,
     "window.commandCenter": false,
     "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": false,
-    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.colorCustomizations": {
         "[GitHub Dark Default]": {
             "activityBar.background": "#000",
@@ -19,5 +17,8 @@
             "terminal.background": "#000"
         }
     },
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": false,
     "git.enabled": false
 }
