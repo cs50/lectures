@@ -1,8 +1,15 @@
 {
+    "accessibility.signals.terminalBell": {
+        "sound": "off"
+    },
     "editor.matchBrackets": "never",
     "editor.minimap.enabled": false,
     "editor.scrollbar.verticalScrollbarSize": 0,
+    "files.associations": {
+        "stdio.h": "c"
+    },
     "terminal.integrated.enableBell": false,
+    "window.autoDetectColorScheme": false,
     "window.commandCenter": false,
     "workbench.activityBar.visible": false,
     "workbench.colorCustomizations": {
@@ -20,5 +27,6 @@
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.layoutControl.enabled": false,
     "workbench.statusBar.visible": false,
-    "git.enabled": false
+    "git.enabled": false,
+    "terminal.integrated.enableVisualBell": false
 }
