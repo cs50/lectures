@@ -8,10 +8,8 @@
     "files.associations": {
         "stdio.h": "c"
     },
-    "terminal.integrated.enableBell": false,
     "window.autoDetectColorScheme": false,
     "window.commandCenter": false,
-    "workbench.activityBar.visible": false,
     "workbench.colorCustomizations": {
         "[GitHub Dark Default]": {
             "activityBar.background": "#000",
