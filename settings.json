@@ -1,0 +1,23 @@
+{
+    "editor.matchBrackets": "never",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "terminal.integrated.enableBell": false,
+    "window.commandCenter": false,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorCustomizations": {
+        "[GitHub Dark Default]": {
+            "activityBar.background": "#000",
+            "editor.background": "#000",
+            "editor.lineHighlightBackground": "#0000",
+            "editor.lineHighlightBorder": "#0000",
+            "editorWhitespace.foreground": "#59A5FC",
+            "panel.background": "#000",
+            "sideBar.background": "#000",
+            "terminal.background": "#000"
+        }
+    },
+    "git.enabled": false
+}
