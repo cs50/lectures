@@ -3,12 +3,13 @@
 # functions, arguments, strings, side effects, return values, variables
 hello{0,1,2}.c
 
-# ints, conditionals, Boolean expressions, chars
-compare{0,1,2,3}.c
+# ints, conditionals, Boolean expressions, chars, logical operators
+compare{0,1,2,3,4}.c
 agree{0,1,2}.c
 
 # loops
-meow{0,1,2,3,4}.c
+go{0,1,2,3,4,5}.c
+cat{0,1,2,3,4}.c
 
 # make a function
 meow{5,6}.c
