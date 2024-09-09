@@ -11,6 +11,9 @@ int main(void)
     // Prompt user for y
     int y = get_int("y: ");
 
+    // Add numbers
+    int z = x + y;
+
     // Perform addition
-    printf("%i\n", x + y);
+    printf("%i\n", z);
 }

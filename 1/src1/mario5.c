@@ -1,18 +1,23 @@
-// Prints an n-by-n grid of bricks with nested loops
+// Helper function
 
-#include <cs50.h>
 #include <stdio.h>
 
+void print_row(int width);
+ 
 int main(void)
 {
-    int n = get_int("Size: ");
-
+    const int n = 3;
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
-        {
-            printf("#");
-        }
-        printf("\n");
+        print_row(n);
     }
+}
+
+void print_row(int width)
+{
+    for (int i = 0; i < width; i++)
+    {
+        printf("#");
+    }
+    printf("\n");
 }

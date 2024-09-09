@@ -1,13 +1,13 @@
-// Better design
+// Print values of i
 
 #include <stdio.h>
 
 int main(void)
 {
-    int i = 3;
-    while (i > 0)
+    int i = 1;
+    while (i <= 3)
     {
-        printf("%i\n", i);
-        i--;
+        printf("meow\n");
+        i++;
     }
 }

@@ -1,23 +1,22 @@
-// Eliminates unnecessary variables
+// Overflow 
 
 #include <cs50.h>
 #include <stdio.h>
 
-int add(int a, int b);
-
 int main(void)
 {
-    // Prompt user for x
-    int x = get_int("x: ");
-
-    // Prompt user for y
-    int y = get_int("y: ");
-
-    // Perform addition
-    printf("%i\n", add(x, y));
-}
-
-int add(int a, int b)
-{
-    return a + b;
+    int dollars = 1;
+    while (true)
+    {
+        char c = get_char("Here's $%i. Double it and give to next person? ", dollars);
+        if (c == 'y')
+        {
+            dollars *= 2;
+        }
+        else
+        {
+            break;
+        }
+    }
+    printf("Here's $%i.\n", dollars);
 }

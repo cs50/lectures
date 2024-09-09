@@ -1,9 +1,7 @@
-// Scope error
+// Addition with int, without third variable
 
 #include <cs50.h>
 #include <stdio.h>
-
-int add(void);
 
 int main(void)
 {
@@ -14,11 +12,5 @@ int main(void)
     int y = get_int("y: ");
 
     // Perform addition
-    int z = add();
-    printf("%i\n", z);
-}
-
-int add(void)
-{
-    return x + y;
+    printf("%i\n", x + y);
 }

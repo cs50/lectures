@@ -1,4 +1,4 @@
-// Uses float variable
+// Floats
 
 #include <cs50.h>
 #include <stdio.h>
@@ -6,12 +6,11 @@
 int main(void)
 {
     // Prompt user for x
-    int x = get_int("x: ");
+    float x = get_float("x: ");
 
     // Prompt user for y
-    int y = get_int("y: ");
+    float y = get_float("y: ");
 
     // Divide x by y
-    float z = x / y;
-    printf("%f\n", z);
+    printf("%.50f\n", x / y);
 }

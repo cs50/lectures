@@ -1,4 +1,4 @@
-// Uses %f
+// Casting
 
 #include <cs50.h>
 #include <stdio.h>
@@ -12,5 +12,5 @@ int main(void)
     int y = get_int("y: ");
 
     // Divide x by y
-    printf("%f\n", x / y);
+    printf("%f\n", (float) x / y);
 }
