@@ -1,10 +1,9 @@
-// Uses get_string with better-named variable
+// Prints a command-line argument
 
 #include <cs50.h>
 #include <stdio.h>
 
-int main(void)
+int main(int argc, string argv[])
 {
-    string name = get_string("What's your name? ");
-    printf("hello, %s\n", name);
+    printf("hello, %s\n", argv[1]);
 }

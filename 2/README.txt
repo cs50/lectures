@@ -12,6 +12,6 @@ length{0,1,2}.c
 string{0,1}.c
 uppercase{0,1,2}.c
 
-greet{0,1,2,3,4}.c
+greet{0,1,2,3}.c
 
 status.c
