@@ -31,4 +31,5 @@ int main(void)
         n->next = list;
         list = n;
     }
+    return 0;
 }

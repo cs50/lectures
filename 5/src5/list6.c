@@ -40,4 +40,5 @@ int main(void)
         free(ptr);
         ptr = next;
     }
+    return 0;
 }

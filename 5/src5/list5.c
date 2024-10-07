@@ -37,4 +37,5 @@ int main(void)
     {
         printf("%i\n", ptr->number);
     }
+    return 0;
 }
