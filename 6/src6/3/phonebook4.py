@@ -1,7 +1,5 @@
 # Implements a phone book using a dictionary
 
-from cs50 import get_string
-
 people = {
     "Yuliia": "+1-617-495-1000",
     "David": "+1-617-495-1000",
@@ -9,7 +7,7 @@ people = {
 }
 
 # Search for name
-name = get_string("Name: ")
+name = input("Name: ")
 if name in people:
     print(f"Number: {people[name]}")
 else:
