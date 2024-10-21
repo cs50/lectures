@@ -5,6 +5,7 @@
     "editor.matchBrackets": "never",
     "editor.minimap.enabled": false,
     "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.stickyScroll.enabled": false,
     "files.associations": {
         "stdio.h": "c"
     },
@@ -27,4 +28,5 @@
     "workbench.statusBar.visible": false,
     "git.enabled": false,
     "terminal.integrated.enableVisualBell": false
+    
 }
