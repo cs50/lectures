@@ -19,14 +19,13 @@ home{0,1,2,3,4,5,6}.html
 home7.{html,css}
 link{2,3}.html
 phonebook{0,1}.html
+favorites{0,1}.html
 
 # JavaScript
 
 hello{1,2,3}.html
 hello4.{html,js}
 hello{5,6}.html
-
-favorites{0,1}.html
 
 background.html
 blink.html
