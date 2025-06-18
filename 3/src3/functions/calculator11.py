@@ -1,13 +1,8 @@
-# Demonstrates defining a function with a return value
+# Demonstrates floating-point imprecision
 
+x = int(input("What's x? "))
+y = int(input("What's y? "))
 
-def main():
-    x = int(input("What's x? "))
-    print("x squared is", square(x))
+z = x / y
 
-
-def square(n):
-    return n * n
-
-
-main()
+print(f"{z:.50f}")

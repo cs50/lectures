@@ -1,12 +1,13 @@
-# Prints row of coins using a function with str multiplication
+# Prints grid of bricks using a function with a loop and str multiplication
 
 
 def main():
-    print_row(4)
+    for _ in range(3):
+        print_row(3)
 
 
 def print_row(width):
-    print("?" * width)
+    print("#" * width)
 
 
 main()

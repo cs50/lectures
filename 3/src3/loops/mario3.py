@@ -1,12 +1,6 @@
-# Prints column of bricks using a function with str multiplication
+# Prints grid of bricks using nested loops
 
-
-def main():
-    print_column(3)
-
-
-def print_column(height):
-    print("#\n" * height, end="")
-
-
-main()
+for i in range(3):
+    for j in range(3):
+        print("#", end="")
+    print()
