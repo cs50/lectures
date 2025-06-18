@@ -4,11 +4,8 @@ functions/calculator{8,9,10,11}.py
 functions/hello{8,9,10,11}.py
 functions/calculator12.py
 
-conditionals/compare*.py
-#conditionals/grade*.py
-conditionals/agree*.py
-#conditionals/parity*.py
-#conditionals/house*.py
+conditionals/compare{0,1,2,3,4,5}.py
+conditionals/agree{0,1,2,3,4}.py
 
 loops/cat{0,1,2,3,4,5,6,7,8,9,10}.py
 functions/calculator13.py
@@ -20,7 +17,6 @@ libraries/name{0,1,2}.py
 libraries/say{0,1}.py
 libraries/itunes{0,1,2}.py
 
-listen/listen*.py
-speech/speech.py
-faces/{detect,recognize}.py
-
+libraries/faces/{detect,recognize}.py
+libraries/speech/speech{0,1}.py
+libraries/listen/listen{0,1,2,3}.py
