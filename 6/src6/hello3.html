@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 
-<!-- Demonstrates DOMContentLoaded -->
+<!-- Demonstrates keyup and template literals -->
 
 <html lang="en">
     <head>
         <script>
 
             document.addEventListener('DOMContentLoaded', function() {
-                document.querySelector('form').addEventListener('submit', function(e) {
-                    alert('hello, ' + document.querySelector('#name').value);
-                    e.preventDefault();
+                let input = document.querySelector('input');
+                input.addEventListener('keyup', function(event) {
+                    let name = document.querySelector('p');
+                    if (input.value) {
+                        name.innerHTML = `hello, ${input.value}`;
+                    }
+                    else {
+                        name.innerHTML = 'hello, whoever you are';
+                    }
                 });
             });
 
@@ -18,8 +24,8 @@
     </head>
     <body>
         <form>
-            <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
-            <input type="submit">
+            <input autocomplete="off" autofocus placeholder="Name" type="text">
         </form>
+        <p></p>
     </body>
 </html>

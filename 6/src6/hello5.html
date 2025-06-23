@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 
-<!-- Demonstrates keyup and template literals -->
+<!-- Demonstrates Bootstrap modal -->
 
 <html lang="en">
     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
         <script>
 
             document.addEventListener('DOMContentLoaded', function() {
-                let input = document.querySelector('input');
-                input.addEventListener('keyup', function(event) {
-                    let name = document.querySelector('p');
-                    if (input.value) {
-                        name.innerHTML = `hello, ${input.value}`;
-                    }
-                    else {
-                        name.innerHTML = 'hello, whoever you are';
-                    }
+                document.querySelector('form').addEventListener('submit', function(e) {
+                    let name = document.querySelector('#name').value;
+                    document.querySelector('span').innerHTML = name;
+                    let modal = new bootstrap.Modal('#modal');
+                    modal.show();
+                    e.preventDefault();
                 });
             });
 
         </script>
-        <title>hello</title>
+        <title>title</title>
     </head>
     <body>
         <form>
-            <input autocomplete="off" autofocus placeholder="Name" type="text">
+            <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+            <input type="submit">
         </form>
-        <p></p>
+        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalLabel">greeting</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        hello, <span></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     </body>
 </html>

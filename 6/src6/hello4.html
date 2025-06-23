@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 
-<!-- Demonstrates external JavaScript -->
-
 <html lang="en">
     <head>
-        <script src="hello4.js"></script>
-        <title>hello</title>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('form').addEventListener('submit', function(e) {
+                    let name = document.querySelector('#name').value;
+                    let utterance = new SpeechSynthesisUtterance(`hello, ${name}`);
+                    window.speechSynthesis.speak(utterance);
+                    e.preventDefault();
+                });
+            });
+
+        </script>
+        <title>title</title>
     </head>
     <body>
         <form>
