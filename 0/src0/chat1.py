@@ -1,6 +1,7 @@
 # Prompts user.
 # "In one sentence, what is CS50?"
 # "In one word, what is CS50?"
+# "In one word, which is better, Harvard or Stanford?"
 
 import os
 
