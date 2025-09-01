@@ -1,0 +1,33 @@
+{
+  "accessibility.signals.terminalBell": {
+    "sound": "off"
+  },
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.stickyScroll.enabled": false,
+  "files.associations": {
+    "stdio.h": "c"
+  },
+  "git.enabled": false,
+  "problems.decorations.enabled": false,
+  "problems.visibility": false,
+  "terminal.integrated.enableVisualBell": false,
+  "window.autoDetectColorScheme": false,
+  "window.commandCenter": false,
+  "workbench.colorCustomizations": {
+    "[GitHub Dark Default]": {
+      "activityBar.background": "#000",
+      "editor.background": "#000",
+      "editor.lineHighlightBackground": "#0000",
+      "editor.lineHighlightBorder": "#0000",
+      "editorWhitespace.foreground": "#59A5FC",
+      "panel.background": "#000",
+      "sideBar.background": "#000",
+      "terminal.background": "#000"
+    }
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": false
+}
