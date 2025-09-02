@@ -1,8 +1,6 @@
 # Adds a system prompt
 # "What is CS50?"
 
-import os
-
 from openai import OpenAI
 
 client = OpenAI()
