@@ -2,7 +2,6 @@
   "accessibility.signals.terminalBell": {
     "sound": "off"
   },
-  "chat.disableAIFeatures": true,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
   "editor.scrollbar.verticalScrollbarSize": 0,
