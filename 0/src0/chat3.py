@@ -1,7 +1,5 @@
 # Adds to system prompt.
 
-import os
-
 from openai import OpenAI
 
 client = OpenAI()
