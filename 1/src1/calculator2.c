@@ -6,7 +6,7 @@
 int main(void)
 {
     // Prompt user for x
-    int x = get_int("x: ");
+    int x = get_int("What's x? ");
 
     // Double it
     printf("%i\n", x * 2);

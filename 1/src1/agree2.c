@@ -13,7 +13,7 @@ int main(void)
     {
         printf("Agreed.\n");
     }
-    else if (c == 'N' || c == 'n')
+    else
     {
         printf("Not agreed.\n");
     }
