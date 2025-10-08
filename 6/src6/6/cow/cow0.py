@@ -2,4 +2,4 @@
 
 import cowsay
 
-cowsay.cow("This is CS50")
+cowsay.cow("hello, world")
