@@ -1,4 +1,5 @@
-# Saves names and numbers to a CSV file using a DictWriter
+# Saves names and numbers to a CSV file using a DictWriter;
+# assumes that phonebook.csv already exists (with a header row)
 
 import csv
 
