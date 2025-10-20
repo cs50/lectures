@@ -1,4 +1,4 @@
-# Sorts favorites by key
+# Uses try/except instead
 
 import csv
 
@@ -14,11 +14,11 @@ with open("favorites.csv", "r") as file:
     # Iterate over CSV file, counting favorites
     for row in reader:
         favorite = row["language"]
-        if favorite in counts:
+        try:
             counts[favorite] += 1
-        else:
+        except KeyError:
             counts[favorite] = 1
 
 # Print counts
-for favorite in sorted(counts):
+for favorite in counts:
     print(f"{favorite}: {counts[favorite]}")

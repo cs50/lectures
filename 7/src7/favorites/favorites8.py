@@ -1,20 +1,24 @@
-# Searches database popularity of a problem
+# Sorts favorites by value using .get
 
 import csv
 
-from cs50 import SQL
+# Open CSV file
+with open("favorites.csv", "r") as file:
 
-# Open database
-db = SQL("sqlite:///favorites.db")
+    # Create DictReader
+    reader = csv.DictReader(file)
 
-# Prompt user for favorite
-favorite = input("Favorite: ")
+    # Counts
+    counts = {}
 
-# Search for title
-rows = db.execute("SELECT COUNT(*) AS n FROM favorites WHERE problem = ?", favorite)
+    # Iterate over CSV file, counting favorites
+    for row in reader:
+        favorite = row["language"]
+        if favorite in counts:
+            counts[favorite] += 1
+        else:
+            counts[favorite] = 1
 
-# Get first (and only) row
-row = rows[0]
-
-# Print popularity
-print(row["n"])
+# Print counts
+for favorite in sorted(counts, key=counts.get, reverse=True):
+    print(f"{favorite}: {counts[favorite]}")

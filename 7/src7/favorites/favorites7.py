@@ -1,4 +1,4 @@
-# Sorts favorites by value using .get
+# Sorts favorites by key
 
 import csv
 
@@ -20,5 +20,5 @@ with open("favorites.csv", "r") as file:
             counts[favorite] = 1
 
 # Print counts
-for favorite in sorted(counts, key=counts.get, reverse=True):
+for favorite in sorted(counts):
     print(f"{favorite}: {counts[favorite]}")
