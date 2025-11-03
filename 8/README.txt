@@ -27,7 +27,7 @@ hello{1,2,3}.html
 hello4.{html,js}
 hello{5,6}.html
 
-favorites{0,1}.html
+favorites{0,1,2}.html
 
 background.html
 blink.html
