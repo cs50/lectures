@@ -1,5 +1,6 @@
 ../README.txt
 
+search{0,1}.html
 hello{0,1,2,3,4,5,6,7,8,9,10}/
 froshims{0,1,2,3,4,5,6,7}/
 login/
